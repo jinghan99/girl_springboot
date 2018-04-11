@@ -13,7 +13,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
  * @ClassName Producer
  * @Description
  * @Date 2018/2/26 10:10
- * @Author jinghan
+ * @Author yf
  * @Version 1.0
  */
 public class Producer {

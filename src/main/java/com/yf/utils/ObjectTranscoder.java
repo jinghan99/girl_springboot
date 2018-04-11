@@ -6,7 +6,7 @@ import java.io.*;
  * @ClassName ObjectTranscoder
  * @Description
  * @Date 2018/3/1 17:46
- * @Author jinghan
+ * @Author yf
  * @Version 1.0
  */
 public class ObjectTranscoder {

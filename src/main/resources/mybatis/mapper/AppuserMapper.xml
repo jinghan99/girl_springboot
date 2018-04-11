@@ -507,15 +507,10 @@
 				u.email,
 				u.phone,
 				u.number,
-				r.ROLE_ID,
-				r.role_name,
 				u.integral,
 				u.if_audit
-		from sys_app_user u, sys_role r 
-		where u.role_id = r.ROLE_ID 
-		and 1 = 1
-		and r.PARENT_ID = '4'
-		
+		from sys_app_user u
+		WHERE 1=1
 		<if test="pd.username != null and pd.username != ''"><!-- 用户名检索 -->
 			and (
 				u.username like concat(concat('%', #{pd.username}),'%')
@@ -524,9 +519,6 @@
 				or
 				u.number like concat(concat('%', #{pd.username}),'%')
 				)
-		</if>
-		<if test="pd.role_id != null and pd.role_id != ''"><!-- 角色检索 -->
-			and u.role_id=#{pd.role_id} 
 		</if>
 		<if test="pd.lastloginstart!=null and pd.lastloginstart!=''"><!-- 到期时间检索 -->
 			and u.end_time &gt;= #{pd.lastloginstart} 

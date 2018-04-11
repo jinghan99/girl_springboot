@@ -15,7 +15,7 @@ import java.sql.SQLException;
  * @Description DruidDBConfig类被@Configuration标注，用作配置信息；
  * DataSource对象被@Bean声明，为Spring容器所管理， @Primary表示这里定义的DataSource将覆盖其他来源的DataSource。
  * @Date 2018/3/8 16:50
- * @Author jinghan
+ * @Author yf
  * @Version 1.0
  */
 public class DruidDBConfig {

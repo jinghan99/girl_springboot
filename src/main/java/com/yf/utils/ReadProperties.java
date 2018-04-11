@@ -8,7 +8,7 @@ import java.util.Properties;
  * @ClassName ReadProperties
  * @Description
  * @Date 2018/3/6 17:52
- * @Author jinghan
+ * @Author yf
  * @Version 1.0
  */
 public class ReadProperties {

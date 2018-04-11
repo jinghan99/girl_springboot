@@ -3,8 +3,8 @@ package com.yf.controller;
 import com.yf.controller.base.BaseController;
 import com.yf.service.appuser.AppuserService;
 import com.yf.utils.Const;
+import com.yf.utils.Page;
 import com.yf.utils.PageData;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -26,41 +26,18 @@ public class HelloController extends BaseController {
         return str;
     }
     @RequestMapping(value = "/",method = RequestMethod.GET)
-    public ModelAndView index(){
+    public ModelAndView index(Page page){
         logBefore(logger, "首页");
-//        #{account},
-//			#{user_id},
-//			#{username},
-//			#{password},
-//			#{name},
-//			#{rights},
-//			#{role_id},
-//			#{last_login},
-//			#{ip},
-//			#{status},
-//			#{bz},
-//			#{phone},
-//			#{sfid},
-//			#{start_time},
-//			#{end_time},
-//			#{years},
-//			#{email},
-//			#{usernick},
-//			#{sex},
-//			#{weixin_open_id},
-//			#{headImgUrl},
         ModelAndView mv = this.getModelAndView();
         PageData pd = this.getPageData();
-        pd.put("community_id", Const.COMMUNITY_ID);
         pd.put("account","18048052202");
         pd.put("user_id",this.get32UUID());
-        pd.put("username","jinghan");
+        pd.put("username","yf");
         pd.put("account","12345");
-
         try {
             appuserService.saveU(pd);
             pd.put("account","16494334");
-            mv.addObject("name1", appuserService.findByAC(pd));
+            mv.addObject("name1", appuserService.listPdPageUser(page));
         } catch (Exception e) {
             logger.error(e.toString(), e);
         }

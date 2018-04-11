@@ -56,6 +56,6 @@ CREATE TABLE `sys_app_user` (
 -- ----------------------------
 -- Records of sys_app_user
 -- ----------------------------
-INSERT INTO `sys_app_user` VALUES ('06d72998621447fe9ea0b763732e356b', '12345', 'jinghan', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '0', '00000000000', null, null, null, null, null, '0', null, null);
-INSERT INTO `sys_app_user` VALUES ('c032071fd7c14c7bb166800c3f37b47b', '12345', 'jinghan', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '0', '00000000000', null, null, null, null, null, '0', null, null);
-INSERT INTO `sys_app_user` VALUES ('d7d5409fe4904d6a942612559a59cbd4', '16494334', 'jinghan', 'da162afc2db69c74ef32897d8acc95d0261df99f', '小韩', null, null, '2018-02-09 11:21:30', null, '1', null, '18048052209', null, null, null, '0', null, null, null, null, '0', '00000000000', '1', '0', '客官xhg364943345858', null, null, '0', '1', null);
+INSERT INTO `sys_app_user` VALUES ('06d72998621447fe9ea0b763732e356b', '12345', 'yf', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '0', '00000000000', null, null, null, null, null, '0', null, null);
+INSERT INTO `sys_app_user` VALUES ('c032071fd7c14c7bb166800c3f37b47b', '12345', 'yf', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, '0', '00000000000', null, null, null, null, null, '0', null, null);
+INSERT INTO `sys_app_user` VALUES ('d7d5409fe4904d6a942612559a59cbd4', '16494334', 'yf', 'da162afc2db69c74ef32897d8acc95d0261df99f', '小韩', null, null, '2018-02-09 11:21:30', null, '1', null, '18048052209', null, null, null, '0', null, null, null, null, '0', '00000000000', '1', '0', '客官xhg364943345858', null, null, '0', '1', null);

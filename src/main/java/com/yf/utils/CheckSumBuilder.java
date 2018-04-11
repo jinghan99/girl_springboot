@@ -6,7 +6,7 @@ import java.security.MessageDigest;
  * @ClassName CheckSumBuilder 网易云信 api
  * @Description 计算CheckSum
  * @Date 2018/2/5 15:02
- * @Author jinghan
+ * @Author yf
  * @Version 1.0
  */
 public class CheckSumBuilder {

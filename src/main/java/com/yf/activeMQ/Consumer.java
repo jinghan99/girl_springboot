@@ -13,7 +13,7 @@ import org.apache.activemq.ActiveMQConnectionFactory;
  * @ClassName Consumer
  * @Description
  * @Date 2018/2/26 10:16
- * @Author jinghan
+ * @Author yf
  * @Version 1.0
  */
 public class Consumer {

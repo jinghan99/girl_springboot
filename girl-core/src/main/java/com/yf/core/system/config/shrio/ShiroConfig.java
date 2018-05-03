@@ -78,7 +78,7 @@ public class ShiroConfig {
     public DefaultWebSecurityManager securityManager() {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         //使用redie 共享session
-        securityManager.setSessionManager(sessionManager());
+        //securityManager.setSessionManager(sessionManager());
         securityManager.setCacheManager(redisCacheManager());
         // 配置
         securityManager.setRealm(myShiroRealm());

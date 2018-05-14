@@ -1,9 +1,8 @@
 package com.yf.core.controller;
 
-import com.yf.core.service.appuser.AppuserService;
+import com.yf.core.service.system.SysMenuService;
 import com.yf.utils.BaseController;
 import com.yf.utils.Page;
-import com.yf.utils.PageData;
 import com.yf.utils.RedisUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,8 +16,8 @@ import javax.annotation.Resource;
 @Controller
 public class IndexController extends BaseController {
 
-    @Resource(name="appuserService")
-    private AppuserService appuserService;
+    @Resource(name = "sysMenuService")
+    private SysMenuService sysMenuService;
 
     @Autowired
     private RedisUtils redisUtils;
@@ -34,6 +33,11 @@ public class IndexController extends BaseController {
         logBefore(logger, "首页");
         redisUtils.set("jinghan","value");
         ModelAndView mv = this.getModelAndView();
+        try {
+            mv.addObject("menuList",sysMenuService.getMenuList());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         mv.setViewName("index");
         return mv;
     }

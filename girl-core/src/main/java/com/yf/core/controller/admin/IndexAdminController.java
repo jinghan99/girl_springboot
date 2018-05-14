@@ -1,10 +1,13 @@
 package com.yf.core.controller.admin;
 
+import com.yf.core.service.system.SysMenuService;
 import com.yf.utils.BaseController;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+
+import javax.annotation.Resource;
 
 /**
  * @ClassName IndexAdminController
@@ -17,9 +20,17 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping(value = "/admin")
 public class IndexAdminController extends BaseController {
 
-    @RequestMapping(value = "",method = RequestMethod.GET)
+    @Resource(name = "sysMenuService")
+    private SysMenuService sysMenuService;
+
+    @RequestMapping(value = "/",method = RequestMethod.GET)
     public ModelAndView hello(){
         ModelAndView mv = this.getModelAndView();
+        try {
+            mv.addObject("menuList",sysMenuService.getMenuList());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         mv.setViewName("index");
         return mv;
     }

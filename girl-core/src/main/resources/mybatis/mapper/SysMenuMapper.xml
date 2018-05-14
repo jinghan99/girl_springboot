@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="SysMenuMapper">
+
+
+    <select id="getMenuList"  resultType="com.yf.core.system.entiy.SysMenu">
+        select
+            menu_id,
+            parent_id,
+            name,
+            url,
+            perms,
+            type,
+            icon,
+            order_num,
+            gmt_create
+        from sys_menu
+    </select>
+</mapper>

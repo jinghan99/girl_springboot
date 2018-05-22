@@ -1,11 +1,11 @@
 package com.yf.core.service.system;
 
-import com.yf.core.dao.daoImpl.DaoSupport;
-import com.yf.core.system.entiy.SysMenu;
+import com.yf.core.dao.SysMenuMapper;
+import com.yf.utils.Page;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -19,10 +19,11 @@ import java.util.List;
 @Service("sysMenuService")
 public class SysMenuService {
 
-    @Resource(name = "daoSupport")
-    private DaoSupport dao;
+    @Autowired
+    private SysMenuMapper sysMenuMapper;
 
-    public List<SysMenu> getMenuList() throws Exception {
-        return (List<SysMenu>) dao.findForList("SysMenuMapper.getMenuList",null);
+    @Cacheable(value = "SysMenuList", key = "#pd['user_id']", unless = "#result==null")
+    public List<SysMenuMapper> getMenuList(Page page) throws Exception {
+        return sysMenuMapper.listForPage(page);
     }
 }

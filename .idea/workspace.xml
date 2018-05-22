@@ -2,255 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/45974a0b-58d5-4f2b-b2ac-18095f19c728.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/8e32c4c6-7a9f-4dbf-9218-5c523a376630.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_2_16_5_2_16.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysRole.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysRoleMenu.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUser.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUserRole.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/classmate-1.3.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.1.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-core-5.2.16.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jandex-2.0.3.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/javassist-3.22.0-GA.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.1.Final.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-core/girl-core.iml" afterPath="$PROJECT_DIR$/girl-core/girl-core.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/AppuserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/IndexController.class" afterPath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/IndexController.class" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/admin/IndexAdminController.class" afterPath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/admin/IndexAdminController.class" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/mybatis/mapper/AppuserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/mybatis/sql/sys_app_user.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/layui.css" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/layui.css" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/layui.mobile.css" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/layui.mobile.css" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/code.css" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/code.css" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/laydate/default/laydate.css" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/laydate/default/laydate.css" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/layer/default/icon-ext.png" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/layer/default/icon-ext.png" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/layer/default/icon.png" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/layer/default/icon.png" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/layer/default/layer.css" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/layer/default/layer.css" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/layer/default/loading-0.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/layer/default/loading-0.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/layer/default/loading-1.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/layer/default/loading-1.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/css/modules/layer/default/loading-2.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/css/modules/layer/default/loading-2.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/font/iconfont.eot" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/font/iconfont.eot" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/font/iconfont.svg" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/font/iconfont.svg" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/font/iconfont.ttf" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/font/iconfont.ttf" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/font/iconfont.woff" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/font/iconfont.woff" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/0.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/0.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/1.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/1.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/10.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/10.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/11.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/11.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/12.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/12.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/13.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/13.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/14.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/14.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/15.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/15.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/16.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/16.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/17.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/17.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/18.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/18.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/19.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/19.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/2.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/2.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/20.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/20.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/21.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/21.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/22.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/22.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/23.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/23.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/24.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/24.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/25.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/25.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/26.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/26.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/27.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/27.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/28.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/28.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/29.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/29.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/3.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/3.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/30.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/30.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/31.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/31.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/32.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/32.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/33.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/33.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/34.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/34.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/35.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/35.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/36.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/36.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/37.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/37.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/38.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/38.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/39.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/39.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/4.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/4.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/40.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/40.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/41.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/41.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/42.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/42.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/43.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/43.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/44.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/44.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/45.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/45.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/46.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/46.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/47.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/47.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/48.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/48.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/49.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/49.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/5.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/5.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/50.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/50.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/51.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/51.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/52.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/52.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/53.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/53.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/54.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/54.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/55.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/55.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/56.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/56.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/57.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/57.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/58.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/58.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/59.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/59.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/6.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/6.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/60.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/60.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/61.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/61.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/62.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/62.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/63.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/63.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/64.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/64.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/65.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/65.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/66.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/66.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/67.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/67.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/68.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/68.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/69.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/69.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/7.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/7.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/70.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/70.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/71.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/71.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/8.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/8.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/images/face/9.gif" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/images/face/9.gif" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/carousel.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/carousel.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/code.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/code.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/element.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/element.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/flow.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/flow.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/form.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/form.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/jquery.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/jquery.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/laydate.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/laydate.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/layedit.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/layedit.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/layer.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/layer.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/laypage.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/laypage.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/laytpl.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/laytpl.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/mobile.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/mobile.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/table.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/table.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/tree.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/tree.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/upload.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/upload.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/lay/modules/util.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/lay/modules/util.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/layui.all.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/layui.all.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/Plugin/layui/layui.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/layui.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/css/style.css" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/static/js/jquery-2.1.4.min.js" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/js/jquery-2.1.4.min.js" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/application.yml" afterPath="$PROJECT_DIR$/girl-web/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/mybatis/mybatis-config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/mybatis/sql/sys_app_user.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/layui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/layui.mobile.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/code.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/laydate/default/laydate.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/layer/default/layer.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/css/modules/layer/default/loading-2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/font/iconfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/font/iconfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/font/iconfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/font/iconfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/10.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/11.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/12.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/13.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/14.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/15.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/16.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/17.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/18.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/19.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/20.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/21.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/22.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/23.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/24.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/25.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/26.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/27.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/28.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/29.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/3.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/30.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/31.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/32.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/33.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/34.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/35.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/36.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/37.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/38.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/39.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/4.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/40.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/41.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/42.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/43.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/44.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/46.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/47.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/48.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/49.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/5.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/50.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/51.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/52.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/53.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/54.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/55.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/56.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/57.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/58.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/59.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/6.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/60.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/61.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/62.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/63.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/64.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/66.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/67.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/68.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/69.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/7.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/70.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/71.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/8.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/images/face/9.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/code.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/flow.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/laydate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/layedit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/laypage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/laytpl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/table.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/tree.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/upload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/lay/modules/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/layui.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/Plugin/layui/layui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/static/js/jquery-2.1.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/templates/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/DAO.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/daoImpl/DaoSupport.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/IndexController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/admin/IndexAdminController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/dao/DAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/dao/daoImpl/DaoSupport.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/service/appuser/AppuserService.class" afterPath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/service/appuser/AppuserService.class" />
+      <change beforePath="$PROJECT_DIR$/girl-web/src/main/java/com/yf/GirlWebApplication.java" afterPath="$PROJECT_DIR$/girl-web/src/main/java/com/yf/GirlWebApplication.java" />
+      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/com/yf/GirlWebApplication.class" afterPath="$PROJECT_DIR$/girl-web/target/classes/com/yf/GirlWebApplication.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -307,8 +73,8 @@
       <file leaf-file-name="SysMenuService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="371">
+              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -320,90 +86,44 @@
         <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="27" />
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding>
-                <marker date="1526265443731" expanded="true" signature="277:485" ph="select menu_... sys_menu" />
+                <marker date="1526981303863" expanded="true" signature="293:501" ph="select menu_... sys_menu" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisCacheManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/RedisCacheManager.java">
+      <file leaf-file-name="SysMenuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
+            <state relative-caret-position="288">
+              <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java">
+      <file leaf-file-name="BaseMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
-              <folding />
+            <state relative-caret-position="267">
+              <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedisSessionDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/RedisSessionDAO.java">
+      <file leaf-file-name="AppuserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroCache.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroCache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysMenu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1920">
-              <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mybatis-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShiroRealm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroRealm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-840">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="480">
+              <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="80" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -439,9 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/daoImpl/DaoSupport.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/plugin/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/RedisUtils.java" />
         <option value="$PROJECT_DIR$/girl-core/pom.xml" />
         <option value="$PROJECT_DIR$/girl-utils/pom.xml" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/RedisPrefix.java" />
@@ -451,7 +168,6 @@
         <option value="$PROJECT_DIR$/girl-web/src/main/java/com/yf/web/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/AppuserMapper.xml" />
         <option value="$PROJECT_DIR$/girl-web/src/main/resources/templates/index.html" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/ShiroConfiguration.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/ShiroRealm.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/RedisCache.java" />
@@ -464,7 +180,6 @@
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/redis/RedisPrefix.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/girl-web/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-web/src/main/java/com/yf/GirlWebApplication.java" />
         <option value="$PROJECT_DIR$/girl-web/src/test/java/com/yf/web/GirlWebApplicationTests.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/Const.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/AjaxMsg.java" />
@@ -484,12 +199,17 @@
         <option value="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/girl-web/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/plugin/PaginationResultSetHandlerInterceptor.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysMenu.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/ShiroUtils.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java" />
+        <option value="$PROJECT_DIR$/girl-web/src/main/java/com/yf/GirlWebApplication.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java" />
       </list>
     </option>
   </component>
@@ -546,8 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -621,7 +339,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yf" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
@@ -646,7 +364,7 @@
               <item name="yf" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="appuser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
@@ -658,60 +376,8 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yf" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="system" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="shrio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="entiy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="system" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
@@ -740,12 +406,23 @@
               <item name="mybatis" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -771,11 +448,11 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yf.core.system.plugin" />
+      <recent name="com.yf.core.dao" />
       <recent name="com.yf.utils" />
+      <recent name="com.yf.core.system.plugin" />
       <recent name="com.yf.core.controller" />
       <recent name="com.yf.web.controller" />
-      <recent name="com.yf.dao.daoImpl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\resources\mybatis\mapper" />
@@ -937,7 +614,10 @@
       <workItem from="1525850435698" duration="4574000" />
       <workItem from="1525917016960" duration="5828000" />
       <workItem from="1526007717412" duration="2333000" />
-      <workItem from="1526265049040" duration="582000" />
+      <workItem from="1526265049040" duration="1533000" />
+      <workItem from="1526350629211" duration="109000" />
+      <workItem from="1526887241418" duration="2506000" />
+      <workItem from="1526977700574" duration="2894000" />
     </task>
     <task id="LOCAL-00001" summary="更新 hrio">
       <created>1525341848180</created>
@@ -967,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525850524971</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新 shrio">
+      <created>1526265682196</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526265682196</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67796000" />
+    <option name="totallyTimeSpent" value="74256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -985,23 +672,22 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10549944" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04040404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22284435" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21276596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21276596" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30490404" sideWeight="0.22222222" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23933902" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26918977" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26936027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1010,6 +696,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.073027715" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26936027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1033,33 +720,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-web/1.2.3/shiro-web-1.2.3.jar!/org/apache/shiro/web/mgt/DefaultWebSecurityManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="125" column="16" lean-forward="false" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/system/AppUser.java" />
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/system/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/system/MsgInfo.java" />
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/system/Role.java" />
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/system/User.java" />
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/redis/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="56" column="69" lean-forward="false" selection-start-line="56" selection-start-column="69" selection-end-line="56" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/redis/RedisPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -1092,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/daoImpl/DaoSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/system/SysUserRole.java" />
     <entry file="file://$PROJECT_DIR$/girl-web/src/main/resources/templates/index.html" />
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/UserMapper.xml" />
@@ -1106,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,25 +820,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUserRole.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="27" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1197,19 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,23 +849,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/plugin/PagePlugin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding>
-            <marker date="1523503972585" expanded="true" signature="2646:2690" ph="select count... missingValue" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1245,21 +861,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/RedisSessionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
+        <state relative-caret-position="312">
           <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="1680">
           <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding />
         </state>
@@ -1267,42 +881,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
+        <state relative-caret-position="288">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="76" column="29" lean-forward="true" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <marker date="1526265443731" expanded="true" signature="277:485" ph="select menu_... sys_menu" />
-          </folding>
+        <state relative-caret-position="1488">
+          <caret line="76" column="29" lean-forward="false" selection-start-line="76" selection-start-column="29" selection-end-line="76" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="36" column="57" lean-forward="true" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+        <state relative-caret-position="600">
+          <caret line="36" column="57" lean-forward="false" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/ShiroUtils.java" />
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1310,15 +928,104 @@
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
-          <caret line="120" column="5" lean-forward="true" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
+          <caret line="120" column="5" lean-forward="false" selection-start-line="120" selection-start-column="5" selection-end-line="120" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="65" column="38" lean-forward="true" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/PageData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/daoImpl/DaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-web/src/main/java/com/yf/GirlWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <marker date="1526981303863" expanded="true" signature="293:501" ph="select menu_... sys_menu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="108" column="12" lean-forward="false" selection-start-line="108" selection-start-column="12" selection-end-line="108" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="371">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

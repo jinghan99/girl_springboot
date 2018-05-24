@@ -37,6 +37,9 @@
         <mysql-connector>5.1.39</mysql-connector>
         <druid-spring-boot-starter>1.1.0</druid-spring-boot-starter>
         <shiro.version>1.2.3</shiro.version>
+        <!--验证码-->
+        <kaptcha-version>0.0.9</kaptcha-version>
+        <commons-lang-version>2.6</commons-lang-version>
     </properties>
 
     <!-- 版本说明：这里统一管理依赖的版本号 -->
@@ -143,6 +146,16 @@
             <version>5.7.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.github.axet</groupId>
+            <artifactId>kaptcha</artifactId>
+            <version>${kaptcha-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${commons-lang-version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>

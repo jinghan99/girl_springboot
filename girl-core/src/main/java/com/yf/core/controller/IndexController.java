@@ -1,6 +1,6 @@
 package com.yf.core.controller;
 
-import com.yf.core.service.system.SysMenuService;
+import com.yf.core.service.SysMenuService;
 import com.yf.utils.BaseController;
 import com.yf.utils.Page;
 import com.yf.utils.RedisUtils;
@@ -34,7 +34,7 @@ public class IndexController extends BaseController {
         redisUtils.set("jinghan","value");
         ModelAndView mv = this.getModelAndView();
         try {
-            mv.addObject("menuList",sysMenuService.getMenuList());
+            mv.addObject("menuList",sysMenuService.getMenuList(page));
         } catch (Exception e) {
             e.printStackTrace();
         }

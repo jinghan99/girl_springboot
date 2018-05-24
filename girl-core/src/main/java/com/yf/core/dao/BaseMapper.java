@@ -1,6 +1,5 @@
 package com.yf.core.dao;
 
-import com.yf.core.system.entiy.SysMenu;
 import com.yf.utils.Page;
 import com.yf.utils.PageData;
 
@@ -49,7 +48,7 @@ public interface BaseMapper<T> {
 	 * @param id
 	 * @return
 	 */
-	T getObjectById(Object id);
+	T getById(String id);
 	
 	/**
 	 * 更新
@@ -106,7 +105,7 @@ public interface BaseMapper<T> {
 	 * @param page
 	 * @return
 	 */
-	List<T> listForPage(Page page);
+	List<T> listPage(Page page);
 	
 	/**
 	 * 查询列表
@@ -119,7 +118,7 @@ public interface BaseMapper<T> {
 	 * 查询列表
 	 * @return
 	 */
-	List<SysMenu> list();
+	List<T> list();
 	
 	/**
 	 * 统计

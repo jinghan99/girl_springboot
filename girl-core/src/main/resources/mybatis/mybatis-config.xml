@@ -17,11 +17,11 @@
 		<!--<typeAlias type="com.cm.entity.system.Menu" alias="Menu"/>-->
 		<typeAlias type="com.yf.utils.PageData" alias="pd"/>
 		<!-- 分页 -->
-		<typeAlias type="com.yf.utils.Page" alias="Page"/>
+		<typeAlias type="com.yf.utils.Page" alias="page"/>
 	</typeAliases>
 	
 	<plugins>
-		<plugin interceptor="com.yf.core.system.plugin.PagePlugin">
+		<plugin interceptor="com.yf.core.plugin.PagePlugin">
 			<property name="dialect" value="mysql"/>
 			<property name="pageSqlId" value=".*listPage.*"/>
 		</plugin>

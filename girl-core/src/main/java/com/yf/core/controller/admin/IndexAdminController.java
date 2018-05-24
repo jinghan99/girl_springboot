@@ -1,7 +1,8 @@
 package com.yf.core.controller.admin;
 
-import com.yf.core.service.system.SysMenuService;
+import com.yf.core.service.SysMenuService;
 import com.yf.utils.BaseController;
+import com.yf.utils.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -24,10 +25,11 @@ public class IndexAdminController extends BaseController {
     private SysMenuService sysMenuService;
 
     @RequestMapping(value = "/",method = RequestMethod.GET)
-    public ModelAndView hello(){
+    public ModelAndView hello(Page page){
         ModelAndView mv = this.getModelAndView();
+
         try {
-            mv.addObject("menuList",sysMenuService.getMenuList());
+            mv.addObject("menuList",sysMenuService.getMenuList(page));
         } catch (Exception e) {
             e.printStackTrace();
         }

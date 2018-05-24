@@ -4,7 +4,7 @@
 <mapper namespace="com.yf.core.dao.SysMenuMapper">
 
 
-    <select id="listForPage"  resultType="com.yf.core.system.entiy.SysMenu">
+    <select id="listPage" parameterType="page"  resultType="com.yf.core.entiy.SysMenuEntity">
         select
             menu_id,
             parent_id,

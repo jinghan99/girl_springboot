@@ -34,7 +34,7 @@ public class IndexController extends BaseController {
         redisUtils.set("jinghan","value");
         ModelAndView mv = this.getModelAndView();
         try {
-            mv.addObject("menuList",sysMenuService.getMenuList(page));
+
         } catch (Exception e) {
             e.printStackTrace();
         }

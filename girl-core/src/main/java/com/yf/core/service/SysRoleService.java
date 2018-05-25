@@ -1,5 +1,7 @@
 package com.yf.core.service;
 
+import java.util.Set;
+
 /**
  * @ClassName SysRoleService
  * @Description
@@ -8,4 +10,5 @@ package com.yf.core.service;
  * @Version 1.0
  */
 public interface SysRoleService {
+
 }

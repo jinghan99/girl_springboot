@@ -10,8 +10,10 @@ import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
@@ -30,28 +32,27 @@ public class ShiroConfig {
 
     private static final Logger log = LoggerFactory.getLogger(ShiroConfig.class);
 
-    @Resource
-    private RedisSessionDAO sessionDAO;
 
-    /**
-     * 凭证匹配器
-     * （由于我们的密码校验交给Shiro的SimpleAuthenticationInfo进行处理了
-     *  所以我们需要修改下doGetAuthenticationInfo中的代码;
-     * ）
-     * @return
-     */
+    @Autowired
+    private RedisTemplate redisTemplate;
+
     @Bean
-    public HashedCredentialsMatcher hashedCredentialsMatcher(){
-        HashedCredentialsMatcher hashedCredentialsMatcher = new HashedCredentialsMatcher();
-        hashedCredentialsMatcher.setHashAlgorithmName("md5");//散列算法:这里使用MD5算法;
-        hashedCredentialsMatcher.setHashIterations(2);//散列的次数，比如散列两次，相当于 md5(md5(""));
-
-        return hashedCredentialsMatcher;
+    public RedisSessionDAO redisSessionDAO (){
+        RedisSessionDAO redisSessionDAO = new RedisSessionDAO();
+        redisSessionDAO.setRedisTemplate(redisTemplate);
+        return redisSessionDAO;
     }
+
+    @Bean
+    public RedisCacheManager redisCacheManager() {
+        RedisCacheManager redisCacheManager = new RedisCacheManager();
+        redisCacheManager.setRedisTemplate(redisTemplate);
+        return redisCacheManager;
+    }
+
     @Bean
     public ShiroRealm myShiroRealm(){
         ShiroRealm myShiroRealm = new ShiroRealm();
-        myShiroRealm.setCredentialsMatcher(hashedCredentialsMatcher());
         return myShiroRealm;
     }
 
@@ -62,18 +63,21 @@ public class ShiroConfig {
 
 
 
-    @Bean
-    public RedisCacheManager redisCacheManager() {
-        return new RedisCacheManager();
-    }
+
 
 
     @Bean
     public SessionManager sessionManager() {
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
-        sessionManager.setSessionDAO(sessionDAO);
+        // 设置SessionDao
+        sessionManager.setSessionDAO(redisSessionDAO());
         sessionManager.setGlobalSessionTimeout(1800);
+        // 加入缓存管理器
         sessionManager.setCacheManager(redisCacheManager());
+        // 删除过期的session
+        sessionManager.setDeleteInvalidSessions(true);
+        // 是否定时检查session
+        sessionManager.setSessionValidationSchedulerEnabled(true);
         return sessionManager;
     }
 
@@ -81,7 +85,8 @@ public class ShiroConfig {
     public DefaultWebSecurityManager securityManager() {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
         // 使用redie 共享session
-//        securityManager.setSessionManager(sessionManager());
+        securityManager.setSessionManager(sessionManager());
+        // 注入缓存管理器;
         securityManager.setCacheManager(redisCacheManager());
         // 配置
         securityManager.setRealm(myShiroRealm());
@@ -131,7 +136,7 @@ public class ShiroConfig {
         map.put("/admin/**", "authc");
         map.put("/**", "anon");
         map.put("/logout", "logout");
-        map.put("/logon", "anon");
+        map.put("/login", "anon");
         //<!-- 过滤链定义，从上向下顺序执行，一般将 /**放在最为下边 -->:这是一个坑呢，一不小心代码就不好使了;
         //<!-- authc:所有url都必须认证通过才可以访问; anon:所有url都都可以匿名访问-->
         //自定义加载权限资源关系

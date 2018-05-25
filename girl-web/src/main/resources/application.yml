@@ -1,5 +1,6 @@
 #热部署生效
 spring.devtools.restart.enabled: true
+spring.session.store-type: redis
 # Tomcat
 server:
     tomcat:

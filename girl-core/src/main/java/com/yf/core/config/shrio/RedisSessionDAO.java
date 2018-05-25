@@ -25,14 +25,24 @@ public class RedisSessionDAO extends EnterpriseCacheSessionDAO {
     // session 在redis过期时间是30分钟30*60
     private static int expireTime = 1800;
 
+
+
     @Resource
     private RedisTemplate<String, Object> redisTemplate;
+
+    public RedisTemplate<String, Object> getRedisTemplate() {
+        return redisTemplate;
+    }
+
+    public void setRedisTemplate(RedisTemplate<String, Object> redisTemplate) {
+        this.redisTemplate = redisTemplate;
+    }
 
     // 创建session，保存到redis数据库
     @Override
     protected Serializable doCreate(Session session) {
         Serializable sessionId = super.doCreate(session);
-        redisTemplate.opsForValue().set(prefix + sessionId.toString(), session);
+        redisTemplate.opsForValue().set(prefix + sessionId.toString(), session,expireTime);
         return sessionId;
     }
 

@@ -9,6 +9,7 @@
         <setting name="defaultExecutorType" value="REUSE" />
         <!--mybatis 下划线转驼峰配置-->
         <setting name="mapUnderscoreToCamelCase" value="true" />
+         <setting name="logImpl" value="STDOUT_LOGGING" />
     </settings>
 
 	<typeAliases>

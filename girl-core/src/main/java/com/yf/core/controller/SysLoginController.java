@@ -3,6 +3,8 @@ package com.yf.core.controller;
 import com.google.code.kaptcha.Constants;
 import com.google.code.kaptcha.Producer;
 import com.yf.core.config.shrio.ShiroUtils;
+import com.yf.core.service.SysUserService;
+import com.yf.utils.BaseController;
 import com.yf.utils.MD5Utils;
 import com.yf.utils.R;
 import org.apache.shiro.authc.*;
@@ -30,10 +32,11 @@ import java.io.IOException;
  */
 @Controller
 @RequestMapping("/sys")
-public class SysLoginController {
+public class SysLoginController extends BaseController{
 
     @Autowired
     private Producer producer;
+
 	/**
 	 * 验证码
 	 * @param response
@@ -55,17 +58,20 @@ public class SysLoginController {
         ServletOutputStream out = response.getOutputStream();
         ImageIO.write(image, "jpg", out);
 	}
-	
+
+
+
+
 	/**
 	 * 登录
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public R login(String username, String password, String captcha){
-		String kaptcha = ShiroUtils.getKaptcha(Constants.KAPTCHA_SESSION_KEY);
-		if(!captcha.equalsIgnoreCase(kaptcha)){
-			return R.error("验证码不正确");
-		}
+//		String kaptcha = ShiroUtils.getKaptcha(Constants.KAPTCHA_SESSION_KEY);
+//		if(!captcha.equalsIgnoreCase(kaptcha)){
+//			return R.error("验证码不正确");
+//		}
 		
 		try{
 			Subject subject = ShiroUtils.getSubject();
@@ -74,15 +80,18 @@ public class SysLoginController {
 			UsernamePasswordToken token = new UsernamePasswordToken(username, password);
 			subject.login(token);
 		}catch (UnknownAccountException e) {
+            logger.error(e.toString(),e);
 			return R.error(e.getMessage());
 		}catch (IncorrectCredentialsException e) {
+            logger.error(e.toString(),e);
 			return R.error(e.getMessage());
 		}catch (LockedAccountException e) {
+            logger.error(e.toString(),e);
 			return R.error(e.getMessage());
 		}catch (AuthenticationException e) {
+            logger.error(e.toString(),e);
 			return R.error("账户验证失败");
 		}
-	    
 		return R.ok();
 	}
 	

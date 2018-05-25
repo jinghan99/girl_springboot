@@ -1,10 +1,13 @@
 package com.yf.core.service;
 
-import com.yf.core.dao.sys.SysMenuMapper;
-import com.yf.utils.Page;
-
-import java.util.List;
+import java.util.Set;
 
 public interface SysMenuService {
-    List<SysMenuMapper> getMenuList(Page page);
+    /**
+     *获取 用户权限
+     *@Params: [userId]
+     *@Date: 2018/5/24 17:41
+     *@Author: jinghan
+     */
+    Set<String> listUserPerms(String userId);
 }

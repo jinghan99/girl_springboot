@@ -29,7 +29,7 @@ public class IndexAdminController extends BaseController {
         ModelAndView mv = this.getModelAndView();
 
         try {
-            mv.addObject("menuList",sysMenuService.getMenuList(page));
+
         } catch (Exception e) {
             e.printStackTrace();
         }

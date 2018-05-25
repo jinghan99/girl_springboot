@@ -1,6 +1,8 @@
 package com.yf.core.service.impl;
 
 import com.yf.core.service.SysRoleMenuService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 /**
  * @ClassName SysRoleMenuServiceImpl
@@ -9,5 +11,7 @@ import com.yf.core.service.SysRoleMenuService;
  * @Author jinghan
  * @Version 1.0
  */
+@Transactional
+@Service("sysRoleMenuService")
 public class SysRoleMenuServiceImpl implements SysRoleMenuService {
 }

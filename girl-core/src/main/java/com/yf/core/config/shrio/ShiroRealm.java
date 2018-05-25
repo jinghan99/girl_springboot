@@ -1,6 +1,8 @@
 package com.yf.core.config.shrio;
 
 import com.yf.core.entiy.SysUserEntity;
+import com.yf.core.service.SysMenuService;
+import com.yf.core.service.SysUserRoleService;
 import com.yf.core.service.SysUserService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
@@ -24,6 +26,11 @@ public class ShiroRealm extends AuthorizingRealm {
     @Autowired
     private SysUserService sysUserService;
 
+    @Autowired
+    private SysUserRoleService sysUserRoleService;
+
+    @Autowired
+    private SysMenuService sysMenuService;
     /**
      * 授权(验证角色权限时调用)
      */
@@ -31,9 +38,9 @@ public class ShiroRealm extends AuthorizingRealm {
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principals) {
         String userId = ShiroUtils.getUserId();
         //用户角色
-        Set<String> rolesSet = sysUserService.listUserRoles(userId);
+        Set<String> rolesSet = sysUserRoleService.listUserRoles(userId);
         //用户权限
-        Set<String> permsSet = sysUserService.listUserPerms(userId);
+        Set<String> permsSet = sysMenuService.listUserPerms(userId);
         SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
         info.setRoles(rolesSet);
         info.setStringPermissions(permsSet);

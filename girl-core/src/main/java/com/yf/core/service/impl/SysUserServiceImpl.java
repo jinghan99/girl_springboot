@@ -1,6 +1,6 @@
 package com.yf.core.service.impl;
 
-import com.yf.core.dao.sys.SysUserMapper;
+import com.yf.core.dao.SysUserMapper;
 import com.yf.core.entiy.SysUserEntity;
 import com.yf.core.service.SysUserService;
 import org.apache.commons.lang.StringUtils;
@@ -32,27 +32,5 @@ public class SysUserServiceImpl implements SysUserService {
         return sysUserMapper.getByUserName(username);
     }
 
-    @Override
-    public Set<String> listUserPerms(String userId) {
-        List<String> perms = sysUserMapper.listUserPerms(userId);
-        Set<String> permsSet = new HashSet<>();
-        for(String perm : perms) {
-            if(StringUtils.isNotBlank(perm)) {
-                permsSet.addAll(Arrays.asList(perm.trim().split(",")));
-            }
-        }
-        return permsSet;
-    }
 
-    @Override
-    public Set<String> listUserRoles(String userId) {
-        List<String> roles = sysUserMapper.listUserRoles(userId);
-        Set<String> rolesSet = new HashSet<>();
-        for(String role : roles) {
-            if(StringUtils.isNotBlank(role)) {
-                rolesSet.addAll(Arrays.asList(role.trim().split(",")));
-            }
-        }
-        return rolesSet;
-    }
 }

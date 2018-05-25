@@ -19,18 +19,6 @@ public interface SysUserService {
      *@Author: jinghan
      */ 
     SysUserEntity getByUserName(String name);
-    /**
-     *获取 用户权限
-     *@Params: [userId]
-     *@Date: 2018/5/24 17:41
-     *@Author: jinghan
-     */ 
-    Set<String> listUserPerms(String userId);
-    /**
-     *获取用户角色
-     *@Params: [userId]
-     *@Date: 2018/5/24 17:41
-     *@Author: jinghan
-     */ 
-    Set<String> listUserRoles(String userId);
+
+
 }

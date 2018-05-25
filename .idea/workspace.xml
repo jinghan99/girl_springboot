@@ -2,242 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_axet_kaptcha_0_0_9.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMenuMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserRoleMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleMenuService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/css/index.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/css/public.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/alipay.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/close.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/code.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/face.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/fly.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/git.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/layui.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/login_bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/mayun.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/userface1.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/userface2.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/userface3.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/userface4.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/userface5.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/wechat.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/address.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/bodyTab.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/cache.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/cacheUserInfo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/address.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/images.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/linkList.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/linkLogo.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/logs.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/navs.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/newsImg.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/newsList.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/systemParameter.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/userGrade.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/userList.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/json/userface.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/layui.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/layui.mobile.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/code.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/laydate/default/laydate.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/layer/default/icon-ext.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/layer/default/icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/layer/default/layer.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/layer/default/loading-0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/layer/default/loading-1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/css/modules/layer/default/loading-2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/font/iconfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/font/iconfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/font/iconfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/font/iconfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/0.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/1.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/10.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/11.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/12.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/13.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/14.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/15.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/16.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/17.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/18.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/19.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/2.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/20.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/21.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/22.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/23.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/24.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/25.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/26.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/27.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/28.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/29.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/3.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/30.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/31.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/32.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/33.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/34.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/35.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/36.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/37.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/38.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/39.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/4.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/40.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/41.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/42.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/43.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/44.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/45.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/46.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/47.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/48.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/49.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/5.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/50.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/51.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/52.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/53.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/54.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/55.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/56.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/57.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/58.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/59.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/6.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/60.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/61.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/62.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/63.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/64.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/65.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/66.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/67.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/68.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/69.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/7.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/70.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/71.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/8.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/images/face/9.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/carousel.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/code.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/flow.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/form.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/laydate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/layedit.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/layer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/laypage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/laytpl.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/mobile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/table.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/tree.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/upload.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/lay/modules/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/layui.all.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/layui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/404.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/doc/addressDoc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/doc/bodyTabDoc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/doc/navDoc.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/img/images.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/img/images.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/login/login.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/login/login.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/main.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/news/newsAdd.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/news/newsAdd.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/news/newsList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/news/newsList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/basicParameter.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/basicParameter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/icons.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/icons.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/linkList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/linkList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/linksAdd.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/logs.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/systemSetting/logs.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/changePwd.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/user.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/userAdd.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/userAdd.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/userGrade.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/userInfo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/userInfo.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/userList.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/user/userList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/templates/index-test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/MD5Utils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/R.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/ConfigBeans.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMenuMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserRoleMapper.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMenuMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserRoleMapper.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-web/src/main/resources/logback-spring.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-core/girl-core.iml" afterPath="$PROJECT_DIR$/girl-core/girl-core.iml" />
+      <change beforePath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/APP_NAME_IS_UNDEFINED-error.2018-04-26.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/APP_NAME_IS_UNDEFINED-info.2018-04-26.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/APP_NAME_IS_UNDEFINED-warn.2018-04-26.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/pom.xml" afterPath="$PROJECT_DIR$/girl-core/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" />
       <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" />
       <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysMenuMapper.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/redis/RedisConfig.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/redis/RedisPrefix.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisPrefix.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/RedisCacheManager.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/RedisSessionDAO.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroCache.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroCache.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroConfig.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroRealm.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysMenu.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/entiy/SysMenuEntity.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysRole.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/entiy/SysRoleEntity.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysRoleMenu.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/entiy/SysRoleMenuEntity.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUser.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/entiy/SysUserEntity.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUserRole.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/entiy/SysUserRoleEntity.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/plugin/PagePlugin.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/plugin/PagePlugin.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysMenuMapper.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMenuMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserMapper.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserMapper.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserRoleMapper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java" />
       <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml" />
       <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/service/appuser/AppuserService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/redis/RedisConfig$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/redis/RedisConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/redis/RedisPrefix.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/shrio/RedisCacheManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/shrio/RedisSessionDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/shrio/ShiroCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/shrio/ShiroConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/config/shrio/ShiroRealm.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/system/plugin/PagePlugin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-springboot.iml" afterPath="$PROJECT_DIR$/girl-springboot.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-utils/girl-utils.iml" afterPath="$PROJECT_DIR$/girl-utils/girl-utils.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-web/girl-web.iml" afterPath="$PROJECT_DIR$/girl-web/girl-web.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/admin/LoginAdminController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/learning/sort/Sort.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/learning/sort/SortTestHelper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/application.yml" afterPath="$PROJECT_DIR$/girl-web/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/classmate-1.3.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/hibernate-core-5.2.16.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jandex-2.0.3.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/javassist-3.22.0-GA.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -291,107 +108,86 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SysRoleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java">
+      <file leaf-file-name="ShiroCache.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroCache.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserRoleService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserRoleServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysRoleMenuMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMenuMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserRoleMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserRoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysRoleMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SysUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="576">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysRoleMenuServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java">
+      <file leaf-file-name="RedisCacheManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="288">
+              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysRoleServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java">
+      <file leaf-file-name="RedisPrefix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisPrefix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="384">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SysUserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java">
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="96">
+              <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisSessionDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/RedisUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6048">
+              <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+              <folding>
+                <element signature="e#7608#7609#0" expanded="true" />
+                <element signature="e#7676#7677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+              <folding>
+                <element signature="e#1922#1923#0" expanded="true" />
+                <element signature="e#1977#1978#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -403,8 +199,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -418,6 +214,13 @@
       <find>com.yf.core.system.entiy.SysMenu</find>
       <find>img</find>
       <find>lay-search</find>
+      <find>listUserPerms</find>
+      <find>org.mybatis.caches.ehcache.EhcacheCache</find>
+      <find>SysMenuEntity</find>
+      <find>SysUserEntity</find>
+      <find>Producer</find>
+      <find>getByUserName</find>
+      <find>spring.session.store-type</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -432,57 +235,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/Const.java" />
-        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/AjaxMsg.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/LoginAdminController.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroRealm.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/RedisSessionDAO.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/config/shrio/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/system/SysRole.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/MenuService.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/MenuMapper.xml" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysRole.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysRoleMenu.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUser.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysUserRole.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/system/SysMenuMapper.xml" />
-        <option value="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-web/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/plugin/PaginationResultSetHandlerInterceptor.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/system/entiy/SysMenu.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java" />
         <option value="$PROJECT_DIR$/girl-web/src/main/java/com/yf/GirlWebApplication.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/appuser/AppuserService.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuService.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/system/SysMenuService.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/system/SysMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroCache.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
         <option value="$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/ShiroUtils.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroUtils.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/R.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/MD5Utils.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysMenuMapper.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleMenuService.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleOrgMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysOrgMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/ConfigBeans.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/girl-web/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMenuMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMapper.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMenuMapper.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java" />
+        <option value="$PROJECT_DIR$/girl-core/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java" />
       </list>
     </option>
   </component>
@@ -539,6 +342,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -625,6 +429,19 @@
               <item name="yf" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="yf" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
               <item name="shrio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -637,57 +454,89 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yf" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="entiy" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-core" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
@@ -696,56 +545,413 @@
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-lang:commons-lang:2.6" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-lang:commons-lang:2.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang-2.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-lang:commons-lang:2.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang-2.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-lang:commons-lang:2.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang-2.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="apache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-lang:commons-lang:2.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang-2.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-lang:commons-lang:2.6" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-lang-2.6.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
               <item name="org" type="462c0819:PsiDirectoryNode" />
               <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="mgt" type="462c0819:PsiDirectoryNode" />
+              <item name="eis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-core:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-core-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="subject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.shiro:shiro-web:1.2.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="shiro-web-1.2.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="subject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:8.5.23" type="70bed36:NamedLibraryElementNode" />
+              <item name="tomcat-embed-core-8.5.23.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+              <item name="catalina" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:1.8.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:1.8.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-1.8.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:1.8.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-1.8.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:1.8.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-1.8.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:1.8.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-1.8.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:1.8.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-1.8.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-redis:1.8.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-redis-1.8.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-web:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-web-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-webmvc:4.3.13.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-webmvc-4.3.13.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="method" type="462c0819:PsiDirectoryNode" />
+              <item name="annotation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -767,9 +973,6 @@
     <property name="JPA.DatabaseSchemaImportDialog" value="45974a0b-58d5-4f2b-b2ac-18095f19c728" />
   </component>
   <component name="RecentsManager">
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yf.core.dao.sys" />
       <recent name="com.yf.utils" />
@@ -777,12 +980,15 @@
       <recent name="com.yf.core.controller" />
       <recent name="com.yf.core.service.impl" />
     </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl\girl-web\src\main\resources" />
+      <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\resources\mybatis\mapper" />
+      <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\java\com\yf\core\dao" />
       <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\resources\templates" />
       <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\resources\static\Plugin" />
-      <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\java\com\yf\core" />
-      <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\resources\mybatis\mapper" />
-      <recent name="F:\workspace\ideaGit\girl\girl-core\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -919,7 +1125,9 @@
       <workItem from="1526887241418" duration="2506000" />
       <workItem from="1526977700574" duration="3028000" />
       <workItem from="1527041930150" duration="6854000" />
-      <workItem from="1527149953541" duration="6384000" />
+      <workItem from="1527149953541" duration="6424000" />
+      <workItem from="1527211346667" duration="17993000" />
+      <workItem from="1527240150659" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="更新 hrio">
       <created>1525341848180</created>
@@ -967,7 +1175,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87628000" />
+    <option name="totallyTimeSpent" value="106129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -981,9 +1189,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2906846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22284435" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -993,11 +1200,10 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30490404" sideWeight="0.22222222" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3001066" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15458423" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26936027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1005,7 +1211,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.073027715" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22284435" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26936027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1022,448 +1230,417 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java</url>
+          <line>76</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.class</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="28" />
+      <option name="time" value="50" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/girl-web/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/girl-web/src/main/resources/logback-spring.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="48" column="46" lean-forward="false" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        <state relative-caret-position="288">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/R.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="55" />
-          <folding />
+        <state relative-caret-position="471">
+          <caret line="48" column="20" lean-forward="false" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <folding>
+            <element signature="e#814#815#0" expanded="false" />
+            <element signature="e#835#836#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
+          <caret line="14" column="64" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/LoginAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/doc/navDoc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="45" column="57" lean-forward="false" selection-start-line="45" selection-start-column="57" selection-end-line="45" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/doc/addressDoc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/doc/bodyTabDoc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1728">
-          <caret line="18" column="41" lean-forward="true" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="122" column="10" lean-forward="false" selection-start-line="122" selection-start-column="10" selection-end-line="122" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/templates/index-test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/page/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/images/face.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layui/layui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="129" column="70" lean-forward="false" selection-start-line="129" selection-start-column="62" selection-end-line="129" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/layui/layui.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="4" column="23820" lean-forward="false" selection-start-line="4" selection-start-column="23820" selection-end-line="4" selection-end-column="23820" />
-          <folding>
-            <marker date="1522036327000" expanded="true" signature="140815:140834" ph="..." />
-            <marker date="1522036327000" expanded="true" signature="141102:141145" ph="..." />
-            <marker date="1522036327000" expanded="true" signature="186894:187012" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/static/Plugin/layuicms2.0/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <marker date="1522036327000" expanded="true" signature="3607:3615" ph="&amp;##x1006;" />
-            <marker date="1522036327000" expanded="true" signature="4737:4785" ph="..." />
-            <marker date="1522036327000" expanded="true" signature="4874:4922" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-web/src/main/java/com/yf/GirlWebApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/ShiroUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/entiy/SysUserEntity.java">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="25" />
-          <folding />
+          <caret line="9" column="64" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroUtils.java">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMenuMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="49" column="25" lean-forward="false" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/MD5Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/AjaxMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="74" column="33" lean-forward="true" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
+        <state relative-caret-position="165">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <marker date="1527154560258" expanded="true" signature="321:584" ph="select org_i... sys_user" />
-            <marker date="1527154560258" expanded="true" signature="321:619" ph="select org_i... sys_user" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <marker date="1527153868580" expanded="true" signature="310:518" ph="select menu_... sys_menu" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/authc/UsernamePasswordToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="21" column="58" lean-forward="true" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="59" lean-forward="false" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/authc/AbstractAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="101" column="0" lean-forward="false" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/realm/CachingRealm.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="46" column="18" lean-forward="false" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="409">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/realm/AuthenticatingRealm.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="23" selection-end-column="40" />
-          <folding />
+        <state relative-caret-position="265">
+          <caret line="177" column="23" lean-forward="false" selection-start-line="177" selection-start-column="23" selection-end-line="177" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysMenuMapper.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-spring/1.2.3/shiro-spring-1.2.3.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="64" />
-          <folding />
+        <state relative-caret-position="259">
+          <caret line="44" column="11" lean-forward="false" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/MD5Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+        <state relative-caret-position="457">
+          <caret line="37" column="70" lean-forward="false" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169">
-          <caret line="33" column="59" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="59" />
+        <state relative-caret-position="121">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/DefaultValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="190" column="16" lean-forward="false" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/ValueOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="37" column="10" lean-forward="false" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="119" column="4" lean-forward="false" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-666">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="136" column="0" lean-forward="false" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/session/mgt/eis/AbstractSessionDAO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/mgt/DefaultSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/subject/Subject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-web/1.2.3/shiro-web-1.2.3.jar!/org/apache/shiro/web/subject/WebSubject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-web/1.2.3/shiro-web-1.2.3.jar!/org/apache/shiro/web/servlet/AbstractShiroFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="158" column="0" lean-forward="false" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/session/mgt/eis/CachingSessionDAO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/session/mgt/DefaultSessionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/session/mgt/AbstractValidatingSessionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/session/mgt/AbstractNativeSessionManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="125" column="0" lean-forward="false" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="532" column="0" lean-forward="false" selection-start-line="532" selection-start-column="0" selection-end-line="532" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="406" column="0" lean-forward="false" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="493" column="0" lean-forward="false" selection-start-line="493" selection-start-column="0" selection-end-line="493" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/cache/CacheManager.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleMenuService.java">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="576">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="288">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/RedisUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="6048">
+          <caret line="264" column="0" lean-forward="false" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+          <folding>
+            <element signature="e#7608#7609#0" expanded="true" />
+            <element signature="e#7676#7677#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMenuMapper.java">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="384">
+          <caret line="38" column="9" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+          <folding>
+            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="e#1977#1978#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserRoleMapper.java">
+    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="96">
+          <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
           <folding />
         </state>
       </provider>

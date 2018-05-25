@@ -2,59 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/ConfigBeans.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMenuMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserRoleMapper.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysRoleMenuMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserRoleMapper.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-web/src/main/resources/logback-spring.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/APP_NAME_IS_UNDEFINED-error.2018-04-26.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/APP_NAME_IS_UNDEFINED-info.2018-04-26.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LOG_FILE_PATH_IS_UNDEFINED/APP_NAME_IS_UNDEFINED-warn.2018-04-26.log" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/pom.xml" afterPath="$PROJECT_DIR$/girl-core/pom.xml" />
       <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/IndexController.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/admin/IndexAdminController.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysMenuMapper.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysMenuMapper.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysRoleMenuMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserMapper.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserMapper.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/sys/SysUserRoleMapper.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysMenuService.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysRoleService.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserRoleService.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/SysUserService.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysMenuServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleMenuServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysRoleServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserRoleServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java" afterPath="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/service/impl/SysUserServiceImpl.java" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysMenuMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mapper/SysUserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" afterPath="$PROJECT_DIR$/girl-core/src/main/resources/mybatis/mybatis-config.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/controller/admin/LoginAdminController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/learning/sort/Sort.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-core/target/classes/com/yf/core/learning/sort/SortTestHelper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/girl-web/target/classes/application.yml" afterPath="$PROJECT_DIR$/girl-web/target/classes/application.yml" />
-      <change beforePath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/classmate-1.3.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-core-5.2.16.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/jandex-2.0.3.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/javassist-3.22.0-GA.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -144,8 +93,8 @@
       <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+            <state relative-caret-position="406">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -279,13 +228,13 @@
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysRoleMenuMapper.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/dao/SysUserRoleMapper.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroRealm.java" />
-        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisSessionDAO.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/RedisCacheManager.java" />
         <option value="$PROJECT_DIR$/girl-core/pom.xml" />
         <option value="$PROJECT_DIR$/girl-web/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/controller/SysLoginController.java" />
         <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/shrio/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java" />
       </list>
     </option>
   </component>
@@ -1127,7 +1076,7 @@
       <workItem from="1527041930150" duration="6854000" />
       <workItem from="1527149953541" duration="6424000" />
       <workItem from="1527211346667" duration="17993000" />
-      <workItem from="1527240150659" duration="468000" />
+      <workItem from="1527240150659" duration="1074000" />
     </task>
     <task id="LOCAL-00001" summary="更新 hrio">
       <created>1525341848180</created>
@@ -1171,11 +1120,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526983674144</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="youhua mybatis">
+      <created>1527241059559</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1527241059559</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106129000" />
+    <option name="totallyTimeSpent" value="106735000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1639,8 +1595,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-core/src/main/java/com/yf/core/config/redis/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="75" column="22" lean-forward="false" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+        <state relative-caret-position="406">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>

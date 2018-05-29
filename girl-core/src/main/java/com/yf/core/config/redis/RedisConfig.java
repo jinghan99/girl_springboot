@@ -64,12 +64,10 @@ public class RedisConfig  extends CachingConfigurerSupport {
         manager.setUsePrefix(true);
         RedisCachePrefix cachePrefix = new RedisPrefix("prefix");
         manager.setCachePrefix(cachePrefix);
-        // 整体缓存过期时间
-        manager.setDefaultExpiration(3600L);
         // 设置缓存过期时间。key和缓存过期时间，单位秒
-        Map<String, Long> expiresMap = new HashMap<>();
-        expiresMap.put("user", 1000L);
-        manager.setExpires(expiresMap);
+//        Map<String, Long> expiresMap = new HashMap<>();
+//        expiresMap.put("user", 1000L);
+//        manager.setExpires(expiresMap);
         return manager;
     }
 

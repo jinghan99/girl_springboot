@@ -75,26 +75,26 @@ public class ShiroConfig {
         return myShiroRealm;
     }
 
-
-
-
-
     @Bean(name = "sessionManager")
-    public SessionManager sessionManager(SessionDAO sessionDAO){
+    public SessionManager sessionManager(){
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
         //设置session过期时间为3小时(单位：毫秒)，默认为30分钟
         sessionManager.setGlobalSessionTimeout(AbstractSessionManager.DEFAULT_GLOBAL_SESSION_TIMEOUT * 6);
         sessionManager.setSessionValidationSchedulerEnabled(true);
         sessionManager.setSessionIdUrlRewritingEnabled(false);
-        sessionManager.setSessionDAO(sessionDAO);
+        sessionManager.setSessionDAO(redisSessionDao());
         sessionManager.setDeleteInvalidSessions(true);// 删除过期的session
         sessionManager.setCacheManager(redisCacheManager());
-
         //设置cookie httpOnly属性
         sessionManager.setSessionIdCookieEnabled(true);
         SimpleCookie simpleCookie = new SimpleCookie("sid");
         simpleCookie.setHttpOnly(true);
         sessionManager.setSessionIdCookie(simpleCookie);
+        // 定时清理失效会话, 清理用户直接关闭浏览器造成的孤立会话
+        sessionManager.setSessionValidationInterval(120 * 1000);
+        // 定时检查 session 失效
+        sessionManager.setSessionValidationSchedulerEnabled(true);
+        sessionManager.setSessionIdUrlRewritingEnabled(false);
         return sessionManager;
     }
     @Bean(name = "securityManager")

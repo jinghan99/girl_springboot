@@ -29,11 +29,8 @@ public class RedisSessionDAO extends EnterpriseCacheSessionDAO {
     private static Logger logger = LoggerFactory.getLogger(RedisSessionDAO.class);
 
     // session key 前缀
-//    @Value("${redis.shiro.session.prefix}")
     private String sessionPrefix = "shiro-session:";
     // session 在 redis 过期时间是30分钟(1800秒)
-//    @Value("${redis.shiro.session.expireTime}")
-//    public int sessionExpireTime;
     private int sessionExpireTime = 30;
 
     @Autowired

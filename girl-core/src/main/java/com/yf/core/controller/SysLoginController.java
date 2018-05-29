@@ -9,12 +9,14 @@ import com.yf.utils.MD5Utils;
 import com.yf.utils.R;
 import com.yf.utils.RedisUtils;
 import org.apache.shiro.authc.*;
+import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 import javax.imageio.ImageIO;
 import javax.servlet.ServletException;
@@ -72,11 +74,6 @@ public class SysLoginController extends BaseController{
 	@ResponseBody
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public R login(String username, String password, String captcha){
-//		String kaptcha = ShiroUtils.getKaptcha(Constants.KAPTCHA_SESSION_KEY);
-//		if(!captcha.equalsIgnoreCase(kaptcha)){
-//			return R.error("验证码不正确");
-//		}
-		
 		try{
 
 			Subject subject = ShiroUtils.getSubject();
@@ -109,5 +106,4 @@ public class SysLoginController extends BaseController{
 		ShiroUtils.logout();
 		return "redirect:login.html";
 	}
-	
 }

@@ -31,6 +31,12 @@ public class RedisUtils {
         redisTemplate.delete(keys);
         return "ok";
     }
+
+    public Set findLikeKey(String key){
+        return redisTemplate.keys(key + "*");
+    }
+
+
     /**
      *@Description  清空redis 所有数据
      *@Date 2018/4/24 16:13

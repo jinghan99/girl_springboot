@@ -7,6 +7,7 @@ import com.yf.core.service.SysUserService;
 import com.yf.utils.BaseController;
 import com.yf.utils.MD5Utils;
 import com.yf.utils.R;
+import com.yf.utils.RedisUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,6 +37,9 @@ public class SysLoginController extends BaseController{
 
     @Autowired
     private Producer producer;
+
+    @Autowired
+    private RedisUtils redisUtils;
 
 	/**
 	 * 验证码
@@ -74,10 +78,12 @@ public class SysLoginController extends BaseController{
 //		}
 		
 		try{
+
 			Subject subject = ShiroUtils.getSubject();
 			//sha256加密
 			password = MD5Utils.encrypt(username, password);
 			UsernamePasswordToken token = new UsernamePasswordToken(username, password);
+            System.out.println("redisUtils.getStr(\"asd\") : "+redisUtils.getStr("asd"));
 			subject.login(token);
 		}catch (UnknownAccountException e) {
             logger.error(e.toString(),e);

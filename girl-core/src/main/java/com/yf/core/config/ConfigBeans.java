@@ -18,6 +18,12 @@ import java.util.Properties;
 @Configuration
 @EnableCaching
 public class ConfigBeans {
+    /**
+     *验证码
+     *@Params: []
+     *@Date: 2018/5/28 16:07
+     *@Author: jinghan
+     */ 
     @Bean
     public DefaultKaptcha getDefaultKaptcha(){
         com.google.code.kaptcha.impl.DefaultKaptcha defaultKaptcha = new com.google.code.kaptcha.impl.DefaultKaptcha();

@@ -1,23 +1,30 @@
 package com.yf.core.config.shrio;
 
-import org.apache.shiro.authc.credential.HashedCredentialsMatcher;
+import com.yf.core.config.Global;
+import com.yf.core.config.redis.RedisCacheManager;
+import org.apache.shiro.codec.Base64;
+import org.apache.shiro.session.mgt.AbstractSessionManager;
 import org.apache.shiro.session.mgt.SessionManager;
+import org.apache.shiro.session.mgt.eis.JavaUuidSessionIdGenerator;
+import org.apache.shiro.session.mgt.eis.SessionDAO;
 import org.apache.shiro.spring.LifecycleBeanPostProcessor;
 import org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor;
 import org.apache.shiro.spring.web.ShiroFilterFactoryBean;
+import org.apache.shiro.web.mgt.CookieRememberMeManager;
 import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
+import org.apache.shiro.web.servlet.SimpleCookie;
 import org.apache.shiro.web.session.mgt.DefaultWebSessionManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.web.servlet.handler.SimpleMappingExceptionResolver;
 
-import javax.annotation.Resource;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
+
 
 /**
  * shiro配置项
@@ -33,21 +40,33 @@ public class ShiroConfig {
     private static final Logger log = LoggerFactory.getLogger(ShiroConfig.class);
 
 
-    @Autowired
-    private RedisTemplate redisTemplate;
 
-    @Bean
-    public RedisSessionDAO redisSessionDAO (){
-        RedisSessionDAO redisSessionDAO = new RedisSessionDAO();
-        redisSessionDAO.setRedisTemplate(redisTemplate);
-        return redisSessionDAO;
+
+    @Bean(name = "lifecycleBeanPostProcessor")
+    public LifecycleBeanPostProcessor getLifecycleBeanPostProcessor() {
+        return new LifecycleBeanPostProcessor();
     }
 
-    @Bean
-    public RedisCacheManager redisCacheManager() {
-        RedisCacheManager redisCacheManager = new RedisCacheManager();
-        redisCacheManager.setRedisTemplate(redisTemplate);
-        return redisCacheManager;
+
+    @Bean(name = "sessionIdGenerator")
+    public JavaUuidSessionIdGenerator sessionIdGenerator() {
+        JavaUuidSessionIdGenerator sessionIdGenerator = new JavaUuidSessionIdGenerator();
+        return sessionIdGenerator;
+    }
+
+
+    @Bean(name = "redisSessionDao")
+    public RedisSessionDAO redisSessionDao() {
+        RedisSessionDAO redisSessionDao = new RedisSessionDAO();
+        redisSessionDao.setSessionIdGenerator(sessionIdGenerator());
+        redisSessionDao.setActiveSessionsCacheName(Global.ACTIVE_SESSION_CACHE_PREFIXX);
+        redisSessionDao.setCacheManager(redisCacheManager());
+        return redisSessionDao;
+    }
+
+    @Bean(name = "redisCacheManager")
+    public RedisCacheManager  redisCacheManager() {
+        return new RedisCacheManager();
     }
 
     @Bean
@@ -56,47 +75,60 @@ public class ShiroConfig {
         return myShiroRealm;
     }
 
-    @Bean
-    public LifecycleBeanPostProcessor getLifecycleBeanPostProcessor() {
-        return new LifecycleBeanPostProcessor();
-    }
 
 
 
 
-
-
-    @Bean
-    public SessionManager sessionManager() {
+    @Bean(name = "sessionManager")
+    public SessionManager sessionManager(SessionDAO sessionDAO){
         DefaultWebSessionManager sessionManager = new DefaultWebSessionManager();
-        // 设置SessionDao
-        sessionManager.setSessionDAO(redisSessionDAO());
-        sessionManager.setGlobalSessionTimeout(1800);
-        // 加入缓存管理器
-        sessionManager.setCacheManager(redisCacheManager());
-        // 删除过期的session
-        sessionManager.setDeleteInvalidSessions(true);
-        // 是否定时检查session
+        //设置session过期时间为3小时(单位：毫秒)，默认为30分钟
+        sessionManager.setGlobalSessionTimeout(AbstractSessionManager.DEFAULT_GLOBAL_SESSION_TIMEOUT * 6);
         sessionManager.setSessionValidationSchedulerEnabled(true);
+        sessionManager.setSessionIdUrlRewritingEnabled(false);
+        sessionManager.setSessionDAO(sessionDAO);
+        sessionManager.setDeleteInvalidSessions(true);// 删除过期的session
+        sessionManager.setCacheManager(redisCacheManager());
+
+        //设置cookie httpOnly属性
+        sessionManager.setSessionIdCookieEnabled(true);
+        SimpleCookie simpleCookie = new SimpleCookie("sid");
+        simpleCookie.setHttpOnly(true);
+        sessionManager.setSessionIdCookie(simpleCookie);
         return sessionManager;
     }
-
-    @Bean
-    public DefaultWebSecurityManager securityManager() {
+    @Bean(name = "securityManager")
+    public DefaultWebSecurityManager securityManager( SessionManager sessionManager) {
         DefaultWebSecurityManager securityManager = new DefaultWebSecurityManager();
+        securityManager.setRealm(myShiroRealm());
         // 使用redie 共享session
-        securityManager.setSessionManager(sessionManager());
+        securityManager.setSessionManager(sessionManager);
         // 注入缓存管理器;
         securityManager.setCacheManager(redisCacheManager());
-        // 配置
-        securityManager.setRealm(myShiroRealm());
         return securityManager;
+    }
+    @Bean
+    public SimpleCookie rememberMeCookie() {
+        // 这个参数是cookie的名称，对应前端的checkbox的name = rememberMe
+        SimpleCookie cookie = new SimpleCookie(Global.REMEMBER__ME);
+        // cookie 生效时间 30 天，单位(秒)
+        cookie.setMaxAge(30 * 24 * 60 * 60);
+        return cookie;
     }
 
     @Bean
-    public AuthorizationAttributeSourceAdvisor getAuthorizationAttributeSourceAdvisor() {
+    public CookieRememberMeManager rememberMeManager() {
+        CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
+        cookieRememberMeManager.setCookie(rememberMeCookie());
+        // 设置 rememberMe cookie 加密的密匙，默认AES算法 密钥长度(128 256 512 位)
+        cookieRememberMeManager.setCipherKey(Base64.decode(Global.REMEMBER_ME_KEY));
+        return cookieRememberMeManager;
+    }
+
+    @Bean
+    public AuthorizationAttributeSourceAdvisor getAuthorizationAttributeSourceAdvisor(DefaultWebSecurityManager securityManager) {
         AuthorizationAttributeSourceAdvisor authorizationAttributeSourceAdvisor = new AuthorizationAttributeSourceAdvisor();
-        authorizationAttributeSourceAdvisor.setSecurityManager(securityManager());
+        authorizationAttributeSourceAdvisor.setSecurityManager(securityManager);
         return authorizationAttributeSourceAdvisor;
     }
 
@@ -119,13 +151,13 @@ public class ShiroConfig {
      *
      */
     @Bean
-    public ShiroFilterFactoryBean getShiroFilterFactoryBean() {
+    public ShiroFilterFactoryBean getShiroFilterFactoryBean(DefaultWebSecurityManager securityManager) {
 
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
         // 配置安全管理(必须)
 //        shiroFilterFactoryBean.setSecurityManager(defaultWebSecurityManager());
         // 必须设置 SecurityManager
-        shiroFilterFactoryBean.setSecurityManager(securityManager());
+        shiroFilterFactoryBean.setSecurityManager(securityManager);
         // 如果不设置默认会自动寻找Web工程根目录下的"/login.jsp"页面
         shiroFilterFactoryBean.setLoginUrl("/login");
         // 登录成功后要跳转的链接
@@ -133,6 +165,8 @@ public class ShiroConfig {
 
         // 拦截器
         Map<String, String> map = new HashMap<>();
+        //验证码 qiweb 2017年10月18日20:12:35
+        map.put("/captcha**", "anon");
         map.put("/admin/**", "authc");
         map.put("/**", "anon");
         map.put("/logout", "logout");
@@ -144,5 +178,21 @@ public class ShiroConfig {
         //未授权界面;
         shiroFilterFactoryBean.setUnauthorizedUrl("/403");
         return shiroFilterFactoryBean;
+    }
+
+    /**
+     * 异常拦截并跳转到对应的界面，在 BaseController 统一处理
+     *
+     * @return
+     */
+//    @Bean
+    public SimpleMappingExceptionResolver simpleMappingExceptionResolver() {
+        SimpleMappingExceptionResolver simpleMappingExceptionResolver = new SimpleMappingExceptionResolver();
+        Properties properties = new Properties();
+
+        // key 为异常类，value 为直接对应的页面
+        properties.setProperty("org.apache.shiro.authz.UnauthorizedException", "/common/error/403");
+        simpleMappingExceptionResolver.setExceptionMappings(properties);
+        return simpleMappingExceptionResolver;
     }
 }

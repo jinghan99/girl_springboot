@@ -36,7 +36,7 @@
         <mybatis-spring-boot>1.2.0</mybatis-spring-boot>
         <mysql-connector>5.1.39</mysql-connector>
         <druid-spring-boot-starter>1.1.0</druid-spring-boot-starter>
-        <shiro.version>1.2.3</shiro.version>
+        <shiro.version>1.4.0</shiro.version>
         <!--验证码-->
         <kaptcha-version>0.0.9</kaptcha-version>
         <commons-lang-version>2.6</commons-lang-version>
@@ -156,11 +156,11 @@
             <artifactId>commons-lang</artifactId>
             <version>${commons-lang-version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional><!-- optional=true,依赖不会传递，该项目依赖devtools；之后依赖myboot项目的项目如果想要使用devtools，需要重新引入 -->
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-devtools</artifactId>-->
+            <!--<optional>true</optional>&lt;!&ndash; optional=true,依赖不会传递，该项目依赖devtools；之后依赖myboot项目的项目如果想要使用devtools，需要重新引入 &ndash;&gt;-->
+        <!--</dependency>-->
 
     </dependencies>
 

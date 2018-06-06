@@ -17,9 +17,5 @@ import javax.servlet.http.HttpServletResponse;
 @RestController
 public class LoginAdminController extends BaseController{
 
-    @GetMapping(value =  "/403.do",produces = "application/json;charset=UTF-8")
-    public String error403(HttpServletResponse response) {
-        response.setStatus(403);
-        return AjaxMsg.newError().addMessage("用户权限不够").toJson();
-    }
+
 }

@@ -75,16 +75,15 @@ public class RedisConfig  extends CachingConfigurerSupport {
     @Bean
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
         RedisTemplate<String, Object> template = new RedisTemplate<>();
-//        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
-        ObjectMapper om = new ObjectMapper();
-        om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
-        om.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
-        // 忽略json字符串中不识别的属性
-        om.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-        // 忽略无法转换的对象 “No serializer found for class com.xxx.xxx”
-        om.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
+////        Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
+//        ObjectMapper om = new ObjectMapper();
+//        om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
+//        om.enableDefaultTyping(ObjectMapper.DefaultTyping.NON_FINAL);
+//        // 忽略json字符串中不识别的属性
+//        om.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+//        // 忽略无法转换的对象 “No serializer found for class com.xxx.xxx”
+//        om.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false);
 //        jackson2JsonRedisSerializer.setObjectMapper(om);
-
         // key的序列化采用StringRedisSerializer
         template.setKeySerializer(new StringRedisSerializer());
 //        template.setValueSerializer(jackson2JsonRedisSerializer);

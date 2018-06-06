@@ -27,7 +27,6 @@ public class IndexAdminController extends BaseController {
     @RequestMapping(value = "/",method = RequestMethod.GET)
     public ModelAndView hello(Page page){
         ModelAndView mv = this.getModelAndView();
-
         try {
 
         } catch (Exception e) {

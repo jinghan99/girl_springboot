@@ -21,6 +21,7 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.imageio.ImageIO;
 import javax.servlet.ServletException;
 import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -73,14 +74,18 @@ public class SysLoginController extends BaseController{
 	 */
 	@ResponseBody
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public R login(String username, String password, String captcha){
+	public R login(HttpServletRequest request){
 		try{
-
+            String username = request.getParameter("username");
+            String password = request.getParameter("password");
+            String captcha = request.getParameter("captcha");
 			Subject subject = ShiroUtils.getSubject();
 			//sha256加密
 			password = MD5Utils.encrypt(username, password);
 			UsernamePasswordToken token = new UsernamePasswordToken(username, password);
-            System.out.println("redisUtils.getStr(\"asd\") : "+redisUtils.getStr("asd"));
+            if(request.getParameter("rememberMe")!=null){
+                token.setRememberMe(true);
+            }
 			subject.login(token);
 		}catch (UnknownAccountException e) {
             logger.error(e.toString(),e);

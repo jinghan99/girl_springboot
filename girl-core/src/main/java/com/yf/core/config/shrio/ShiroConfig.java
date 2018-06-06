@@ -118,6 +118,7 @@ public class ShiroConfig {
 
     @Bean
     public CookieRememberMeManager rememberMeManager() {
+        //记住我 要配合拦截器
         CookieRememberMeManager cookieRememberMeManager = new CookieRememberMeManager();
         cookieRememberMeManager.setCookie(rememberMeCookie());
         // 设置 rememberMe cookie 加密的密匙，默认AES算法 密钥长度(128 256 512 位)
@@ -159,7 +160,7 @@ public class ShiroConfig {
         // 必须设置 SecurityManager
         shiroFilterFactoryBean.setSecurityManager(securityManager);
         // 如果不设置默认会自动寻找Web工程根目录下的"/login.jsp"页面
-        shiroFilterFactoryBean.setLoginUrl("/login");
+        shiroFilterFactoryBean.setLoginUrl("/sys/login");
         // 登录成功后要跳转的链接
         shiroFilterFactoryBean.setSuccessUrl("/index");
 
@@ -167,8 +168,7 @@ public class ShiroConfig {
         Map<String, String> map = new HashMap<>();
         //验证码 qiweb 2017年10月18日20:12:35
         map.put("/captcha**", "anon");
-        map.put("/admin/**", "authc");
-        map.put("/**", "anon");
+        map.put("/admin/**", "user");
         map.put("/logout", "logout");
         map.put("/login", "anon");
         //<!-- 过滤链定义，从上向下顺序执行，一般将 /**放在最为下边 -->:这是一个坑呢，一不小心代码就不好使了;
@@ -176,7 +176,7 @@ public class ShiroConfig {
         //自定义加载权限资源关系
         shiroFilterFactoryBean.setFilterChainDefinitionMap(map);
         //未授权界面;
-        shiroFilterFactoryBean.setUnauthorizedUrl("/403");
+        shiroFilterFactoryBean.setUnauthorizedUrl("/common/error/403");
         return shiroFilterFactoryBean;
     }
 
@@ -185,7 +185,7 @@ public class ShiroConfig {
      *
      * @return
      */
-//    @Bean
+    @Bean
     public SimpleMappingExceptionResolver simpleMappingExceptionResolver() {
         SimpleMappingExceptionResolver simpleMappingExceptionResolver = new SimpleMappingExceptionResolver();
         Properties properties = new Properties();

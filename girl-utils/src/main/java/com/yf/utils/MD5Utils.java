@@ -38,5 +38,4 @@ public class MD5Utils {
 		String newPassword = new SimpleHash(ALGORITH_NAME, pswd, ByteSource.Util.bytes(username + SALT), HASH_ITERATIONS).toHex();
 		return newPassword;
 	}
-	
 }

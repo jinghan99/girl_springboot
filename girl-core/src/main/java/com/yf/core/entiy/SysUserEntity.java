@@ -1,7 +1,9 @@
 package com.yf.core.entiy;
 
 
-public class SysUserEntity {
+import java.io.Serializable;
+
+public class SysUserEntity implements Serializable{
 
   private String userId;
   private String orgId;

@@ -6,7 +6,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/girl-utils/pom.xml" />
         <option value="$PROJECT_DIR$/girl-core/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-web/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

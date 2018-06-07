@@ -102,11 +102,7 @@ public class Utils {
 	}
 	
 	
-	/**
-	 * 部分分页数据库：sqlserver,mysql
-	 */
-	private final static String db = "sqlserver";
-	
+
 	/**
 	 * 验证参数是否为数字,是true
 	 * @param object
@@ -138,7 +134,7 @@ public class Utils {
 
 	/**
 	 * 验证参数是否不为空,非空true
-	 * @param object
+	 * @param obj
 	 * @return
 	 */
 	public final static boolean isNotNull(Object obj) {
@@ -148,7 +144,7 @@ public class Utils {
 	/**
 	 * 验证参数是否为空,空true
 	 * 判断对象或对象数组中每一个对象是否为空: 对象为null，字符序列长度为0，集合类、Map为empty 
-	 * @param object
+	 * @param obj
 	 * @return
 	 */
 	public final static boolean isNull(Object obj) {
@@ -244,38 +240,7 @@ public class Utils {
 	  return false;
 	 }
 	 
-	 /**
-	  * 传入相关数据，对相关的sql语句分页进行改变
-	  * @param page
-	  * @param pageSize
-	  * @param sql
-	  * @param order
-	  * @return
-	  */
-	 public final static String toSql(int page, int pageSize, String sql, String order){
-		 StringBuffer sb = new StringBuffer("");
-		 if("sqlserver".equals(db)){
-			 sb.append("select top ");
-			 sb.append(pageSize);
-			 sb.append(" * from (select row_number() over(ORDER BY ");
-			 sb.append(order);
-			 sb.append(")as rownumber,* from (");
-			 sb.append(sql);
-			 sb.append(")a1)a2 where rownumber > ");
-			 sb.append((page - 1) * pageSize);
-		 } else if("mysql".equals(db)){
-			 sb.append("select * from ( ");
-			 sb.append(sql);
-			 sb.append(" ) a ORDER BY ");
-			 sb.append(order);
-			 sb.append(" LIMIT ");
-			 sb.append((page - 1) * pageSize);
-			 sb.append(" , ");
-			 sb.append(pageSize);
-		 }
-		 return sb.toString();
-	 }
-	 
+
 	 /**
 	  * 保留2位小数
 	  * @param d
@@ -308,7 +273,7 @@ public class Utils {
 	 
 	 /**
 	  * 得到字符串时间
-	  * @param date
+	  * @param
 	  * @return
 	  */
 	 public final static String getDate(){
@@ -316,23 +281,5 @@ public class Utils {
 		 return sdf.format(new Date());
 	 }
 	 
-	 public static int compare_date(String DATE1, String DATE2) {
-	        DateFormat df = new SimpleDateFormat("yyyy-MM-dd hh:mm");
-	        try {
-	            Date dt1 = df.parse(DATE1);
-	            Date dt2 = df.parse(DATE2);
-	            if (dt1.getTime() > dt2.getTime()) {
-	                System.out.println("dt1 在dt2前");
-	                return 1;
-	            } else if (dt1.getTime() < dt2.getTime()) {
-	                System.out.println("dt1在dt2后");
-	                return -1;
-	            } else {
-	                return 0;
-	            }
-	        } catch (Exception exception) {
-	            exception.printStackTrace();
-	        }
-	        return 0;
-	    }
+
 }

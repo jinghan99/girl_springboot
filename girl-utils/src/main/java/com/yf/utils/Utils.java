@@ -3,7 +3,6 @@ package com.yf.utils;
 import javax.servlet.http.HttpServletRequest;
 import java.math.BigDecimal;
 import java.security.MessageDigest;
-import java.text.DateFormat;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;

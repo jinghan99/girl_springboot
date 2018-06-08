@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/girl-base/girl-base.iml" filepath="$PROJECT_DIR$/girl-base/girl-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-base/girl-base.iml" filepath="$PROJECT_DIR$/girl-base/girl-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-springboot.iml" filepath="$PROJECT_DIR$/girl-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-utils/girl-utils.iml" filepath="$PROJECT_DIR$/girl-utils/girl-utils.iml" />
     </modules>

@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="girl-base" />
         <module name="girl-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="girl-base" target="1.8" />
       <module name="girl-core" target="1.8" />
       <module name="girl-dao" target="1.8" />
       <module name="girl-entiy" target="1.8" />

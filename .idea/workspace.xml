@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort.java" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort.java" />
-      <change beforePath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort2.java" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort2.java" />
-      <change beforePath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/SortTestHelper.java" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/SortTestHelper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -681,7 +678,7 @@
       <workItem from="1528945680610" duration="1961000" />
       <workItem from="1529027166801" duration="5155000" />
       <workItem from="1529034881310" duration="578000" />
-      <workItem from="1530580656983" duration="1992000" />
+      <workItem from="1530580656983" duration="2006000" />
     </task>
     <task id="LOCAL-00001" summary="更新 hrio">
       <created>1525341848180</created>
@@ -816,7 +813,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530584868872</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="归并算法">
+      <created>1530584959228</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1530584959228</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -852,7 +856,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162848000" />
+    <option name="totallyTimeSpent" value="162862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

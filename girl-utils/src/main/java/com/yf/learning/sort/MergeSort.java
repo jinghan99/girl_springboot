@@ -2,7 +2,7 @@ package com.yf.learning.sort;
 
 import java.util.Arrays;
 
-/**
+/**归并算法
  * @ClassName MergeSort
  * @Description
  * @Date 2018/7/3 10:07

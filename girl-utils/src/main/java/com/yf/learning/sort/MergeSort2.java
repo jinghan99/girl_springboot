@@ -3,6 +3,7 @@ package com.yf.learning.sort;
 import java.util.Arrays;
 
 /**
+ * 优化后的归并算法
  * @ClassName MergeSort2
  * @Description
  * @Date 2018/7/3 10:22

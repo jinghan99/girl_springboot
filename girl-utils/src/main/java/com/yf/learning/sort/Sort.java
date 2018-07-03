@@ -1,7 +1,8 @@
 package com.yf.learning.sort;
 
 
-import static com.yf.learning.sort.SortTestHelper.swap;
+import java.util.Arrays;
+
 
 /**
  * @ClassName
@@ -12,7 +13,11 @@ import static com.yf.learning.sort.SortTestHelper.swap;
  */
 public class Sort {
 
-
+    private static void swap(Object[] arr, int i, int j) {
+        Object t = arr[i];
+        arr[i] = arr[j];
+        arr[j] = t;
+    }
 
     /** 1
      *@Description Sort 选择排序 O（n^2）
@@ -69,8 +74,8 @@ public class Sort {
         }
     }
     public static void main(String args[]) {
-        Integer[]  arry = SortTestHelper.generateNearlyOrderedArray(1000,6);
-        Integer[]  arr2 = SortTestHelper.copyIntegerArr(arry);
+        Integer[]  arry = SortTestHelper.generateNearlyOrderedArray(10000,6);
+        Integer[] arr2 = Arrays.copyOf(arry, arry.length);
         SortTestHelper.testSort("com.yf.learning.sort.Sort", "insertionSort",arry);
 
         SortTestHelper.testSort("com.yf.learning.sort.Sort", "selectionSort",arr2);

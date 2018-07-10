@@ -101,7 +101,7 @@ public class SortTestHelper {
         }
     }
     // 测试sortClassName所对应的排序算法排序arr数组所得到结果的正确性和算法运行时间
-    public static void testSort(String sortClassName, String sortMethodByClass, Integer[] arr) {
+    public static void testSort(String sortClassName, String sortMethodByClass, Comparable[] arr) {
 
         // 通过Java的反射机制，通过排序的类名，运行排序函数
 
@@ -110,7 +110,7 @@ public class SortTestHelper {
             Class sortClass = Class.forName(sortClassName);
 
             // 通过排序函数的Class对象获得排序方法
-            Method sortMethod = sortClass.getMethod(sortMethodByClass, new Class[] { Integer[].class });
+            Method sortMethod = sortClass.getMethod(sortMethodByClass, new Class[]{Comparable[].class});
 
             // 排序参数只有一个，是可比较数组arr
             Object[] params = new Object[] { arr };

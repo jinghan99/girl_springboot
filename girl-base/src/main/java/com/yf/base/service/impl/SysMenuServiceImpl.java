@@ -37,7 +37,7 @@ public class SysMenuServiceImpl implements SysMenuService {
     @Override
     public Set<String> listUserPerms(String userId) {
         List<String> perms = sysMenuMapper.listUserPerms(userId);
-        Set<String> permsSet = new HashSet<>();
+        Set<String> permsSet = new HashSet<String>();
         for(String perm : perms) {
             if(StringUtils.isNotBlank(perm)) {
                 permsSet.addAll(Arrays.asList(perm.trim().split(",")));

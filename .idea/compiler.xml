@@ -11,6 +11,9 @@
         <module name="girl-common" />
         <module name="girl-common (1)" />
         <module name="girl-common (2)" />
+        <module name="girl-dubbo-api" />
+        <module name="girl-dubbo-consumer" />
+        <module name="girl-dubbo-provider" />
         <module name="girl-utils" />
       </profile>
     </annotationProcessing>
@@ -22,6 +25,9 @@
       <module name="girl-common (2)" target="1.8" />
       <module name="girl-core" target="1.8" />
       <module name="girl-dao" target="1.8" />
+      <module name="girl-dubbo-api" target="1.8" />
+      <module name="girl-dubbo-consumer" target="1.8" />
+      <module name="girl-dubbo-provider" target="1.8" />
       <module name="girl-entiy" target="1.8" />
       <module name="girl-service" target="1.8" />
       <module name="girl-springboot" target="1.8" />

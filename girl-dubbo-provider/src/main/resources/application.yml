@@ -1,17 +1,25 @@
 
 server:
     port: 8081
+
+#应用名称
 spring:
   dubbo:
     application:
-      name: service-provider
-    base-package: com.yf.dubbo.provide.service  # dubbo服务发布者实现类注解@service所在的包
+#注册在注册中心的名称，唯一标识，请勿重复
+      id: auth-branch
+      name: auth-branch
+#注册中心地址，zookeeper集群，启动输出可以看见链接了多个zookeeper://127.0.0.1:2181?backup=127.0.0.1:2180,127.0.0.1:2182
+#单zookeeper服务：zookeeper://127.0.0.1:2181
     registry:
-      address: 127.0.0.1                # zookeeper注册中心的地址
-      port: 2181                           # zookeeper注册中心的端口
+      address: zookeeper://127.0.0.1:2181
+#暴露服务方式
     protocol:
+      id: dubbo
+#默认名称，勿修改
       name: dubbo
-      serialization: hessian2
-    provider:
-      retries: 0                           # 服务调用重试次数，服务发布者不给重试，让服务调用者自己重试
-
+#暴露服务端口 （默认是20880，修改端口，不同的服务提供者端口不能重复）
+      port: 20881
+      status : server
+#调用dubbo组建扫描的项目路径
+    scan: com.yf.dubbo.provide.service  #服务暴露与发现消费所在的package

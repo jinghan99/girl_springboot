@@ -1,7 +1,8 @@
 package com.yf.sys.manager;
 
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.modules.sys.entity.SysMenuEntity;
+
+import com.yf.common.entity.Query;
+import com.yf.sys.entity.SysMenuEntity;
 
 import java.util.List;
 

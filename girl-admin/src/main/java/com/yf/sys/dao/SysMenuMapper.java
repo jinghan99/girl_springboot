@@ -1,6 +1,6 @@
 package com.yf.sys.dao;
 
-import net.chenlin.dp.modules.sys.entity.SysMenuEntity;
+import com.yf.sys.entity.SysMenuEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

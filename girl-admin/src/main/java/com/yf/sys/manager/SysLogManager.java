@@ -1,10 +1,10 @@
 package com.yf.sys.manager;
 
 
+import com.yf.common.entity.Page;
+import com.yf.common.entity.Query;
 import com.yf.sys.entity.SysLogEntity;
-import org.springframework.data.domain.Page;
 
-import javax.management.Query;
 import java.util.List;
 
 /**

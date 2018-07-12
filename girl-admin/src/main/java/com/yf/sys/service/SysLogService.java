@@ -1,8 +1,9 @@
 package com.yf.sys.service;
 
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.R;
-import net.chenlin.dp.modules.sys.entity.SysLogEntity;
+
+import com.yf.common.entity.Page;
+import com.yf.common.entity.R;
+import com.yf.sys.entity.SysLogEntity;
 
 import java.util.Map;
 

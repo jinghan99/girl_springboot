@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="net.chenlin.dp.modules.sys.dao.SysRoleMapper">
+<mapper namespace="com.yf.sys.dao.SysRoleMapper">
 	
-	<select id="list" resultType="net.chenlin.dp.modules.sys.entity.SysRoleEntity">
+	<select id="list" resultType="com.yf.sys.entity.SysRoleEntity">
 		SELECT
 			role_id,
 			role_name
@@ -13,7 +13,7 @@
 			role_id ASC
 	</select>
 	
-	<select id="listForPage" resultType="net.chenlin.dp.modules.sys.entity.SysRoleEntity">
+	<select id="listForPage" resultType="com.yf.sys.entity.SysRoleEntity">
 		SELECT
 			r.role_id,
 			r.org_id,
@@ -62,7 +62,7 @@
 		)
 	</insert>
 	
-	<select id="getObjectById" resultType="net.chenlin.dp.modules.sys.entity.SysRoleEntity">
+	<select id="getObjectById" resultType="com.yf.sys.entity.SysRoleEntity">
 		SELECT
 			r.role_id,
 			r.org_id,

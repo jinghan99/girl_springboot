@@ -1,9 +1,9 @@
 package com.yf.generator.dao;
 
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.modules.generator.entity.ColumnEntity;
-import net.chenlin.dp.modules.generator.entity.TableEntity;
+import com.yf.common.entity.Page;
+import com.yf.common.entity.Query;
+import com.yf.generator.entity.ColumnEntity;
+import com.yf.generator.entity.TableEntity;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

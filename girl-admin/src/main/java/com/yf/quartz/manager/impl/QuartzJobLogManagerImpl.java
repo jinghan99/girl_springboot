@@ -1,10 +1,10 @@
 package com.yf.quartz.manager.impl;
 
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.modules.quartz.dao.QuartzJobLogMapper;
-import net.chenlin.dp.modules.quartz.entity.QuartzJobLogEntity;
-import net.chenlin.dp.modules.quartz.manager.QuartzJobLogManager;
+import com.yf.common.entity.Page;
+import com.yf.common.entity.Query;
+import com.yf.quartz.dao.QuartzJobLogMapper;
+import com.yf.quartz.entity.QuartzJobLogEntity;
+import com.yf.quartz.manager.QuartzJobLogManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

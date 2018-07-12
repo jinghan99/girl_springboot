@@ -1,14 +1,14 @@
 package com.yf.sys.service.impl;
 
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.common.entity.R;
-import net.chenlin.dp.common.utils.CommonUtils;
-import net.chenlin.dp.common.utils.MD5Utils;
-import net.chenlin.dp.modules.sys.entity.SysUserEntity;
-import net.chenlin.dp.modules.sys.entity.SysUserTokenEntity;
-import net.chenlin.dp.modules.sys.manager.SysUserManager;
-import net.chenlin.dp.modules.sys.service.SysUserService;
+import com.yf.common.entity.Page;
+import com.yf.common.entity.Query;
+import com.yf.common.entity.R;
+import com.yf.common.utils.CommonUtils;
+import com.yf.common.utils.MD5Utils;
+import com.yf.sys.entity.SysUserEntity;
+import com.yf.sys.entity.SysUserTokenEntity;
+import com.yf.sys.manager.SysUserManager;
+import com.yf.sys.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

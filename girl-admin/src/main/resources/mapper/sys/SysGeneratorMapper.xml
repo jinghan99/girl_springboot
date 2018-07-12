@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="net.chenlin.dp.modules.generator.dao.SysGeneratorMapper">
+<mapper namespace="com.yf.generator.dao.SysGeneratorMapper">
 	
-	<select id="listTable" resultType="net.chenlin.dp.modules.generator.entity.TableEntity">
+	<select id="listTable" resultType="com.yf.generator.entity.TableEntity">
 		SELECT
 			table_name,
 			engine obj_name,
@@ -20,7 +20,7 @@
 			create_time DESC
 	</select>
 	
-	<select id="getTableByName" resultType="net.chenlin.dp.modules.generator.entity.TableEntity">
+	<select id="getTableByName" resultType="com.yf.generator.entity.TableEntity">
 		SELECT
 			table_name,
 			engine obj_name,
@@ -33,7 +33,7 @@
 		AND table_name = #{value}
 	</select>
 	
-	<select id="listColumn" resultType="net.chenlin.dp.modules.generator.entity.ColumnEntity">
+	<select id="listColumn" resultType="com.yf.generator.entity.ColumnEntity">
 		SELECT
 			column_name,
 			data_type,

@@ -1,13 +1,13 @@
 package com.yf.sys.manager.impl;
 
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.modules.sys.dao.SysRoleMapper;
-import net.chenlin.dp.modules.sys.dao.SysRoleMenuMapper;
-import net.chenlin.dp.modules.sys.dao.SysRoleOrgMapper;
-import net.chenlin.dp.modules.sys.dao.SysUserRoleMapper;
-import net.chenlin.dp.modules.sys.entity.SysRoleEntity;
-import net.chenlin.dp.modules.sys.manager.SysRoleManager;
+import com.yf.common.entity.Page;
+import com.yf.common.entity.Query;
+import com.yf.sys.dao.SysRoleMapper;
+import com.yf.sys.dao.SysRoleMenuMapper;
+import com.yf.sys.dao.SysRoleOrgMapper;
+import com.yf.sys.dao.SysUserRoleMapper;
+import com.yf.sys.entity.SysRoleEntity;
+import com.yf.sys.manager.SysRoleManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

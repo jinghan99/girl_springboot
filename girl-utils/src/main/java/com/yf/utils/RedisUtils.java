@@ -32,9 +32,7 @@ public class RedisUtils {
         return "ok";
     }
 
-    public Set findLikeKey(String key){
-        return redisTemplate.keys(key + "*");
-    }
+
 
 
     /**

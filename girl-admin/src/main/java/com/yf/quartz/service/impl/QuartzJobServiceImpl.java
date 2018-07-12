@@ -1,14 +1,14 @@
 package com.yf.quartz.service.impl;
 
-import net.chenlin.dp.common.constant.SystemConstant.ScheduleStatus;
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.common.entity.R;
-import net.chenlin.dp.common.utils.CommonUtils;
-import net.chenlin.dp.modules.quartz.entity.QuartzJobEntity;
-import net.chenlin.dp.modules.quartz.manager.QuartzJobManager;
-import net.chenlin.dp.modules.quartz.service.QuartzJobService;
-import net.chenlin.dp.modules.quartz.utils.ScheduleUtils;
+import com.yf.common.constant.SystemConstant;
+import com.yf.common.entity.Page;
+import com.yf.common.entity.Query;
+import com.yf.common.entity.R;
+import com.yf.common.utils.CommonUtils;
+import com.yf.quartz.entity.QuartzJobEntity;
+import com.yf.quartz.manager.QuartzJobManager;
+import com.yf.quartz.service.QuartzJobService;
+import com.yf.quartz.utils.ScheduleUtils;
 import org.quartz.CronTrigger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -58,7 +58,7 @@ public class QuartzJobServiceImpl implements QuartzJobService {
 
 	@Override
 	public R saveQuartzJob(QuartzJobEntity job) {
-		job.setStatus(ScheduleStatus.NORMAL.getValue());
+		job.setStatus(SystemConstant.ScheduleStatus.NORMAL.getValue());
 		int count = quartzJobManager.saveQuartzJob(job);
 		ScheduleUtils.createScheduleJob(job);
 		return CommonUtils.msg(count);
@@ -99,7 +99,7 @@ public class QuartzJobServiceImpl implements QuartzJobService {
 		for(Long jobId : id) {
 			ScheduleUtils.pauseJob(jobId);
 		}
-		int count = quartzJobManager.batchUpdate(id, ScheduleStatus.PAUSE.getValue());
+		int count = quartzJobManager.batchUpdate(id, SystemConstant.ScheduleStatus.PAUSE.getValue());
 		return CommonUtils.msg(id, count);
 	}
 	
@@ -108,7 +108,7 @@ public class QuartzJobServiceImpl implements QuartzJobService {
 		for(Long jobId : id) {
 			ScheduleUtils.resumeJob(jobId);
 		}
-		int count = quartzJobManager.batchUpdate(id, ScheduleStatus.NORMAL.getValue());
+		int count = quartzJobManager.batchUpdate(id, SystemConstant.ScheduleStatus.NORMAL.getValue());
 		return CommonUtils.msg(id, count);
 	}
 

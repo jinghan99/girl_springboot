@@ -1,6 +1,5 @@
 package com.yf.sys.oauth2;
 
-import com.yf.sys.plugin.ShiroUtils;
 import com.yf.sys.entity.SysUserEntity;
 import com.yf.sys.entity.SysUserTokenEntity;
 import com.yf.sys.manager.SysUserManager;

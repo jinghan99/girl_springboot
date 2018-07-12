@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="net.chenlin.dp.modules.base.dao.SysMacroMapper">
+<mapper namespace="com.yf.base.dao.SysMacroMapper">
 	
 	<select id="countMacroChildren" resultType="int">
 		SELECT
@@ -12,7 +12,7 @@
 			type_id = #{value}
 	</select>
 	
-	<select id="list" resultType="net.chenlin.dp.modules.base.entity.SysMacroEntity">
+	<select id="list" resultType="com.yf.base.entity.SysMacroEntity">
 		SELECT
 			m.macro_id,
 			m.type_id,
@@ -36,7 +36,7 @@
 			m.order_num ASC
 	</select>
 	
-	<select id="listNotMacro" resultType="net.chenlin.dp.modules.base.entity.SysMacroEntity">
+	<select id="listNotMacro" resultType="com.yf.base.entity.SysMacroEntity">
 		SELECT
 			macro_id,
 			type_id,
@@ -74,7 +74,7 @@
 		)
 	</insert>
 	
-	<select id="getObjectById" resultType="net.chenlin.dp.modules.base.entity.SysMacroEntity">
+	<select id="getObjectById" resultType="com.yf.base.entity.SysMacroEntity">
 		SELECT
 			m.macro_id,
 			m.type_id,

@@ -1,11 +1,11 @@
 package com.yf.generator.manager.impl;
 
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.modules.generator.dao.SysGeneratorMapper;
-import net.chenlin.dp.modules.generator.entity.ColumnEntity;
-import net.chenlin.dp.modules.generator.entity.TableEntity;
-import net.chenlin.dp.modules.generator.manager.SysGeneratorManager;
+import com.yf.common.entity.Page;
+import com.yf.common.entity.Query;
+import com.yf.generator.dao.SysGeneratorMapper;
+import com.yf.generator.entity.ColumnEntity;
+import com.yf.generator.entity.TableEntity;
+import com.yf.generator.manager.SysGeneratorManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

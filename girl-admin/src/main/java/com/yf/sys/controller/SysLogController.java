@@ -1,10 +1,10 @@
 package com.yf.sys.controller;
 
-import net.chenlin.dp.common.annotation.SysLog;
-import net.chenlin.dp.common.entity.Page;
-import net.chenlin.dp.common.entity.R;
-import net.chenlin.dp.modules.sys.entity.SysLogEntity;
-import net.chenlin.dp.modules.sys.service.SysLogService;
+import com.yf.common.entity.Page;
+import com.yf.common.entity.R;
+import com.yf.sys.annotation.SysLog;
+import com.yf.sys.entity.SysLogEntity;
+import com.yf.sys.service.SysLogService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,9 +1,9 @@
 package com.yf.base.manager.impl;
 
-import net.chenlin.dp.common.utils.CommonUtils;
-import net.chenlin.dp.modules.base.dao.SysMacroMapper;
-import net.chenlin.dp.modules.base.entity.SysMacroEntity;
-import net.chenlin.dp.modules.base.manager.SysMacroManager;
+import com.yf.base.dao.SysMacroMapper;
+import com.yf.base.entity.SysMacroEntity;
+import com.yf.base.manager.SysMacroManager;
+import com.yf.common.utils.CommonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

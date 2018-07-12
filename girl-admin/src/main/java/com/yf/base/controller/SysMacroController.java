@@ -1,10 +1,10 @@
 package com.yf.base.controller;
 
-import net.chenlin.dp.common.annotation.SysLog;
-import net.chenlin.dp.common.entity.R;
-import net.chenlin.dp.modules.base.entity.SysMacroEntity;
-import net.chenlin.dp.modules.base.service.SysMacroService;
-import net.chenlin.dp.modules.sys.controller.AbstractController;
+import com.yf.base.entity.SysMacroEntity;
+import com.yf.base.service.SysMacroService;
+import com.yf.common.entity.R;
+import com.yf.sys.annotation.SysLog;
+import com.yf.sys.controller.AbstractController;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

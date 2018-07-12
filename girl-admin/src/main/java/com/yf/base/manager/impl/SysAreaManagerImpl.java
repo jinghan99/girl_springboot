@@ -1,10 +1,10 @@
 package com.yf.base.manager.impl;
 
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.common.utils.CommonUtils;
-import net.chenlin.dp.modules.base.dao.SysAreaMapper;
-import net.chenlin.dp.modules.base.entity.SysAreaEntity;
-import net.chenlin.dp.modules.base.manager.SysAreaManager;
+import com.yf.base.dao.SysAreaMapper;
+import com.yf.base.entity.SysAreaEntity;
+import com.yf.base.manager.SysAreaManager;
+import com.yf.common.entity.Query;
+import com.yf.common.utils.CommonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,7 @@
 package com.yf.sys.controller;
 
-import com.yf.common.annotation.SysLog;
 import com.yf.common.entity.R;
+import com.yf.sys.annotation.SysLog;
 import com.yf.sys.entity.SysOrgEntity;
 import com.yf.sys.service.SysOrgService;
 import org.springframework.beans.factory.annotation.Autowired;

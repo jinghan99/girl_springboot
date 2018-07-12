@@ -1,9 +1,9 @@
 package com.yf.sys.controller;
 
-import net.chenlin.dp.common.annotation.SysLog;
-import net.chenlin.dp.common.entity.R;
-import net.chenlin.dp.modules.sys.entity.SysMenuEntity;
-import net.chenlin.dp.modules.sys.service.SysMenuService;
+import com.yf.common.entity.R;
+import com.yf.sys.annotation.SysLog;
+import com.yf.sys.entity.SysMenuEntity;
+import com.yf.sys.service.SysMenuService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

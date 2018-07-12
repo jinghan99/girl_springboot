@@ -1,11 +1,11 @@
 package com.yf.generator.utils;
 
-import net.chenlin.dp.common.exception.RRException;
-import net.chenlin.dp.common.utils.PropertiesUtils;
-import net.chenlin.dp.modules.generator.constant.GenConstant;
-import net.chenlin.dp.modules.generator.entity.ColumnEntity;
-import net.chenlin.dp.modules.generator.entity.GeneratorParamEntity;
-import net.chenlin.dp.modules.generator.entity.TableEntity;
+import com.yf.sys.exception.RRException;
+import com.yf.common.utils.PropertiesUtils;
+import com.yf.generator.constant.GenConstant;
+import com.yf.generator.entity.ColumnEntity;
+import com.yf.generator.entity.GeneratorParamEntity;
+import com.yf.generator.entity.TableEntity;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.WordUtils;
@@ -54,7 +54,7 @@ public class GenUtils {
 	 * 生成代码
 	 */
 	public static void generatorCode(TableEntity table, List<ColumnEntity> columns, GeneratorParamEntity params,
-			ZipOutputStream zip) {
+                                     ZipOutputStream zip) {
 
 		// 表名转换成Java类名
 

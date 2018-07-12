@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>girl-admin</artifactId>
+    <name>girl-admin</name>
+    <url>http://www.yf.com/</url>
+    <description>common常用模块</description>
+
+    <!-- 继承本项目的父工程 -->
+    <parent>
+        <artifactId>girl-springboot</artifactId>
+        <groupId>com.yf</groupId>
+        <version>1.0.0</version>
+    </parent>
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>com.yf</groupId>
+            <artifactId>girl-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+    </dependencies>
+
+
+</project>

@@ -5,6 +5,7 @@ import com.yf.base.entity.SysMacroEntity;
 
 import java.util.List;
 
+
 /**
  * 通用字典
  *

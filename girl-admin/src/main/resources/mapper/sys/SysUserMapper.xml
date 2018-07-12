@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="net.chenlin.dp.modules.sys.dao.SysUserMapper">
+<mapper namespace="com.yf.sys.dao.SysUserMapper">
 	
-	<select id="listForPage" resultType="net.chenlin.dp.modules.sys.entity.SysUserEntity">
+	<select id="listForPage" resultType="com.yf.sys.entity.SysUserEntity">
 		SELECT
 			u.user_id,
 			u.org_id,
@@ -37,7 +37,7 @@
 			u.user_id DESC
 	</select>
 	
-	<select id="getByUserName" resultType="net.chenlin.dp.modules.sys.entity.SysUserEntity">
+	<select id="getByUserName" resultType="com.yf.sys.entity.SysUserEntity">
 		SELECT
 			user_id,
 			username,
@@ -71,7 +71,7 @@
 			ur.user_id = #{userId}
 	</select>
 	
-	<insert id="save" parameterType="net.chenlin.dp.modules.sys.entity.SysUserEntity" useGeneratedKeys="true" keyProperty="userId">
+	<insert id="save" parameterType="com.yf.sys.entity.SysUserEntity" useGeneratedKeys="true" keyProperty="userId">
 		INSERT INTO sys_user (
 			username,
 			password,
@@ -94,7 +94,7 @@
 		)
 	</insert>
 	
-	<select id="getObjectById" resultType="net.chenlin.dp.modules.sys.entity.SysUserEntity">
+	<select id="getObjectById" resultType="com.yf.sys.entity.SysUserEntity">
 		SELECT
 			u.user_id,
 			u.org_id,

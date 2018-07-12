@@ -1,13 +1,13 @@
 package com.yf.sys.manager.impl;
 
-import net.chenlin.dp.common.constant.SystemConstant.MenuType;
-import net.chenlin.dp.common.entity.Query;
-import net.chenlin.dp.common.utils.CommonUtils;
-import net.chenlin.dp.modules.sys.dao.SysMenuMapper;
-import net.chenlin.dp.modules.sys.dao.SysRoleMenuMapper;
-import net.chenlin.dp.modules.sys.dao.SysUserMapper;
-import net.chenlin.dp.modules.sys.entity.SysMenuEntity;
-import net.chenlin.dp.modules.sys.manager.SysMenuManager;
+import com.yf.common.constant.SystemConstant;
+import com.yf.common.entity.Query;
+import com.yf.common.utils.CommonUtils;
+import com.yf.sys.dao.SysMenuMapper;
+import com.yf.sys.dao.SysRoleMenuMapper;
+import com.yf.sys.dao.SysUserMapper;
+import com.yf.sys.entity.SysMenuEntity;
+import com.yf.sys.manager.SysMenuManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -59,7 +59,7 @@ public class SysMenuManagerImpl implements SysMenuManager {
 		List<SysMenuEntity> subMenuList = new ArrayList<SysMenuEntity>();
 		
 		for(SysMenuEntity entity : menuList){
-			if(entity.getType() == MenuType.CATALOG.getValue()){//目录
+			if(entity.getType() == SystemConstant.MenuType.CATALOG.getValue()){//目录
 				entity.setList(getMenuTreeList(listParentId(entity.getMenuId(), menuIdList), menuIdList));
 			}
 			subMenuList.add(entity);

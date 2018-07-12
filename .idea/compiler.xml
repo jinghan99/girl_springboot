@@ -9,13 +9,17 @@
         <module name="girl-admin" />
         <module name="girl-base" />
         <module name="girl-common" />
+        <module name="girl-common (1)" />
+        <module name="girl-common (2)" />
         <module name="girl-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="girl-admin" target="1.8" />
-      <module name="girl-base" target="1.6" />
+      <module name="girl-base" target="1.8" />
       <module name="girl-common" target="1.8" />
+      <module name="girl-common (1)" target="1.8" />
+      <module name="girl-common (2)" target="1.8" />
       <module name="girl-core" target="1.8" />
       <module name="girl-dao" target="1.8" />
       <module name="girl-entiy" target="1.8" />

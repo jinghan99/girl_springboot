@@ -1,4 +1,4 @@
-package com.yf.dubbo.consumer;
+package com.yf.dubbo.api;
 
 import com.yf.dubbo.entiy.User;
 

@@ -1,8 +1,8 @@
-package com.yf.dubbo.provideService.impl;
+package com.yf.dubbo.provide.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.yf.dubbo.api.TestService;
 import com.yf.dubbo.entiy.User;
-import com.yf.dubbo.consumer.TestService;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -5,8 +5,8 @@ server:
 spring:
   dubbo:
     application:
-      name: demo-consumer
-    base-package: com.yf.dubbo.consumer  # dubbo服务调用者所在的包
+      name: dubbo-consumer
+    base-package: com.yf.dubbo.consumer.service  # dubbo服务调用者所在的包
     registry:
       address: 127.0.0.1                   # zookeeper注册中心的地址
       port: 2181                           # zookeeper注册中心的端口

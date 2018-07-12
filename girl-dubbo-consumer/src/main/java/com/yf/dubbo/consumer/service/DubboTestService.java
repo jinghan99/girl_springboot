@@ -1,6 +1,7 @@
-package com.yf.dubbo.consumer;
+package com.yf.dubbo.consumer.service;
 
 import com.alibaba.dubbo.config.annotation.Reference;
+import com.yf.dubbo.api.TestService;
 import com.yf.dubbo.entiy.User;
 import org.springframework.stereotype.Component;
 

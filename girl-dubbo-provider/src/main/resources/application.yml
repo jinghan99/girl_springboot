@@ -5,7 +5,7 @@ spring:
   dubbo:
     application:
       name: service-provider
-    base-package: com.yf.dubbo.provideService.impl  # dubbo服务发布者实现类注解@service所在的包
+    base-package: com.yf.dubbo.provide.service  # dubbo服务发布者实现类注解@service所在的包
     registry:
       address: 127.0.0.1                # zookeeper注册中心的地址
       port: 2181                           # zookeeper注册中心的端口

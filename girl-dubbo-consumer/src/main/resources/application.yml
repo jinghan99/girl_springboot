@@ -2,16 +2,12 @@ server:
   port: 8085
 
 
+## Dubbo 服务消费者配置
 spring:
   dubbo:
     application:
-      name: dubbo-consumer
-    base-package: com.yf.dubbo.consumer.service  # dubbo服务调用者所在的包
+      name: consumer
     registry:
-      address: 127.0.0.1                   # zookeeper注册中心的地址
-      port: 2181                           # zookeeper注册中心的端口
-    consumer:
-      timeout: 1000
-      check: true                          # 服务启动时检查被调用服务是否可用
-
+      address: zookeeper://127.0.0.1:2181
+  scan: com.yf.dubbo.consumer.service
 

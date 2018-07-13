@@ -7,19 +7,16 @@ spring:
   dubbo:
     application:
 #注册在注册中心的名称，唯一标识，请勿重复
-      id: auth-branch
-      name: auth-branch
-#注册中心地址，zookeeper集群，启动输出可以看见链接了多个zookeeper://127.0.0.1:2181?backup=127.0.0.1:2180,127.0.0.1:2182
+      name: provice
 #单zookeeper服务：zookeeper://127.0.0.1:2181
     registry:
       address: zookeeper://127.0.0.1:2181
 #暴露服务方式
     protocol:
-      id: dubbo
 #默认名称，勿修改
       name: dubbo
 #暴露服务端口 （默认是20880，修改端口，不同的服务提供者端口不能重复）
-      port: 20881
-      status : server
+      port: 20880
 #调用dubbo组建扫描的项目路径
     scan: com.yf.dubbo.provide.service  #服务暴露与发现消费所在的package
+

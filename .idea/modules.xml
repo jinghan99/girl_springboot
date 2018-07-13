@@ -5,8 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/girl-admin/girl-admin.iml" filepath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-base/girl-base.iml" filepath="$PROJECT_DIR$/girl-base/girl-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-common/girl-common.iml" filepath="$PROJECT_DIR$/girl-common/girl-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/girl-admin/girl-common (1).iml" filepath="$PROJECT_DIR$/girl-admin/girl-common (1).iml" />
-      <module fileurl="file://$PROJECT_DIR$/girl-common/girl-common (2).iml" filepath="$PROJECT_DIR$/girl-common/girl-common (2).iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" filepath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" filepath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" filepath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" />

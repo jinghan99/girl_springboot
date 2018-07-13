@@ -4,10 +4,13 @@ server:
 
 ## Dubbo 服务消费者配置
 spring:
-  dubbo:
-    application:
-      name: consumer
-    registry:
-      address: zookeeper://127.0.0.1:2181
-  scan: com.yf.dubbo.consumer.service
-
+    dubbo:
+        application:
+            name: dubbo-consumer # 服务名称
+        registry:
+            address: zookeeper://127.0.0.1:2181 # zookeeper所在服务器的IP和端口号
+        scan: com.yf.dubbo.controller # 引用服务的路径(扫描dubbo的@Service注解范围，如果在范围之外，会报空指针错误)
+        consumer:
+            timeout: 1000
+            check: true # 服务启动时检查被调用服务是否可用
+            retries: 2  # 服务调用重试次数

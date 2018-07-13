@@ -4,19 +4,14 @@ server:
 
 #应用名称
 spring:
-  dubbo:
-    application:
-#注册在注册中心的名称，唯一标识，请勿重复
-      name: provice
-#单zookeeper服务：zookeeper://127.0.0.1:2181
-    registry:
-      address: zookeeper://127.0.0.1:2181
-#暴露服务方式
-    protocol:
-#默认名称，勿修改
-      name: dubbo
-#暴露服务端口 （默认是20880，修改端口，不同的服务提供者端口不能重复）
-      port: 20880
-#调用dubbo组建扫描的项目路径
-    scan: com.yf.dubbo.provide.service  #服务暴露与发现消费所在的package
-
+    dubbo:
+          application:
+              name: dubbo-provider # 本服务的名称
+          registry:
+              address: zookeeper://127.0.0.1:2181 # ZooKeeper所在服务器的IP和端口号
+          protocol:
+              name: dubbo # RPC通信所采用的协议
+              port: 20880 # 本服务对外暴露的端口号
+          scan: com.yf.dubbo.provide.service # 服务实现类所在的路径
+          provider:
+              retries: 0  # 服务调用重试次数，服务发布者不给重试，让服务调用者自己重试

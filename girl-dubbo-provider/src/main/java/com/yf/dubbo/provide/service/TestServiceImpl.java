@@ -16,7 +16,7 @@ import java.util.Date;
  *
  * 代码里的@Service注解是com.alibaba.dubbo.config.annotation.Service的。
  */
-@Service()
+@Service(version = "1.0.0")
 public class TestServiceImpl implements TestService {
     @Override
     public String sayHello(String str) {

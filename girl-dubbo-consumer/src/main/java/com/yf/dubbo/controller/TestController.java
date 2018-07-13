@@ -1,7 +1,7 @@
 package com.yf.dubbo.controller;
 
-import com.yf.dubbo.consumer.service.DubboTestService;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.alibaba.dubbo.config.annotation.Reference;
+import com.yf.dubbo.api.TestService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,11 +17,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class TestController {
 
-    @Autowired
-    private DubboTestService dubboTestService;
+    @Reference(version = "1.0.0")
+    public TestService testService;
 
     @RequestMapping(value = "hello",method = RequestMethod.GET)
     public String Hello(){
-        return dubboTestService.hello();
+        return testService.sayHello("hellohello");
     }
 }

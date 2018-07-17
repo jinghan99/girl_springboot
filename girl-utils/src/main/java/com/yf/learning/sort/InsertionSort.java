@@ -46,12 +46,12 @@ public class InsertionSort {
         arr[j] = t;
     }
     // 测试InsertionSort
-    public static void main(String[] args) {
-
-        int N = 10000;
-        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
-        SortTestHelper.testSort("com.yf.learning.sort.InsertionSort", arr);
-
-        return;
-    }
+//    public static void main(String[] args) {
+//
+//        int N = 10000;
+//        Integer[] arr = SortTestHelper.generateRandomArray(N, 0, 100000);
+//        SortTestHelper.testSort("com.yf.learning.sort.InsertionSort", arr);
+//
+//        return;
+//    }
 }

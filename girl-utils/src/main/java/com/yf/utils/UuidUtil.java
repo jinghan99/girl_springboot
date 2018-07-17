@@ -29,17 +29,17 @@ public class UuidUtil {
 		return r.nextInt(10)+ DateUtil.getMillis().substring(10, 12)+(t.nextInt(8999) + 1000);
 	}
 	
-	public static void main(String[] args) {
-		//System.out.println(get32UUID());
-		for(int i=0;i<10;i++){
-			System.out.println(UuidUtil.get6ORID());
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
-	}
+//	public static void main(String[] args) {
+//		//System.out.println(get32UUID());
+//		for(int i=0;i<10;i++){
+//			System.out.println(UuidUtil.get6ORID());
+//			try {
+//				Thread.sleep(1000);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+//	}
 }
 

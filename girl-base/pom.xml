@@ -6,9 +6,8 @@
 	<groupId>com.yf</groupId>
 	<artifactId>girl-base</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
 
-	<name>girl-core</name>
+	<name>girl-base</name>
 	<description>Demo project for Spring Boot</description>
 
     <!-- 继承本项目的父工程 -->

@@ -337,10 +337,10 @@ public class Tools {
         return verifyCode;  
     }  
 	
-	public static void main(String[] args) {
-		boolean flag = checkMobileNumber("17736835963");
-		
-		System.out.println(flag);
-	}
+//	public static void main(String[] args) {
+//		boolean flag = checkMobileNumber("17736835963");
+//
+//		System.out.println(flag);
+//	}
 	
 }

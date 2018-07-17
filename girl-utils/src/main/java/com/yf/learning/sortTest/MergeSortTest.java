@@ -13,11 +13,11 @@ import java.util.Arrays;
  */
 public class MergeSortTest {
 
-    public static void main(String args[]) {
-        Integer[]  arry = SortTestHelper.generateNearlyOrderedArray(10000,2);
-        Integer[] arr2 = Arrays.copyOf(arry, arry.length);
-        SortTestHelper.testSort("com.yf.learning.sortTest.MergeSortTest", "sort",arr2);
-    }
+//    public static void main(String args[]) {
+//        Integer[]  arry = SortTestHelper.generateNearlyOrderedArray(10000,2);
+//        Integer[] arr2 = Arrays.copyOf(arry, arry.length);
+//        SortTestHelper.testSort("com.yf.learning.sortTest.MergeSortTest", "sort",arr2);
+//    }
 
     //外调借口
     public static void sort(Comparable[] arr) {

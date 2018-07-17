@@ -19,8 +19,8 @@ import java.util.Map;
 import java.util.Set;
 
 public class JSONUtils {
-	public static void main(String[] args) {
-	}
+//	public static void main(String[] args) {
+//	}
 
 	public static String bean2json(Object bean) {
 		Gson gson = new GsonBuilder().registerTypeAdapter(java.sql.Date.class, new SQLDateSerializer())

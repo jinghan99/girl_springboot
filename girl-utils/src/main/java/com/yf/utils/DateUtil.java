@@ -185,19 +185,19 @@ public class DateUtil {
         return String.valueOf(afterTime.getDayOfWeek());
     }
     
-    public static void main(String[] args) {
-    	try {
-    		String time =  "2017-12-11 03:21:31";
-    		DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss");  
-    		DateTime dateTime = DateTime.parse(time, format);
-    		DateTime dateTime1 = DateTime.now();
-        	DateTime afterTime = dateTime1.plusDays(Integer.parseInt("4"));
-        	
-    		System.out.println(afterTime.getDayOfWeek());
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-    }
+//    public static void main(String[] args) {
+//    	try {
+//    		String time =  "2017-12-11 03:21:31";
+//    		DateTimeFormatter format = DateTimeFormat.forPattern("yyyy-MM-dd HH:mm:ss");
+//    		DateTime dateTime = DateTime.parse(time, format);
+//    		DateTime dateTime1 = DateTime.now();
+//        	DateTime afterTime = dateTime1.plusDays(Integer.parseInt("4"));
+//
+//    		System.out.println(afterTime.getDayOfWeek());
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//    }
 
 }

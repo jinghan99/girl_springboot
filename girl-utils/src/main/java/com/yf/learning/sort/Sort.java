@@ -1,9 +1,6 @@
 package com.yf.learning.sort;
 
 
-import java.util.Arrays;
-
-
 /**
  * @ClassName
  * @Description 排序算法
@@ -73,14 +70,14 @@ public class Sort {
             arr[j] =e;
         }
     }
-    public static void main(String args[]) {
-        Integer[]  arry = SortTestHelper.generateNearlyOrderedArray(10000,6);
-        Integer[] arr2 = Arrays.copyOf(arry, arry.length);
-        SortTestHelper.testSort("com.yf.learning.sort.Sort", "insertionSort",arry);
-
-        SortTestHelper.testSort("com.yf.learning.sort.Sort", "selectionSort",arr2);
-
-
-
-    }
+//    public static void main(String args[]) {
+//        Integer[]  arry = SortTestHelper.generateNearlyOrderedArray(10000,6);
+//        Integer[] arr2 = Arrays.copyOf(arry, arry.length);
+//        SortTestHelper.testSort("com.yf.learning.sort.Sort", "insertionSort",arry);
+//
+//        SortTestHelper.testSort("com.yf.learning.sort.Sort", "selectionSort",arr2);
+//
+//
+//
+//    }
 }

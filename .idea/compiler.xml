@@ -15,6 +15,7 @@
         <module name="girl-dubbo-consumer" />
         <module name="girl-dubbo-provider" />
         <module name="girl-utils" />
+        <module name="girl-webmagic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,6 +34,7 @@
       <module name="girl-springboot" target="1.8" />
       <module name="girl-utils" target="1.8" />
       <module name="girl-web" target="1.8" />
+      <module name="girl-webmagic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

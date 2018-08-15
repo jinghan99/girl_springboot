@@ -16,18 +16,18 @@ spring:
         type: com.alibaba.druid.pool.DruidDataSource
         driverClassName: com.mysql.jdbc.Driver
         druid:
-#            masterDataSource:  #主库数据源
-#              url: jdbc:mysql://localhost:3306/yfzero?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
-#              username: root
-#              password: 123456
-#            slaveDataSource:  #从库数据源
-#              url: jdbc:mysql://localhost:3306/yfzero?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
-#              username: root
-#              password: 123456
+            masterDataSource:  #主库数据源
+              url: jdbc:mysql://localhost:3306/yfzero?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+              username: root
+              password: 123456
+            slaveDataSource:  #从库数据源
+              url: jdbc:mysql://localhost:3306/yfzero?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+              username: root
+              password: 123456
 
-            url: jdbc:mysql://47.104.219.199:3306/yfzero?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
-            username: root
-            password: uAiqwVwjJ8-i
+#            url: jdbc:mysql://47.104.219.199:3306/yfzero?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8
+#            username: root
+#            password: uAiqwVwjJ8-i
 
             initial-size: 10
             max-active: 100

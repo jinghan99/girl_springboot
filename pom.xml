@@ -56,6 +56,7 @@
         <velocity-version>1.7</velocity-version>
         <spring-boot-dubbo-version>1.0.0</spring-boot-dubbo-version>
         <zookeeper-version>3.4.6</zookeeper-version>
+        <docker.image.prefix>springboot</docker.image.prefix>
     </properties>
 
     <dependencies>
@@ -233,4 +234,13 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 </project>

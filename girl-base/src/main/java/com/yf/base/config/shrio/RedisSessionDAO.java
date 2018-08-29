@@ -6,10 +6,8 @@ import org.apache.shiro.session.mgt.eis.EnterpriseCacheSessionDAO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
 
-import javax.annotation.Resource;
 import java.io.Serializable;
 import java.util.Collection;
 import java.util.HashSet;
@@ -47,6 +45,8 @@ public class RedisSessionDAO extends EnterpriseCacheSessionDAO {
 //        System.out.println("RedisSessionDao doCreate() ---------------------------->" + session.getId());
         Serializable sessionId = super.doCreate(session);
 //        logger.debug("创建session:{}", session.getId());
+
+
         redisTemplate.opsForValue().set(sessionPrefix + sessionId, session);
         return sessionId;
     }

@@ -6,9 +6,291 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
+    <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="新增 docker 部署">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-admin/src/main/resources/application-prod.yml" afterPath="$PROJECT_DIR$/girl-admin/src/main/resources/application-prod.yml" />
+      <change beforePath="$PROJECT_DIR$/girl-admin/girl-admin.iml" afterPath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-base/girl-base.iml" afterPath="$PROJECT_DIR$/girl-base/girl-base.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/application-dev.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/GirlWebApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/ConfigBeans.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/redis/RedisCache.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/redis/RedisCacheManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/RedisSessionDAO.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/ShiroConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/ShiroSessionManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/ShiroUtils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/controller/sys/IndexSysController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/controller/sys/LoginSysController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/BaseMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/SysRoleMenuMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/SysUserMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/SysUserRoleMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/Page.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/Query.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/R.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/SysMenuEntity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/SysRoleEntity.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/SysMenuService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/SysUserRoleService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/impl/SysMenuServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/impl/SysRoleServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/logback-spring.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysMenuMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysRoleMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysRoleMenuMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysUserMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysUserRoleMapper.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mybatis-config.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/layui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/layer.css~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/font/iconfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/font/iconfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/font/iconfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/11.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/12.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/18.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/19.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/20.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/22.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/23.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/24.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/27.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/28.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/29.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/31.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/32.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/33.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/35.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/36.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/38.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/39.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/40.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/41.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/42.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/47.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/49.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/50.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/51.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/53.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/56.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/57.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/60.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/61.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/62.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/64.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/65.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/66.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/67.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/69.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/70.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/71.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/code.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/element.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/flow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/form.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/laydate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/layedit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/layer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/laypage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/laytpl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/mobile.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/table.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/tree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/upload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/layui.all.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/layui.js~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/layui.js~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/css/public.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/favicon.ico" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/alipay.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/face.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/fly.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/git.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/layui.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/login_bg.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/mayun.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/wechat.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/address.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/bodyTab.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/cache.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/images.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/linkList.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/linkLogo.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/logs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/navs.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/newsImg.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/newsList.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/systemParameter.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/userGrade.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/userList.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/layui.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/layui.mobile.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/code.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.ttf~HEAD_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.ttf~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.ttf~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/0.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/10.gif~HEAD_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/10.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/10.gif~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/13.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/14.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/14.gif~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/15.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/15.gif~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/16.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/17.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/18.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/19.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/20.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/21.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/22.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/25.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/26.gif~HEAD_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/26.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/26.gif~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/28.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/29.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/30.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/31.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/33.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/34.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/35.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/36.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/37.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/38.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/40.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/41.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/42.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/43.gif~HEAD_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/43.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/43.gif~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/44.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/44.gif~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/45.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/46.gif~HEAD_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/46.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/46.gif~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/47.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/48.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/48.gif~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/49.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/50.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/51.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/52.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/52.gif~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/54.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/55.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/55.gif~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/56.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/58.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/59.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/59.gif~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/62.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/63.gif~HEAD_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/63.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/63.gif~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/64.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/65.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/66.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/67.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/68.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/68.gif~HEAD" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/70.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/71.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/9.gif~HEAD_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/9.gif~origin_master" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/9.gif~origin_master_0" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/code.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/element.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/flow.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/jquery.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/laydate.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/layer.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/laypage.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/laytpl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/tree.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/upload.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/util.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/layui.all.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/layui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/doc/addressDoc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/doc/navDoc.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/img/images.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/img/images.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/login/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/news/newsAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/news/newsList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/news/newsList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/basicParameter.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/basicParameter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/icons.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/linkList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/linksAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/logs.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/changePwd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/user.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userAdd.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userAdd.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userGrade.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userInfo.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userList.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userList.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/css/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/js/base/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/js/jquery-2.1.4.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/base/error/404.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/base/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/common/common_footer.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/common/common_head.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-common/girl-common.iml" afterPath="$PROJECT_DIR$/girl-common/girl-common.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" afterPath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" afterPath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" afterPath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-springboot.iml" afterPath="$PROJECT_DIR$/girl-springboot.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-utils/girl-utils.iml" afterPath="$PROJECT_DIR$/girl-utils/girl-utils.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-utils/target/classes/com/yf/utils/JSONUtils$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-utils/target/classes/com/yf/utils/Utils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" afterPath="$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,110 +358,7 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataSourceAspect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-admin/src/main/java/com/yf/sys/aspect/DataSourceAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-              <folding>
-                <element signature="e#712#713#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsumerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/ConsumerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProviderApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/ProviderApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-api/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/api/TestService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/entiy/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -390,9 +569,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -400,220 +576,19 @@
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="entiy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="dubbo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="F:/BaiduNetdiskDownload/dp-BOOT-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -880,7 +855,8 @@
       <workItem from="1534324849762" duration="599000" />
       <workItem from="1534381738909" duration="2927000" />
       <workItem from="1534466552423" duration="569000" />
-      <workItem from="1535076818438" duration="1815000" />
+      <workItem from="1535076818438" duration="1856000" />
+      <workItem from="1535510256353" duration="114000" />
     </task>
     <task id="LOCAL-00001" summary="更新 hrio">
       <created>1525341848180</created>
@@ -1085,7 +1061,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534324170410</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="新增 docker 部署">
+      <created>1535079487219</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1535079487219</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1121,7 +1104,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263885000" />
+    <option name="totallyTimeSpent" value="264040000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1140,37 +1123,37 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10927505" sideWeight="0.49430895" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18230277" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11727079" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18630752" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40852973" sideWeight="0.48720682" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.49573562" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24242425" sideWeight="0.7137527" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28619528" sideWeight="0.74413645" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28619528" sideWeight="0.74413645" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24134079" sideWeight="0.7137527" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.029180696" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45117846" sideWeight="0.9211087" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21055438" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34861407" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4914712" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Compute Code Lines" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.073027715" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40852973" sideWeight="0.48720682" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50569105" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30490404" sideWeight="0.22222222" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Compute Code Lines" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1661055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1334,7 +1317,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1349,7 +1331,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-785">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,7 +1359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1429,7 +1409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1437,7 +1416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1487,7 +1465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1500,7 +1477,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-admin/src/main/java/com/yf/sys/aspect/DataSourceAspect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="713">
           <caret line="44" column="56" lean-forward="false" selection-start-line="44" selection-start-column="56" selection-end-line="44" selection-end-column="56" />
           <folding />
         </state>
@@ -1516,7 +1493,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="437">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
@@ -1532,7 +1509,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/api/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="253">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
@@ -1540,7 +1517,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/entiy/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
@@ -1548,7 +1525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/ConsumerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="368">
           <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
@@ -1556,7 +1533,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="1541">
           <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
@@ -1564,7 +1541,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/ProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="437">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
         </state>
@@ -1572,10 +1549,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="2" lean-forward="false" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        <state relative-caret-position="299">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
           <folding>
-            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
           </folding>
         </state>
       </provider>

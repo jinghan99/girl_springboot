@@ -6,291 +6,45 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="新增 docker 部署">
+    <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_gitee_reger_spring_boot_starter_dubbo_1_0_9.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_1_5_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/dubbo/api/HelloService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/DubboConsumerApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/controller/ApiController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/service/HelloServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-consumer/src/main/resources/application.properties" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/DubboProviderApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/dubbo/producer/service/HelloServiceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_5_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_dubbo_springboot_spring_boot_starter_dubbo_1_0_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_7_0_Final.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/girl-admin/girl-admin.iml" afterPath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
       <change beforePath="$PROJECT_DIR$/girl-base/girl-base.iml" afterPath="$PROJECT_DIR$/girl-base/girl-base.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/application-dev.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/GirlWebApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/ConfigBeans.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/redis/RedisCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/redis/RedisCacheManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/RedisSessionDAO.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/ShiroConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/ShiroSessionManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/config/shrio/ShiroUtils.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/controller/sys/IndexSysController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/controller/sys/LoginSysController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/BaseMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/SysRoleMenuMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/SysUserMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/dao/SysUserRoleMapper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/Page.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/Query.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/SysMenuEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/entiy/SysRoleEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/SysMenuService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/SysUserRoleService.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/impl/SysMenuServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/com/yf/base/service/impl/SysRoleServiceImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/logback-spring.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysMenuMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysRoleMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysRoleMenuMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysUserMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mapper/SysUserRoleMapper.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/mybatis/mybatis-config.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/layui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/layer.css~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/font/iconfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/font/iconfont.ttf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/font/iconfont.woff" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/11.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/12.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/18.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/19.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/20.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/22.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/23.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/24.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/27.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/28.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/29.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/3.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/31.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/32.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/33.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/35.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/36.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/38.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/39.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/4.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/40.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/41.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/42.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/47.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/49.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/5.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/50.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/51.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/53.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/56.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/57.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/6.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/60.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/61.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/62.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/64.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/66.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/67.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/69.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/7.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/70.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/images/face/71.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/code.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/flow.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/form.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/laydate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/layedit.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/laypage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/laytpl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/mobile.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/table.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/tree.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/upload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/lay/modules/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/layui.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/layui.js~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layui/layui.js~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/css/index.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/css/public.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/favicon.ico" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/alipay.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/close.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/face.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/fly.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/git.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/layui.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/login_bg.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/mayun.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface1.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface2.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface3.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface4.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/userface5.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/images/wechat.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/address.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/bodyTab.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/cache.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/js/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/images.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/linkList.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/linkLogo.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/logs.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/navs.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/newsImg.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/newsList.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/systemParameter.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/userGrade.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/json/userList.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/layui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/layui.mobile.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/code.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/icon-ext.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/icon.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/loading-0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/css/modules/layer/default/loading-1.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.eot" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.ttf~HEAD_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.ttf~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/font/iconfont.ttf~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/0.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/10.gif~HEAD_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/10.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/10.gif~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/13.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/14.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/14.gif~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/15.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/15.gif~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/16.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/17.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/18.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/19.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/2.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/20.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/21.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/22.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/25.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/26.gif~HEAD_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/26.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/26.gif~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/28.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/29.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/3.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/30.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/31.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/33.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/34.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/35.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/36.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/37.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/38.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/4.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/40.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/41.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/42.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/43.gif~HEAD_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/43.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/43.gif~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/44.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/44.gif~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/45.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/46.gif~HEAD_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/46.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/46.gif~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/47.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/48.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/48.gif~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/49.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/50.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/51.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/52.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/52.gif~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/54.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/55.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/55.gif~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/56.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/58.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/59.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/59.gif~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/6.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/62.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/63.gif~HEAD_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/63.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/63.gif~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/64.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/65.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/66.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/67.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/68.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/68.gif~HEAD" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/7.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/70.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/71.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/8.gif" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/9.gif~HEAD_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/9.gif~origin_master" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/images/face/9.gif~origin_master_0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/carousel.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/code.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/element.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/flow.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/jquery.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/laydate.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/layer.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/laypage.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/laytpl.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/tree.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/upload.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/lay/modules/util.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/layui.all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/layui/layui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/doc/addressDoc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/doc/navDoc.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/img/images.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/img/images.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/login/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/news/newsAdd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/news/newsList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/news/newsList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/basicParameter.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/basicParameter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/icons.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/linkList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/linksAdd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/systemSetting/logs.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/changePwd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/user.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userAdd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userAdd.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userGrade.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userInfo.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userList.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/Plugin/layuicms2.0/page/user/userList.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/css/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/js/base/login.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/static/js/jquery-2.1.4.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/base/error/404.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/base/login.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/common/common_footer.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/common/common_head.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-base/target/classes/templates/sys/index.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/girl-common/girl-common.iml" afterPath="$PROJECT_DIR$/girl-common/girl-common.iml" />
       <change beforePath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" afterPath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/api/TestService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/entiy/User.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" afterPath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-consumer/pom.xml" afterPath="$PROJECT_DIR$/girl-dubbo-consumer/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/ConsumerApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/controller/TestController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-consumer/src/main/resources/application.yml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" afterPath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-provider/pom.xml" afterPath="$PROJECT_DIR$/girl-dubbo-provider/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/ProviderApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/provide/service/TestServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/application.yml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/girl-springboot.iml" afterPath="$PROJECT_DIR$/girl-springboot.iml" />
       <change beforePath="$PROJECT_DIR$/girl-utils/girl-utils.iml" afterPath="$PROJECT_DIR$/girl-utils/girl-utils.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-utils/target/classes/com/yf/utils/JSONUtils$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-utils/target/classes/com/yf/utils/Utils.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/RuntimeConstantPoolOOM.java" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/RuntimeConstantPoolOOM.java" />
       <change beforePath="$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" afterPath="$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -358,7 +112,68 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DubboProviderApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/DubboProviderApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DubboConsumerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/DubboConsumerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/controller/ApiController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/service/HelloServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <folding>
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -424,14 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/girl-admin/src/main/resources/mapper/sys/SysMenuMapper.xml" />
-        <option value="$PROJECT_DIR$/girl-admin/src/main/resources/mapper/sys/SysOrgMapper.xml" />
-        <option value="$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/controller/sys/LoginSysController.java" />
-        <option value="$PROJECT_DIR$/girl-admin/src/main/java/com/yf/sys/entity/SysLogEntity.java" />
-        <option value="$PROJECT_DIR$/girl-admin/src/main/java/com/yf/sys/aspect/SysLogAspect.java" />
-        <option value="$PROJECT_DIR$/girl-admin/src/main/resources/mapper/sys/SysLogMapper.xml" />
-        <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/utils/RedisUtils.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/User.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/entiy/User.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/service/TestService.java" />
@@ -442,7 +249,6 @@
         <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/service/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/config/spring-dubbo.xml" />
         <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/resources/config/spring-dubbo.xml" />
-        <option value="$PROJECT_DIR$/girl-dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/service/DubboTestService.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/consumer/DubboTestService.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/consumer/service/TestService.java" />
@@ -453,12 +259,9 @@
         <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/provide/impl/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-dubbo-consumer/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/ConsumerApplication.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/ProviderApplication.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/provide/service/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/controller/TestController.java" />
         <option value="$PROJECT_DIR$/girl-base/pom.xml" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/Tools.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/DateUtil.java" />
@@ -469,12 +272,24 @@
         <option value="$PROJECT_DIR$/girl-admin/src/main/resources/templates/index_tab.html" />
         <option value="$PROJECT_DIR$/girl-admin/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/girl-webmagic/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/RuntimeConstantPoolOOM.java" />
         <option value="$PROJECT_DIR$/girl-admin/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/girl-admin/src/main/docker/Dockerfile" />
         <option value="$PROJECT_DIR$/girl-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/girl-admin/src/main/resources/application-prod.yml" />
+        <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/ConsumerApplication.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-api/src/main/java/java/com/dubbo/api/HelloService.java" />
+        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/RuntimeConstantPoolOOM.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/java/com/dubbo/consumer/controller/ApiController.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/DubboProviderApplication.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/dubbo/producer/service/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/service/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/dubbo/api/HelloService.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/controller/ApiController.java" />
+        <option value="$PROJECT_DIR$/girl-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -562,7 +377,7 @@
       <showLibraryContents />
       <hideEmptyPackages />
       <abbreviatePackageNames />
-      <autoscrollToSource />
+      <autoscrollToSource ProjectPane="false" />
       <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
@@ -576,6 +391,169 @@
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-dubbo-provider" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -588,7 +566,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/github_dowload/spring-boot-quick-master" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -598,34 +576,34 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3770115" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="JPA.DatabaseSchemaImportDialog" value="45974a0b-58d5-4f2b-b2ac-18095f19c728" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="java.com.dubbo.api" />
       <recent name="com.yf.dubbo.api" />
       <recent name="com.yf.dubbo.provideService.impl" />
       <recent name="com.yf.common.utils" />
       <recent name="com.yf.sys.aspect" />
-      <recent name="com.yf.sys.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-consumer\src\main\java" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-consumer\src\main\resources" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\resources" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-consumer\src\main\java" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java" />
       <recent name="F:\workspace\ideaGit\girl_springboot\doc" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,32 +618,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.DubboConsumerApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="GirlApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yf.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yf.GirlApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="girl-admin" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -708,10 +667,26 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yf.dubbo.ConsumerApplication" />
+    <configuration name="DubboConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.DubboConsumerApplication" />
       <module name="girl-dubbo-consumer" />
+      <envs />
+    </configuration>
+    <configuration name="DubboProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.DubboProviderApplication" />
+      <module name="girl-dubbo-provider" />
       <envs />
     </configuration>
     <configuration name="GirlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -724,12 +699,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yf.GirlWebApplication" />
       <module name="girl-base" />
-      <envs />
-    </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yf.dubbo.ProviderApplication" />
-      <module name="girl-dubbo-provider" />
       <envs />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -765,16 +734,16 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.ProviderApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.GirlApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.ConsumerApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.GirlWebApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GirlApplication" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.DubboProviderApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.DubboConsumerApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.GirlWebApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.GirlApplication" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.GirlApplication" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Spring Boot.DubboConsumerApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Spring Boot.DubboProviderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -856,7 +825,7 @@
       <workItem from="1534381738909" duration="2927000" />
       <workItem from="1534466552423" duration="569000" />
       <workItem from="1535076818438" duration="1856000" />
-      <workItem from="1535510256353" duration="114000" />
+      <workItem from="1535510256353" duration="2756000" />
     </task>
     <task id="LOCAL-00001" summary="更新 hrio">
       <created>1525341848180</created>
@@ -1068,7 +1037,14 @@
       <option name="project" value="LOCAL" />
       <updated>1535079487219</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="新增 docker 部署">
+      <created>1535510386219</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1535510386219</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1104,7 +1080,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264040000" />
+    <option name="totallyTimeSpent" value="266682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1127,17 +1103,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11727079" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18630752" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45363128" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40852973" sideWeight="0.48720682" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.49573562" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28619528" sideWeight="0.74413645" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24134079" sideWeight="0.7137527" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.062569834" sideWeight="0.74413645" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.7137527" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.029180696" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45117846" sideWeight="0.9211087" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34861407" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4914712" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1149,7 +1126,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.073027715" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40852973" sideWeight="0.48720682" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18443497" sideWeight="0.50569105" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30490404" sideWeight="0.22222222" order="8" side_tool="true" content_ui="tabs" />
@@ -1178,134 +1154,28 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/provide/service/TestServiceImpl.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/dubbo/producer/service/HelloServiceImpl.java</url>
+          <line>11</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="87" />
+      <option name="time" value="90" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/girl-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="32" lean-forward="false" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/java/com/yf/quartz/config/QuartzConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/java/com/yf/quartz/controller/QuartzJobController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/java/com/yf/quartz/controller/QuartzJobLogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/java/com/yf/quartz/dao/QuartzJobLogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/mapper/quartz/QuartzJobLogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/mapper/quartz/QuartzJobMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="49" column="17" lean-forward="false" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/yfzero.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="28" column="113" lean-forward="false" selection-start-line="28" selection-start-column="113" selection-end-line="28" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/templates/include/header_css.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/templates/include/footer_js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/templates/index_tab.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1896">
-          <caret line="79" column="13" lean-forward="true" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/repository/com/yf/girl-springboot/1.0.0/girl-springboot-1.0.0.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="59" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-webmagic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/RuntimeConstantPoolOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/application-test.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1317,6 +1187,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,6 +1202,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-785">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,6 +1231,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1409,6 +1282,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1416,6 +1290,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
           <caret line="23" column="20" lean-forward="false" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1483,34 +1358,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/api/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1523,37 +1374,210 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/ConsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/yf/dubbo/api/TestService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="276">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1541">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+        <state relative-caret-position="218">
+          <caret line="54" column="7" lean-forward="false" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/ProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="425">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/provide/service/TestServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/yf/dubbo/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state relative-caret-position="509">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/RuntimeConstantPoolOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
-            <element signature="e#655#656#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/java/com/dubbo/consumer/service/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/java/com/DubboConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/java/com/dubbo/consumer/controller/ApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="66" column="8" lean-forward="false" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/com/gitee/reger/spring-boot-starter-dubbo/1.0.9/spring-boot-starter-dubbo-1.0.9.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="33" column="40" lean-forward="false" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/DubboProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/DubboConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/dubbo/producer/service/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/dubbo/api/HelloService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/service/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-dubbo-consumer/src/main/java/com/dubbo/consumer/controller/ApiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1564,11 +1588,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>unnamed</last-edited>
+          <last-edited>girl-admin:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3770115" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1599,7 +1624,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1611,11 +1636,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>girl-common</last-edited>
+          <last-edited>girl-dubbo-consumer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.3770115" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,10 +1,11 @@
 package com.yf.learning;
 
-import java.util.ArrayList;
-import java.util.List;
 
 //代码清单2-6
 //        运行时常量池导致的内存溢出异常
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * VM

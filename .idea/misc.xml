@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/girl-dubbo-api/pom.xml" />
         <option value="$PROJECT_DIR$/girl-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/girl-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/socket/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

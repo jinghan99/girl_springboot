@@ -14,8 +14,10 @@
         <module name="girl-dubbo-api" />
         <module name="girl-dubbo-consumer" />
         <module name="girl-dubbo-provider" />
+        <module name="girl-socket" />
         <module name="girl-utils" />
         <module name="girl-webmagic" />
+        <module name="socket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,10 +33,12 @@
       <module name="girl-dubbo-provider" target="1.8" />
       <module name="girl-entiy" target="1.8" />
       <module name="girl-service" target="1.8" />
+      <module name="girl-socket" target="1.8" />
       <module name="girl-springboot" target="1.8" />
       <module name="girl-utils" target="1.8" />
       <module name="girl-web" target="1.8" />
       <module name="girl-webmagic" target="1.8" />
+      <module name="socket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

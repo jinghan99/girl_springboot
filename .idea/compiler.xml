@@ -6,23 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-server" />
         <module name="girl-admin" />
         <module name="girl-base" />
+        <module name="girl-cloud" />
+        <module name="girl-cloud-server" />
         <module name="girl-common" />
         <module name="girl-common (1)" />
         <module name="girl-common (2)" />
         <module name="girl-dubbo-api" />
         <module name="girl-dubbo-consumer" />
         <module name="girl-dubbo-provider" />
+        <module name="girl-jwt" />
         <module name="girl-socket" />
         <module name="girl-utils" />
         <module name="girl-webmagic" />
+        <module name="jwt" />
         <module name="socket" />
+        <module name="yfcloud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-server" target="1.8" />
       <module name="girl-admin" target="1.8" />
       <module name="girl-base" target="1.8" />
+      <module name="girl-cloud" target="1.8" />
+      <module name="girl-cloud-server" target="1.8" />
       <module name="girl-common" target="1.8" />
       <module name="girl-common (1)" target="1.8" />
       <module name="girl-common (2)" target="1.8" />
@@ -32,13 +41,18 @@
       <module name="girl-dubbo-consumer" target="1.8" />
       <module name="girl-dubbo-provider" target="1.8" />
       <module name="girl-entiy" target="1.8" />
+      <module name="girl-jwt" target="1.8" />
       <module name="girl-service" target="1.8" />
       <module name="girl-socket" target="1.8" />
       <module name="girl-springboot" target="1.8" />
       <module name="girl-utils" target="1.8" />
       <module name="girl-web" target="1.8" />
       <module name="girl-webmagic" target="1.8" />
+      <module name="girlcloud" target="1.8" />
+      <module name="jwt" target="1.8" />
       <module name="socket" target="1.8" />
+      <module name="yf-cloud-server" target="1.8" />
+      <module name="yfcloud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

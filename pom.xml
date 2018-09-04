@@ -30,6 +30,7 @@
         <module>girl-dubbo-consumer</module>
         <module>girl-dubbo-provider</module>
         <module>girl-webmagic</module>
+        <module>girl-cloud</module>
     </modules>
 
     <properties>

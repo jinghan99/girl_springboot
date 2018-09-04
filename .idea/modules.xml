@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/girl-cloud/cloud-server/cloud-server.iml" filepath="$PROJECT_DIR$/girl-cloud/cloud-server/cloud-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-admin/girl-admin.iml" filepath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-base/girl-base.iml" filepath="$PROJECT_DIR$/girl-base/girl-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-cloud/girl-cloud.iml" filepath="$PROJECT_DIR$/girl-cloud/girl-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-common/girl-common.iml" filepath="$PROJECT_DIR$/girl-common/girl-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" filepath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" filepath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" filepath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-jwt/girl-jwt.iml" filepath="$PROJECT_DIR$/girl-jwt/girl-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-socket/girl-socket.iml" filepath="$PROJECT_DIR$/girl-socket/girl-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-springboot.iml" filepath="$PROJECT_DIR$/girl-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-utils/girl-utils.iml" filepath="$PROJECT_DIR$/girl-utils/girl-utils.iml" />

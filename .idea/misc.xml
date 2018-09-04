@@ -9,12 +9,17 @@
         <option value="$PROJECT_DIR$/girl-dubbo-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/girl-dubbo-provider/pom.xml" />
         <option value="$PROJECT_DIR$/socket/pom.xml" />
+        <option value="$PROJECT_DIR$/jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-cloud-server/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-cloud/cloud-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/girl-service/pom.xml" />
         <option value="$PROJECT_DIR$/girl-web/pom.xml" />
+        <option value="$PROJECT_DIR$/girlcloud/pom.xml" />
       </set>
     </option>
   </component>

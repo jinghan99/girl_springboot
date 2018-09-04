@@ -4,7 +4,7 @@ import java.io.*;
 
 /**
  * @Package com.yf.common.utils
- * @Description: TODO
+ * @Description: 文件操作
  * @author: jingh
  * @date 2018/9/4 11:18
  */

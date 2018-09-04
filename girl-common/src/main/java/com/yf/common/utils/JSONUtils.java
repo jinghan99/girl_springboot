@@ -1,133 +1,126 @@
 package com.yf.common.utils;
 
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonMappingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
+import com.alibaba.druid.util.StringUtils;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.google.gson.Gson;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Map.Entry;
 
 /**
- * json工具类(jackjson)
+ * json工具类(fastjson)
  *
  * @author ZhouChenglin
  * @email yczclcn@163.com
  * @url www.chenlintech.com
- * @date 2017年9月3日 上午2:37:04
+ * @date 2017年8月11日 下午3:35:28
  */
 public class JSONUtils {
 
-	private final static ObjectMapper objectMapper = new ObjectMapper();
-
-    private JSONUtils() {
-
-    }
-
-    public static ObjectMapper getInstance() {
-        return objectMapper;
-    }
-
     /**
-     * object转化json
-     * @param obj
+     * Bean对象转JSON
+     *
+     * @param object
+     * @param dataFormatString
      * @return
-     * @throws Exception
      */
-    public static String beanToJson(Object obj) {
-        try {
-			return objectMapper.writeValueAsString(obj);
-		} catch (JsonProcessingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        return null;
+    public static String beanToJson(Object object, String dataFormatString) {
+        if (object != null) {
+            if (StringUtils.isEmpty(dataFormatString)) {
+                return JSONObject.toJSONString(object);
+            }
+            return JSON.toJSONStringWithDateFormat(object, dataFormatString);
+        } else {
+            return null;
+        }
     }
 
     /**
-     * json转对象
-     * @param jsonStr
+     * Bean对象转JSON
+     *
+     * @param object
+     * @return
+     */
+    public static String beanToJson(Object object) {
+        if (object != null) {
+            return JSON.toJSONString(object);
+        } else {
+            return null;
+        }
+    }
+
+    /**
+     * String转JSON字符串
+     *
+     * @param key
+     * @param value
+     * @return
+     */
+    public static String stringToJsonByFastjson(String key, String value) {
+        if (StringUtils.isEmpty(key) || StringUtils.isEmpty(value)) {
+            return null;
+        }
+        Map<String, String> map = new HashMap<String, String>();
+        map.put(key, value);
+        return beanToJson(map, null);
+    }
+
+    /**
+     * 将json字符串转换成对象
+     *
+     * @param json
      * @param clazz
      * @return
+     */
+    public static Object jsonToBean(String json, Object clazz) {
+        if (StringUtils.isEmpty(json) || clazz == null) {
+            return null;
+        }
+        return JSON.parseObject(json, clazz.getClass());
+    }
+
+
+    /**
+     * map 转 对象
+     * @param map
+     * @param clazz
+     * @param <T>
+     * @return
      * @throws Exception
      */
-    public static <T> T jsonToBean(String jsonStr, Class<T> clazz) {
-        try {
-			return objectMapper.readValue(jsonStr, clazz);
-		} catch (JsonParseException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (JsonMappingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-        return null;
+    public static <T> T mapToObj(Map<?, ?> map, Class<T> clazz) throws Exception {
+        return JSON.parseObject(JSON.toJSONString(map), clazz);
     }
 
     /**
-     * json转map
-     * @param jsonStr
+     * json字符串转map
+     *
+     * @param json
      * @return
-     * @throws Exception
      */
     @SuppressWarnings("unchecked")
-	public static <T> Map<String, Object> jsonToMap(String jsonStr)
-            throws Exception {
-        return objectMapper.readValue(jsonStr, Map.class);
-    }
-
-    /**
-     * json转map，指定类型
-     * @param jsonStr
-     * @param clazz
-     * @return
-     * @throws Exception
-     */
-    public static <T> Map<String, T> jsonToMap(String jsonStr, Class<T> clazz)
-            throws Exception {
-        Map<String, Map<String, Object>> map = objectMapper.readValue(jsonStr,
-                new TypeReference<Map<String, T>>() {
-                });
-        Map<String, T> result = new HashMap<String, T>();
-        for (Entry<String, Map<String, Object>> entry : map.entrySet()) {
-            result.put(entry.getKey(), mapToBean(entry.getValue(), clazz));
+    public static Map<String, Object> jsonToMap(String json) {
+        if (StringUtils.isEmpty(json)) {
+            return null;
         }
-        return result;
+        return JSON.parseObject(json, Map.class);
     }
 
+
+
     /**
-     * json数组转list，指定类型
-     * @param jsonArrayStr
-     * @param clazz
+     * 使用gson将对象转成json
+     *
+     * @param obj
      * @return
-     * @throws Exception
      */
-    public static <T> List<T> jsonToList(String jsonArrayStr, Class<T> clazz)
-            throws Exception {
-        List<Map<String, Object>> list = objectMapper.readValue(jsonArrayStr,
-                new TypeReference<List<T>>() {
-                });
-        List<T> result = new ArrayList<T>();
-        for (Map<String, Object> map : list) {
-            result.add(mapToBean(map, clazz));
+    public static String toJson(Object obj) {
+        if (null == obj) {
+            return "";
         }
-        return result;
+        return new Gson().toJson(obj);
     }
 
-    /**
-     * map转化对象
-     */
-    @SuppressWarnings("rawtypes")
-	public static <T> T mapToBean(Map map, Class<T> clazz) {
-        return objectMapper.convertValue(map, clazz);
-    }
-	
+
 }

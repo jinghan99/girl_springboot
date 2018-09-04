@@ -34,7 +34,7 @@ public class ScheduleJob extends QuartzJobBean {
     @Override
     protected void executeInternal(JobExecutionContext context) throws JobExecutionException {
         String jobStr = context.getMergedJobDataMap().getString(QuartzJobEntity.JOB_PARAM_KEY);
-    	QuartzJobEntity scheduleJob = JSONUtils.jsonToBean(jobStr, QuartzJobEntity.class);
+    	QuartzJobEntity scheduleJob = (QuartzJobEntity) JSONUtils.jsonToBean(jobStr, QuartzJobEntity.class);
         
         //获取spring bean
         QuartzJobLogManager quartzJobLogManager = (QuartzJobLogManager) SpringContextUtils.getBean("quartzJobLogManager");

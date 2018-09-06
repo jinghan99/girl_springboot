@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/girl-cloud-server/pom.xml" />
         <option value="$PROJECT_DIR$/girl-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/girl-cloud/cloud-server/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-cloud/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

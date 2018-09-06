@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-eureka" />
+        <module name="cloud-eureka-client" />
+        <module name="cloud-eureka-ribbon-client" />
         <module name="girl-admin" />
         <module name="girl-base" />
         <module name="girl-cloud" />
+        <module name="girl-cloud-message" />
         <module name="girl-cloud-server" />
         <module name="girl-common" />
         <module name="girl-common (1)" />
@@ -26,10 +30,15 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-eureka" target="1.8" />
+      <module name="cloud-eureka-client" target="1.8" />
+      <module name="cloud-eureka-ribbon-client" target="1.8" />
       <module name="cloud-server" target="1.8" />
       <module name="girl-admin" target="1.8" />
       <module name="girl-base" target="1.8" />
       <module name="girl-cloud" target="1.8" />
+      <module name="girl-cloud-eureka" target="1.8" />
+      <module name="girl-cloud-message" target="1.8" />
       <module name="girl-cloud-server" target="1.8" />
       <module name="girl-common" target="1.8" />
       <module name="girl-common (1)" target="1.8" />

@@ -14,10 +14,16 @@
         <option value="$PROJECT_DIR$/girl-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/girl-cloud/cloud-server/pom.xml" />
         <option value="$PROJECT_DIR$/girl-cloud/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-cloud-message/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-ribbon-client/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/girl-cloud-eureka/pom.xml" />
         <option value="$PROJECT_DIR$/girl-service/pom.xml" />
         <option value="$PROJECT_DIR$/girl-web/pom.xml" />
         <option value="$PROJECT_DIR$/girlcloud/pom.xml" />

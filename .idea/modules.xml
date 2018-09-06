@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" filepath="$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-ribbon-client/cloud-eureka-ribbon-client.iml" filepath="$PROJECT_DIR$/cloud-eureka-ribbon-client/cloud-eureka-ribbon-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-eureka-service/cloud-eureka-service.iml" filepath="$PROJECT_DIR$/cloud-eureka-service/cloud-eureka-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-admin/girl-admin.iml" filepath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-base/girl-base.iml" filepath="$PROJECT_DIR$/girl-base/girl-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-cloud/girl-cloud.iml" filepath="$PROJECT_DIR$/girl-cloud/girl-cloud.iml" />

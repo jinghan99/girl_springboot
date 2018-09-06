@@ -11,4 +11,4 @@ eureka:
     fetch-registry: false
     register-with-eureka: false # 由于当前这个应用就是Eureka Server，故而设为false
     serviceUrl:
-        defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+        defaultZone: http://${eureka.instance.hostname}:${server.port}/api/

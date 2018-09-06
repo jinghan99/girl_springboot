@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.yfcloud</groupId>
-	<artifactId>cloud-eureka-ribbon-client</artifactId>
+	<artifactId>cloud-eureka-feign-client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>cloud-eureka-ribbon-client</name>
+	<name>cloud-eureka-feign-client</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -33,30 +33,29 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId> spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
-		<!---->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
 
-	</dependencies>
 
+
+
+	</dependencies>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -68,8 +67,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-
 	<!--使用aliyun镜像-->
 	<repositories>
 		<repository>

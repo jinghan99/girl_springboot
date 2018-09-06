@@ -8,9 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka" />
         <module name="cloud-eureka-client" />
+        <module name="cloud-eureka-client2" />
         <module name="cloud-eureka-feign-client" />
         <module name="cloud-eureka-ribbon-client" />
         <module name="cloud-eureka-service" />
+        <module name="cloud-eureka-zuul-client" />
         <module name="girl-admin" />
         <module name="girl-base" />
         <module name="girl-cloud" />
@@ -34,9 +36,11 @@
     <bytecodeTargetLevel>
       <module name="cloud-eureka" target="1.8" />
       <module name="cloud-eureka-client" target="1.8" />
+      <module name="cloud-eureka-client2" target="1.8" />
       <module name="cloud-eureka-feign-client" target="1.8" />
       <module name="cloud-eureka-ribbon-client" target="1.8" />
       <module name="cloud-eureka-service" target="1.8" />
+      <module name="cloud-eureka-zuul-client" target="1.8" />
       <module name="cloud-server" target="1.8" />
       <module name="girl-admin" target="1.8" />
       <module name="girl-base" target="1.8" />

@@ -21,6 +21,8 @@
         <option value="$PROJECT_DIR$/cloud-eureka-ribbon-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-feign-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-client2/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

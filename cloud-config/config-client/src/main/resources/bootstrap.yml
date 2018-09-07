@@ -1,0 +1,70 @@
+# 在配置文件bootstrap.yml中做相关配置。注意，这些与 Spring Cloud Config
+# 相关的属性必须配置在 bootstrap.yml 中，config 部分内容才能被正确加载，因为 config 的相关配置会先于 application.yml，
+# 而 bootstrap.yml 的加载也是先于 application.yml。
+# 指定程序名config-client，向Url地址为http://localhost:8769的Config Server读取配置文件。
+# 如果没有读取成功则执行快速失败（fail-fast），
+# 读取的是dev文件。配置文件中的变量{spring.application.name}和{spring.profiles.active}，
+# 两者以 “-” 相连，构成了向Config Server读取的配置文件名，config-client-dev.yml。
+
+# 配置方式一：
+
+#spring:
+#  application:
+#    name: config-client
+#  profiles:
+#    active: dev
+#  cloud:
+#    config:
+#      uri: http://localhost:8769
+#      fail-fast: true
+
+#
+# 配置方式二：eureka
+
+#spring:
+#  application:
+#    name: config-client
+#  profiles:
+#    active: dev
+#  cloud:
+#    config:
+#      fail-fast: true
+#      discovery:
+#        enabled: true
+#        service-id: config-server
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+
+
+# 配置方式 三：
+server:
+  port: 8763
+spring:
+  application:
+    name: config-client
+  profiles:
+    active: dev
+  cloud:
+    config:
+      fail-fast: true
+      discovery:
+        enabled: true
+        service-id: config-server
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh  # 发送Post请求http://localhost:8763/actuator/bus-refresh/。

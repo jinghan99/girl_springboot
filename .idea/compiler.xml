@@ -13,6 +13,12 @@
         <module name="cloud-eureka-ribbon-client" />
         <module name="cloud-eureka-service" />
         <module name="cloud-eureka-zuul-client" />
+        <module name="cloud-gateway-service" />
+        <module name="cloud-user-service" />
+        <module name="config-client" />
+        <module name="config-eureka-server" />
+        <module name="config-server" />
+        <module name="eureka-server" />
         <module name="girl-admin" />
         <module name="girl-base" />
         <module name="girl-cloud" />
@@ -34,6 +40,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-config" target="1.8" />
       <module name="cloud-eureka" target="1.8" />
       <module name="cloud-eureka-client" target="1.8" />
       <module name="cloud-eureka-client2" target="1.8" />
@@ -41,7 +48,13 @@
       <module name="cloud-eureka-ribbon-client" target="1.8" />
       <module name="cloud-eureka-service" target="1.8" />
       <module name="cloud-eureka-zuul-client" target="1.8" />
+      <module name="cloud-gateway-service" target="1.8" />
       <module name="cloud-server" target="1.8" />
+      <module name="cloud-user-service" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-eureka-server" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
       <module name="girl-admin" target="1.8" />
       <module name="girl-base" target="1.8" />
       <module name="girl-cloud" target="1.8" />

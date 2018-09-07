@@ -21,10 +21,11 @@ zuul:
     hiapi:
       path: /hiapi/**
       serviceId: service-hi
-    ribbonapi:
-      path: /ribbonapi/**
+    ribbonapi:   #http://localhost:5000/v1.0/ribbonapi/hi?name=123213
+      path: /ribbonapi/**  #以将指定类型的请求Url路由到指定的serviceId
       serviceId: eureka-ribbon-client
     feignapi:
       path: /feignapi/**
       serviceId: eureka-feign-client
+  prefix: /v1.0  #配置API接口的版本号
 

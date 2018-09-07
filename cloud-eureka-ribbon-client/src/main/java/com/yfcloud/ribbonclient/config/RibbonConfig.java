@@ -14,6 +14,10 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 public class RibbonConfig {
 
+    /**
+     * 可以给RestTemplate bean 加一个@LoadBalanced注解，就能让这个RestTemplate在请求时拥有客户端负载均衡的能力：
+     * @return
+     */
     @Bean
     @LoadBalanced
     RestTemplate restTemplate(){

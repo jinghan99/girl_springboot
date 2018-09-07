@@ -23,6 +23,12 @@
         <option value="$PROJECT_DIR$/cloud-eureka-service/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-eureka-client2/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-gateway-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/config-eureka-server/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

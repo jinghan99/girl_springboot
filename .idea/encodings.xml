@@ -2,12 +2,18 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/config-eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-client2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-feign-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-ribbon-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-eureka-zuul-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-gateway-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-user-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/girl-admin" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/girl-base" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/girl-cloud" charset="UTF-8" />

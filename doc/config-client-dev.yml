@@ -1,0 +1,7 @@
+# resources目录下新建shared文件夹，存放配置文件，新建文件config-client-dev.yml，用作eureka-client工程的dev（开发环境）
+# 的配置文件。在config-client-dev.yml配置文件中，指定端口号8762，
+# 定义一个变量foo，值为foo version 1。
+
+server:
+  port: 8762
+foo: foo version 1

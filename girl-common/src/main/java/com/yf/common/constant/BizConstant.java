@@ -16,7 +16,13 @@ public enum BizConstant {
     NIM_CreateUrl("https://api.netease.im/nimserver/user/create.action", "创建用户"),
     NIM_UpdateUrl("https://api.netease.im/nimserver/user/update.action", "修改信息"),
     NIM_RefreshTokenUrl("https://api.netease.im/nimserver/user/refreshToken.action", "更新并获取新的token"),
-    NIM_FriendAdd("https://api.netease.im/nimserver/friend/add.action", "添加好友");
+    NIM_FriendAdd("https://api.netease.im/nimserver/friend/add.action", "添加好友"),
+
+//    jwt
+    JWT_KEY_USER_ID("userId","JWT 存入 id"),
+    JWT_KEY_NAME("name","jwt 存入 name"),
+    ;
+
     private String value; //value
     private String name;  //内容
 

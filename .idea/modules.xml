@@ -16,7 +16,6 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-config/config-server/config-server.iml" filepath="$PROJECT_DIR$/cloud-config/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-admin/girl-admin.iml" filepath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-base/girl-base.iml" filepath="$PROJECT_DIR$/girl-base/girl-base.iml" />
-      <module fileurl="file://$PROJECT_DIR$/girl-cloud/girl-cloud.iml" filepath="$PROJECT_DIR$/girl-cloud/girl-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-common/girl-common.iml" filepath="$PROJECT_DIR$/girl-common/girl-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" filepath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" filepath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />

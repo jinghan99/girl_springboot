@@ -21,7 +21,6 @@
         <module name="eureka-server" />
         <module name="girl-admin" />
         <module name="girl-base" />
-        <module name="girl-cloud" />
         <module name="girl-cloud-message" />
         <module name="girl-cloud-server" />
         <module name="girl-common" />

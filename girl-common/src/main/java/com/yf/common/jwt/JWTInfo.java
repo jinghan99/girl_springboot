@@ -64,4 +64,13 @@ public class JWTInfo implements Serializable {
         result = 31 * result + (userId != null ? userId.hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "JWTInfo{" +
+                "username='" + username + '\'' +
+                ", userId='" + userId + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

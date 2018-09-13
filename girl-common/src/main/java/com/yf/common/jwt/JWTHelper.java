@@ -67,20 +67,18 @@ public class JWTHelper {
      * @return
      * @throws Exception
      */
-    public static Jws<Claims> parserToken(String token, String pubKeyPath) throws Exception {
+    public static Jws<Claims> parserToken(String token) throws Exception {
         Jws<Claims> claimsJws = Jwts.parser().setSigningKey(generalKey()).parseClaimsJws(token);
         return claimsJws;
     }
     /**
      * 获取token中的用户信息
-     *
      * @param token
-     * @param pubKeyPath
      * @return
      * @throws Exception
      */
-    public static JWTInfo getInfoFromToken(String token, String pubKeyPath) throws Exception {
-        Jws<Claims> claimsJws = parserToken(token, pubKeyPath);
+    public static JWTInfo getInfoFromToken(String token) throws Exception {
+        Jws<Claims> claimsJws = parserToken(token);
         Claims body = claimsJws.getBody();
         return new JWTInfo(body.getSubject(), StringUtil.nullToString(body.get(BizConstant.JWT_KEY_USER_ID.getValue())), StringUtil.nullToString(body.get(BizConstant.JWT_KEY_NAME.getValue())));
     }
@@ -88,6 +86,8 @@ public class JWTHelper {
     public static void main(String[] args) throws Exception {
         String token = generateToken(new JWTInfo("jinghan","123","admin"), 123);
 
-        System.out.print("token: "+token);
+        System.out.println("token: "+token);
+
+        System.out.println("解析："+getInfoFromToken(token).toString());
     }
 }

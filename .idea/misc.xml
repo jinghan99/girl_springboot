@@ -33,6 +33,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/girl-cloud-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-concurrent/pom.xml" />
         <option value="$PROJECT_DIR$/girl-service/pom.xml" />
         <option value="$PROJECT_DIR$/girl-web/pom.xml" />
         <option value="$PROJECT_DIR$/girlcloud/pom.xml" />

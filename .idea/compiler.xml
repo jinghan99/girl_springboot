@@ -30,7 +30,7 @@
         <module name="girl-dubbo-api" />
         <module name="girl-dubbo-consumer" />
         <module name="girl-dubbo-provider" />
-        <module name="girl-jwt" />
+        <module name="girl-security" />
         <module name="girl-socket" />
         <module name="girl-utils" />
         <module name="girl-webmagic" />
@@ -72,6 +72,7 @@
       <module name="girl-dubbo-provider" target="1.8" />
       <module name="girl-entiy" target="1.8" />
       <module name="girl-jwt" target="1.8" />
+      <module name="girl-security" target="1.8" />
       <module name="girl-service" target="1.8" />
       <module name="girl-socket" target="1.8" />
       <module name="girl-springboot" target="1.8" />

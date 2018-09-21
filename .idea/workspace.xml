@@ -7,15 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/Consumer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/MyBlockingQueue.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/Producer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalOne.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_7_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_8_4.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-admin/girl-admin.iml" afterPath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-common/girl-common.iml" afterPath="$PROJECT_DIR$/girl-common/girl-common.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-common/pom.xml" afterPath="$PROJECT_DIR$/girl-common/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-jwt/girl-jwt.iml" afterPath="$PROJECT_DIR$/girl-security/girl-security.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-jwt/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/java/com/yf/jwt/JwtApplication.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/resources/application-dev.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/resources/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/resources/mybatis.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-jwt/src/test/java/com/yf/jwt/JwtApplicationTests.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,6 +73,7 @@
     <ignored path="$PROJECT_DIR$/cloud-user-service/target/" />
     <ignored path="$PROJECT_DIR$/cloud-gateway-service/target/" />
     <ignored path="$PROJECT_DIR$/girl-concurrent/target/" />
+    <ignored path="$PROJECT_DIR$/girl-security/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,155 +132,25 @@
       <file leaf-file-name="JWTHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1725">
+            <state relative-caret-position="532">
               <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RsaKeyHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/rsa/RsaKeyHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-              <folding>
-                <element signature="e#3921#3922#0" expanded="true" />
-                <element signature="e#3981#3982#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/ClientInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientInfoRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/ClientInfoRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageEventHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/MessageEventHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyBlockingQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/MyBlockingQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadLocalTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <element signature="e#697#698#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadLocalOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeSort2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/InsertionSort.java">
+        <entry file="file://$PROJECT_DIR$/girl-security/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="828">
-              <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/Sort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/Consumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/Producer.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-security/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -273,54 +159,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/MessageInfo.java">
+      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/ServerRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocketApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/SocketApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+            <state relative-caret-position="322">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
-                <element signature="e#1673#1674#0" expanded="true" />
-                <element signature="e#1741#1742#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JWTHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/rsa/JWTHelper.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/girl-common/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="621">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JWTInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTInfo.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+            <state relative-caret-position="368">
+              <caret line="28" column="17" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="28" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -335,8 +200,8 @@
         <option value="HTML File" />
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Singleton" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -397,9 +262,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-eureka-client/src/main/java/com/yfcloud/client/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-client2/src/main/java/client/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-eureka-ribbon-client/src/main/java/com/yfcloud/ribbonclient/config/RibbonConfig.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/src/main/java/com/yfcloud/zuulclient/config/MyFallbackProvider.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/src/main/java/com/yfcloud/zuulclient/ZuulClientApplication.java" />
@@ -427,7 +289,6 @@
         <option value="$PROJECT_DIR$/cloud-gateway-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-gateway-service/src/main/java/com/yfcloud/cloudgatewayservice/CloudGatewayServiceApplication.java" />
         <option value="$PROJECT_DIR$/cloud-eureka-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-common/pom.xml" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/utils/StringUtil.java" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/constant/BizConstant.java" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTInfo.java" />
@@ -443,11 +304,15 @@
         <option value="$PROJECT_DIR$/girl-common/src/main/java/concurrent/Consumer.java" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/common/concurrent/Consumer.java" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/concurrent/Consumer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/Producer.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/MyBlockingQueue.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalOne.java" />
+        <option value="$PROJECT_DIR$/girl-common/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-security/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -528,7 +393,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -539,89 +404,98 @@
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
-              <item name="ThreadLocalOne.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="learning" type="462c0819:PsiDirectoryNode" />
-              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yf" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -646,15 +520,6 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-socket\src\main\resources\templates" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yf.common.jwt.rsa" />
       <recent name="com.yf.common.jwt" />
@@ -663,11 +528,20 @@
       <recent name="com.yf" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\resources" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-utils\src\main\java\com\yf\learning" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-common\src\main\java\com\yf\common" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-common\src\main\java" />
       <recent name="F:\workspace\ideaGit\girl_springboot\doc" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\cloud-eureka-client2\src\main\resources" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-socket\src\main\resources\templates" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1093,7 +967,8 @@
       <workItem from="1536732266288" duration="6546000" />
       <workItem from="1536802612491" duration="4793000" />
       <workItem from="1537323268167" duration="10096000" />
-      <workItem from="1537407364083" duration="638000" />
+      <workItem from="1537407364083" duration="1264000" />
+      <workItem from="1537495458210" duration="1778000" />
     </task>
     <task id="LOCAL-00001" summary="更新 hrio">
       <created>1525341848180</created>
@@ -1431,7 +1306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536807563864</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="新增 jwt 工具类">
+      <created>1537436554679</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1537436554679</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1467,7 +1349,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357859000" />
+    <option name="totallyTimeSpent" value="360263000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1500,7 +1382,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13743016" sideWeight="0.91364604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.029180696" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45117846" sideWeight="0.9211087" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2585288" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4914712" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1571,49 +1453,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-feign-client/src/main/java/com/yfcloud/feignclient/exception/HiHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-feign-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="6" lean-forward="false" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="15" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3976">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/utils/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/constant/BizConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
@@ -1625,7 +1464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="531">
           <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1709,16 +1547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/rsa/JWTHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -1732,8 +1560,8 @@
         <state relative-caret-position="391">
           <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
           <folding>
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3981#3982#0" expanded="true" />
+            <element signature="e#3921#3922#0" expanded="false" />
+            <element signature="e#3981#3982#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1760,8 +1588,8 @@
         <state relative-caret-position="920">
           <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
           <folding>
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1673#1674#0" expanded="false" />
+            <element signature="e#1741#1742#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1836,10 +1664,10 @@
         <state relative-caret-position="184">
           <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
-            <element signature="e#697#698#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#735#736#0" expanded="false" />
+            <element signature="e#768#769#0" expanded="false" />
+            <element signature="e#808#809#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1878,16 +1706,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
+        <state relative-caret-position="1886">
           <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-jwt/src/main/java/com/yf/jwt/JwtApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        <state relative-caret-position="345">
+          <caret line="79" column="21" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="79" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="28" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
           <folding />
         </state>
       </provider>

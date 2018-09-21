@@ -31,6 +31,7 @@
         <module>girl-dubbo-provider</module>
         <module>girl-webmagic</module>
         <module>cloud-config</module>
+        <module>girl-security</module>
     </modules>
 
     <properties>

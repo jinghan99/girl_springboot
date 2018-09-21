@@ -11,7 +11,6 @@
         <option value="$PROJECT_DIR$/socket/pom.xml" />
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
         <option value="$PROJECT_DIR$/girl-cloud-server/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-jwt/pom.xml" />
         <option value="$PROJECT_DIR$/girl-cloud/cloud-server/pom.xml" />
         <option value="$PROJECT_DIR$/girl-cloud-message/pom.xml" />
         <option value="$PROJECT_DIR$/girl-cloud-eureka/pom.xml" />

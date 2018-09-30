@@ -1,12 +1,14 @@
 package com.yf.security.config;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.data.redis.cache.RedisCacheConfiguration;
+import org.springframework.data.redis.cache.RedisCacheManager;
 import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.core.*;
-import org.springframework.data.redis.serializer.JdkSerializationRedisSerializer;
-import org.springframework.data.redis.serializer.StringRedisSerializer;
+import org.springframework.data.redis.serializer.*;
+
+import java.time.Duration;
 
 /**
  * @Package com.yf.security.config
@@ -16,11 +18,43 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
  */
 @Configuration
 public class RedisConfig {
-    @Autowired
-    private RedisConnectionFactory factory;
+
+    private Duration timeToLive = Duration.ZERO;
+
+    public void setTimeToLive(Duration timeToLive) {
+        this.timeToLive = timeToLive;
+    }
+
+
+//    @Bean
+//    public CacheManager cacheManager(RedisConnectionFactory factory) {
+//        RedisCacheManager cacheManager = RedisCacheManager.create(factory);
+//        return cacheManager;
+//    }
 
     @Bean
-    public RedisTemplate<String, Object> redisTemplate() {
+    public RedisCacheManager cacheManager(RedisConnectionFactory connectionFactory) {
+        RedisCacheConfiguration config = RedisCacheConfiguration
+                .defaultCacheConfig()
+                .entryTtl(this.timeToLive)
+                .prefixKeysWith("REDIS-CACHE-")
+                .serializeKeysWith(RedisSerializationContext.SerializationPair.fromSerializer(keySerializer()))
+                .serializeValuesWith(RedisSerializationContext.SerializationPair.fromSerializer(valueSerializer()))
+                .disableCachingNullValues();
+
+        RedisCacheManager redisCacheManager = RedisCacheManager
+                .builder(connectionFactory)
+                .cacheDefaults(config)
+                .transactionAware()
+                .build();
+        System.out.println("自定义RedisCacheManager加载完成");
+
+        return redisCacheManager;
+    }
+
+
+    @Bean
+    public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory factory) {
         RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
         redisTemplate.setKeySerializer(new StringRedisSerializer());
         redisTemplate.setHashKeySerializer(new StringRedisSerializer());
@@ -54,4 +88,14 @@ public class RedisConfig {
     public ZSetOperations<String, Object> zSetOperations(RedisTemplate<String, Object> redisTemplate) {
         return redisTemplate.opsForZSet();
     }
+
+    private RedisSerializer<String> keySerializer() {
+        return new StringRedisSerializer();
+    }
+
+    private RedisSerializer<Object> valueSerializer() {
+        return new GenericJackson2JsonRedisSerializer();
+    }
+
+
 }

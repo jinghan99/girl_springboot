@@ -1,5 +1,6 @@
 package com.yf.security.controller;
 
+import com.yf.security.service.TestService;
 import com.yf.security.utils.RedisUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -20,12 +21,13 @@ public class LoginController {
     @Autowired
     private RedisUtils redisUtils;
 
+    @Autowired
+    private TestService testService;
+
     @RequestMapping("/login")
     @ResponseBody
     public String login(ModelMap map) {
-        redisUtils.set("my","第一个");
-
-        return redisUtils.get("my");
+        return testService.get("我看看");
     }
 
     @RequestMapping("/hello")

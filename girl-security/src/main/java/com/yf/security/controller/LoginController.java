@@ -20,14 +20,12 @@ public class LoginController {
     @Autowired
     private RedisUtils redisUtils;
 
-
     @RequestMapping("/login")
     @ResponseBody
     public String login(ModelMap map) {
-        redisUtils.setStr("my","你是个好人");
+        redisUtils.set("my","第一个");
 
-
-        return redisUtils.getStr("my");
+        return redisUtils.get("my");
     }
 
     @RequestMapping("/hello")

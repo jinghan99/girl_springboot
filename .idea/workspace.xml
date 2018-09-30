@@ -7,30 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_0_4_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_0_7_RELEASE.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_dubbo_2_8_4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_0_4_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_0_8_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_1_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_9_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_5_RELEASE.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/GirlApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisObjectSerializer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/WebSecurityConfig.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/controller/LoginController.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/Query.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/R.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/SysMenuEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/SysRoleEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/SysRoleMenuEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/SysUserEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/SysUserRoleEntity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/utils/RedisUtils.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/resources/mybatis.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/resources/templates/hello.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/resources/templates/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/girl-security/src/main/resources/templates/login.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_27_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_27_Final.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_9_RELEASE.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-admin/girl-admin.iml" afterPath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-common/girl-common.iml" afterPath="$PROJECT_DIR$/girl-common/girl-common.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-common/pom.xml" afterPath="$PROJECT_DIR$/girl-common/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/girl-jwt/girl-jwt.iml" afterPath="$PROJECT_DIR$/girl-security/girl-security.iml" />
-      <change beforePath="$PROJECT_DIR$/girl-jwt/pom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/java/com/yf/jwt/JwtApplication.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/resources/application-dev.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/resources/application.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-jwt/src/main/resources/mybatis.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/girl-jwt/src/test/java/com/yf/jwt/JwtApplicationTests.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-security/girl-security.iml" afterPath="$PROJECT_DIR$/girl-security/girl-security.iml" />
+      <change beforePath="$PROJECT_DIR$/girl-security/pom.xml" afterPath="$PROJECT_DIR$/girl-security/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,86 +142,22 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JWTHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/girl-security/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-security/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="28" column="17" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="28" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="FxmlFile" />
         <option value="Singleton" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>shiro.version</find>
       <find>EnterpriseCacheSessionDAO</find>
       <find>doReadSession</find>
       <find>testSort</find>
@@ -226,7 +176,6 @@
       <find>sys_log</find>
       <find>time</find>
       <find>net.chenlin.dp.modules.sys.entity.SysLogEntity</find>
-      <find>redis</find>
       <find>maven-install-plugin</find>
       <find>girl-core</find>
       <find>main</find>
@@ -237,6 +186,8 @@
       <find>CommonConstants.JWT_KEY_USER_ID</find>
       <find>.JWT_KEY_USER_ID</find>
       <find>getInfoFromPriToken</find>
+      <find>druid</find>
+      <find>redis</find>
     </findStrings>
     <replaceStrings>
       <replace>com.yf.sys.entity.SysLogEntity</replace>
@@ -262,35 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-eureka-ribbon-client/src/main/java/com/yfcloud/ribbonclient/config/RibbonConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/src/main/java/com/yfcloud/zuulclient/config/MyFallbackProvider.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/src/main/java/com/yfcloud/zuulclient/ZuulClientApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/src/main/java/com/yfcloud/zuulclient/config/MyFilter.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-zuul-client/src/main/java/com/yfcloud/zuulclient/config/TokenFilter.java" />
-        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-server/src/main/resources/shared/config-client-dev.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-eureka-server/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-eureka-server/src/main/java/com/yfcloud/configeurekaserver/ConfigEurekaServerApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config/config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-client/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-client/src/main/java/com/yfcloud/configclient/controller/ApiController.java" />
-        <option value="$PROJECT_DIR$/cloud-config/config-client/src/main/java/com/yfcloud/configclient/ConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-config/config-server/src/main/java/com/yfcloud/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/doc/config-client-test.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-config/config-client/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/doc/config-client-dev.yml" />
-        <option value="$PROJECT_DIR$/cloud-user-service/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-user-service/src/main/java/com/yfcloud/clouduserservice/CloudUserServiceApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-user-service/src/main/java/com/yfcloud/clouduserservice/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/cloud-user-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-gateway-service/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-gateway-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-gateway-service/src/main/java/com/yfcloud/cloudgatewayservice/CloudGatewayServiceApplication.java" />
-        <option value="$PROJECT_DIR$/cloud-eureka-client/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/utils/StringUtil.java" />
-        <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/constant/BizConstant.java" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTInfo.java" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTRSAHelper.java" />
         <option value="$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/RsaKeyHelper.java" />
@@ -309,10 +231,39 @@
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalOne.java" />
         <option value="$PROJECT_DIR$/girl-common/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-security/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/resources/templates/hello.html" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/GirlApplication.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/resources/mybatis.xml" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/service/impl/SysUserController.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/entiy/SysRoleEntity.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/service/SysRoleMenuService.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/service/impl/SysMenuServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/GirlApplication.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/R.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/Page.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/dao/BaseMapper.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/impl/SysUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/dao/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/ConfigBeans.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisObjectSerializer.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisPrefix.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/utils/RedisUtils.java" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/girl-security/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisConfig.java" />
       </list>
     </option>
   </component>
@@ -345,10 +296,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-20" />
-    <option name="y" value="93" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="300" />
+    <option name="y" value="120" />
+    <option name="width" value="1400" />
+    <option name="height" value="831" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -358,18 +309,18 @@
             <id />
           </State>
           <State>
-            <id>CodeSpring CoreSpring</id>
-          </State>
-          <State>
             <id>Spring</id>
           </State>
           <State>
-            <id>Spring CoreSpring</id>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Thymeleaf</id>
           </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>SpringJavaInjectionPointsAutowiringInspection</id>
+            <id>SpringBootApplicationYaml</id>
           </State>
         </selected-state>
       </profile-state>
@@ -393,7 +344,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -404,34 +354,33 @@
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-config" type="462c0819:PsiDirectoryNode" />
-              <item name="config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-admin" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -439,6 +388,51 @@
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
               <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
               <item name="girl-security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -469,7 +463,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
@@ -478,7 +472,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -487,21 +481,82 @@
               <item name="girl-security" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="entiy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
+              <item name="girl-security" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.yaml:snakeyaml:1.19" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.yaml:snakeyaml:1.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="snakeyaml-1.19.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.yaml:snakeyaml:1.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="snakeyaml-1.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="snakeyaml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.yaml:snakeyaml:1.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="snakeyaml-1.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="snakeyaml" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config/config-eureka-server" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -520,28 +575,28 @@
     <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.yf.common.jwt.rsa" />
-      <recent name="com.yf.common.jwt" />
-      <recent name="com.yf.common.utils" />
-      <recent name="com.yfcloud.feignclient.eureka" />
-      <recent name="com.yf" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\resources" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-utils\src\main\java\com\yf\learning" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-common\src\main\java\com\yf\common" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-common\src\main\java" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\doc" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-socket\src\main\resources\templates" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yf.security.utils" />
+      <recent name="com.yf.security.config" />
+      <recent name="com.yf.security.dao" />
+      <recent name="com.yf.security" />
+      <recent name="com.yf" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\security\entiy" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\security" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\service" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\service\impl" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\entiy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -556,7 +611,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadLocalOne">
+  <component name="RunManager" selected="Application.GirlApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -564,14 +619,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="JWTHelper (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GirlApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yf.common.jwt.rsa.*" />
+          <option name="PATTERN" value="com.yf.security.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yf.common.jwt.rsa.JWTHelper" />
+      <option name="MAIN_CLASS_NAME" value="com.yf.security.GirlApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -580,17 +635,17 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="girl-common" />
+      <module name="girl-security" />
       <envs />
     </configuration>
-    <configuration name="JWTHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="GirlWebApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.yf.common.jwt.rsa.*" />
+          <option name="PATTERN" value="com.yf.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yf.common.jwt.JWTHelper" />
+      <option name="MAIN_CLASS_NAME" value="com.yf.GirlWebApplication" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -599,64 +654,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="girl-common" />
-      <envs />
-    </configuration>
-    <configuration name="MyBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ljg.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.ljg.concurrent.MyBlockingQueue" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="girl-concurrent" />
-      <envs />
-    </configuration>
-    <configuration name="ThreadLocalOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yf.learning.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yf.learning.concurrent.ThreadLocalOne" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="girl-utils" />
-      <envs />
-    </configuration>
-    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yf.learning.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yf.learning.concurrent.ThreadLocalTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="girl-utils" />
+      <module name="girl-base" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -712,10 +710,9 @@
       <module name="cloud-user-service" />
       <envs />
     </configuration>
-    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yfcloud.configclient.ConfigClientApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="config-client" />
       <envs />
     </configuration>
@@ -725,10 +722,9 @@
       <module name="config-eureka-server" />
       <envs />
     </configuration>
-    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yfcloud.ConfigServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="config-server" />
       <envs />
     </configuration>
@@ -774,22 +770,10 @@
       <module name="girl-admin" />
       <envs />
     </configuration>
-    <configuration name="GirlCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yf.girlcloud.GirlCloudApplication" />
-      <module name="girl-cloud" />
-      <envs />
-    </configuration>
     <configuration name="GirlWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yf.GirlWebApplication" />
       <module name="girl-base" />
-      <envs />
-    </configuration>
-    <configuration name="JwtApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yf.jwt.JwtApplication" />
-      <module name="girl-jwt" />
       <envs />
     </configuration>
     <configuration name="RibbonClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -837,37 +821,29 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="22">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.GirlCloudApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.DubboProviderApplication" />
-      <item index="2" class="java.lang.String" itemvalue="Spring Boot.DubboConsumerApplication" />
-      <item index="3" class="java.lang.String" itemvalue="Spring Boot.GirlApplication" />
-      <item index="4" class="java.lang.String" itemvalue="Spring Boot.GirlWebApplication" />
-      <item index="5" class="java.lang.String" itemvalue="Spring Boot.JwtApplication" />
+    <list size="17">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.CloudUserServiceApplication" />
+      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZuulClientApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.GirlWebApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication" />
+      <item index="5" class="java.lang.String" itemvalue="Spring Boot.DubboProviderApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.FeignClientApplication" />
-      <item index="7" class="java.lang.String" itemvalue="Spring Boot.ZuulClientApplication" />
-      <item index="8" class="java.lang.String" itemvalue="Spring Boot.RibbonClientApplication" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.ConfigServerApplication" />
-      <item index="10" class="java.lang.String" itemvalue="Spring Boot.ConfigClientApplication" />
-      <item index="11" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication2" />
-      <item index="12" class="java.lang.String" itemvalue="Spring Boot.CloudUserServiceApplication" />
-      <item index="13" class="java.lang.String" itemvalue="Spring Boot.ConfigEurekaServerApplication" />
-      <item index="14" class="java.lang.String" itemvalue="Spring Boot.CloudGatewayServiceApplication" />
-      <item index="15" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication" />
-      <item index="16" class="java.lang.String" itemvalue="Spring Boot.EurekaServiceApplication" />
-      <item index="17" class="java.lang.String" itemvalue="Application.JWTHelper" />
-      <item index="18" class="java.lang.String" itemvalue="Application.JWTHelper (1)" />
-      <item index="19" class="java.lang.String" itemvalue="Application.MyBlockingQueue" />
-      <item index="20" class="java.lang.String" itemvalue="Application.ThreadLocalTest" />
-      <item index="21" class="java.lang.String" itemvalue="Application.ThreadLocalOne" />
+      <item index="7" class="java.lang.String" itemvalue="Spring Boot.CloudGatewayServiceApplication" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.EurekaClientApplication2" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.ConfigEurekaServerApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.DubboConsumerApplication" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.ConfigClientApplication" />
+      <item index="12" class="java.lang.String" itemvalue="Spring Boot.RibbonClientApplication" />
+      <item index="13" class="java.lang.String" itemvalue="Spring Boot.EurekaServiceApplication" />
+      <item index="14" class="java.lang.String" itemvalue="Spring Boot.GirlApplication" />
+      <item index="15" class="java.lang.String" itemvalue="Application.GirlApplication" />
+      <item index="16" class="java.lang.String" itemvalue="Application.GirlWebApplication" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ThreadLocalOne" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ThreadLocalTest" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MyBlockingQueue" />
-        <item index="3" class="java.lang.String" itemvalue="Application.JWTHelper (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.JWTHelper" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.GirlApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GirlWebApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -968,14 +944,11 @@
       <workItem from="1536802612491" duration="4793000" />
       <workItem from="1537323268167" duration="10096000" />
       <workItem from="1537407364083" duration="1264000" />
-      <workItem from="1537495458210" duration="1778000" />
-    </task>
-    <task id="LOCAL-00001" summary="更新 hrio">
-      <created>1525341848180</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1525341848180</updated>
+      <workItem from="1537495458210" duration="9902000" />
+      <workItem from="1537855204215" duration="717000" />
+      <workItem from="1537924396869" duration="990000" />
+      <workItem from="1538279179434" duration="1983000" />
+      <workItem from="1538283203767" duration="1034000" />
     </task>
     <task id="LOCAL-00002" summary="更新 shrio">
       <created>1525341984749</created>
@@ -1313,7 +1286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537436554679</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="新增 security">
+      <created>1537497581182</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1537497581183</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1349,7 +1329,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="360263000" />
+    <option name="totallyTimeSpent" value="373111000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1372,17 +1352,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11727079" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.118435755" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10167598" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.49573562" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40670392" sideWeight="0.7137527" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13743016" sideWeight="0.91364604" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30055866" sideWeight="0.91364604" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.029180696" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45117846" sideWeight="0.9211087" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26119402" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2979744" sideWeight="0.7777778" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.4914712" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1427,7 +1407,8 @@
     <MESSAGE value="基于springboot 2.0  新增 断路器" />
     <MESSAGE value="基于springboot 2.0  新增 Spring Cloud Sleuth" />
     <MESSAGE value="新增 jwt 工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 jwt 工具类" />
+    <MESSAGE value="新增 security" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 security" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1444,337 +1425,322 @@
           <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/controller/sys/IndexSysController.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="98" />
+      <option name="time" value="104" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/constant/BizConstant.java">
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/SysMenuEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-service/src/main/java/com/yfcloud/cloudgatewayservice/CloudGatewayServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/SysUserEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-feign-client/src/main/java/com/yfcloud/feignclient/FeignClientApplication.java">
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/SysUserRoleService.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/SysMenuService.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/SysRoleMenuService.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/SysRoleService.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/WebSecurityConfig.java" />
+    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/java/com/yf/sys/dao/BaseMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="42" column="42" lean-forward="false" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        <state relative-caret-position="278">
+          <caret line="18" column="7" lean-forward="false" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/entiy/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/Query.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/SysUserService.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/impl/SysUserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/resources/mapper/sys/SysUserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/controller/sys/LoginSysController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/GirlWebApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-feign-client/src/main/java/com/yfcloud/feignclient/config/FeignConfig.java">
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/controller/sys/IndexSysController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-feign-client/src/main/java/com/yfcloud/feignclient/api/EurekaClientFeignService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="19" column="57" lean-forward="false" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/config-client/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="43" column="12" lean-forward="false" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/config-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-eureka-ribbon-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.9.9/joda-time-2.9.9.jar!/org/joda/time/DateTime.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="310" column="20" lean-forward="false" selection-start-line="310" selection-start-column="20" selection-end-line="310" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/jre/lib/jce.jar!/javax/crypto/spec/SecretKeySpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="30" column="67" lean-forward="false" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTRSAHelper.java" />
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1288">
-          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/src.zip!/java/security/KeyFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="371" column="0" lean-forward="false" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/rsa/JWTHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="21" column="26" lean-forward="false" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/rsa/RsaKeyHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="989">
+          <caret line="58" column="27" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="27" />
           <folding>
-            <element signature="e#3921#3922#0" expanded="false" />
-            <element signature="e#3981#3982#0" expanded="false" />
+            <element signature="e#1559#1560#0" expanded="false" />
+            <element signature="e#1598#1599#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/ClientInfo.java">
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/shrio/ShiroConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
+          <caret line="37" column="13" lean-forward="false" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/shrio/ShiroRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/1.8.9.RELEASE/spring-data-redis-1.8.9.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/shrio/RedisSessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="34" column="20" lean-forward="false" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/ConfigBeans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/ClientInfoRepository.java">
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="483">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-cloud/src/main/java/com/yf/girlcloud/GirlCloudApplication.java" />
-    <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/SocketApplication.java">
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/ConfigBeans.java" />
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="48" column="42" lean-forward="false" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
-          <folding>
-            <element signature="e#1673#1674#0" expanded="false" />
-            <element signature="e#1741#1742#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="-736">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/ServerRunner.java">
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisCacheManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/MessageInfo.java">
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="312">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-socket/src/main/java/com/yf/socket/MessageEventHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-concurrent/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/girl-concurrent/src/main/java/com/ljg/concurrent/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-concurrent/src/main/java/com/ljg/concurrent/MyBlockingQueue.java" />
-    <entry file="file://$PROJECT_DIR$/girl-concurrent/src/main/java/com/ljg/concurrent/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/common/concurrent/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/common/concurrent/MyBlockingQueue.java" />
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/common/concurrent/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/concurrent/Producer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/concurrent/MyBlockingQueue.java" />
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/concurrent/Consumer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/Producer.java">
+    <entry file="file://$PROJECT_DIR$/girl-base/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/MyBlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="73" column="13" lean-forward="false" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#697#698#0" expanded="false" />
-            <element signature="e#735#736#0" expanded="false" />
-            <element signature="e#768#769#0" expanded="false" />
-            <element signature="e#808#809#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/concurrent/ThreadLocalOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort.java">
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisObjectSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/MergeSort2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/InsertionSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="15" lean-forward="false" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/learning/sort/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1886">
-          <caret line="82" column="1" lean-forward="false" selection-start-line="82" selection-start-column="1" selection-end-line="82" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-jwt/src/main/java/com/yf/jwt/JwtApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/src/main/java/com/yf/common/jwt/JWTHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="23" selection-end-line="86" selection-end-column="36" />
-          <folding />
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="79" column="21" lean-forward="true" selection-start-line="71" selection-start-column="8" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="-1660">
+          <caret line="100" column="21" lean-forward="false" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-config/pom.xml">
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="28" column="17" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="28" selection-end-column="17" />
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisObjectSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-security/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-base/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="45" column="43" lean-forward="true" selection-start-line="34" selection-start-column="3" selection-end-line="45" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.4.RELEASE/spring-boot-autoconfigure-2.0.4.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/utils/RedisUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/config/SecurityConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.19/snakeyaml-1.19.jar!/org/yaml/snakeyaml/parser/ParserImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="499" column="0" lean-forward="false" selection-start-line="499" selection-start-column="0" selection-end-line="499" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/GirlApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#437#438#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-664">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/application-prod.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-data-redis/2.0.4.RELEASE/spring-boot-starter-data-redis-2.0.4.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/dao/SysUserMapper.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/dao/BaseMapper.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#820#821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/entiy/Page.java" />
     <entry file="file://$PROJECT_DIR$/girl-security/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="36" column="12" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state relative-caret-position="1127">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisPrefix.java" />
+    <entry file="file://$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1832,7 +1798,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>config-eureka-server</last-edited>
+          <last-edited>girl-webmagic</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

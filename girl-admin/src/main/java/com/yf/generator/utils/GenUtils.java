@@ -204,7 +204,7 @@ public class GenUtils {
 		}
 
 		if (template.contains(GenConstant.JAVA_CONTROLLER)) {
-			return packagePath + className + "Controller.java";
+			return packagePath + className + "controller.java";
 		}
 
 		if (template.contains(GenConstant.HTML_LIST)) {
@@ -277,7 +277,7 @@ public class GenUtils {
 		}
 
 		if (template.contains(GenConstant.JAVA_CONTROLLER)) {
-			return packagePath + "controller" + File.separator + className + "Controller.java";
+			return packagePath + "controller" + File.separator + className + "controller.java";
 		}
 
 		if (template.contains(GenConstant.HTML_LIST)) {

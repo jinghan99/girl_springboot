@@ -14,7 +14,7 @@ public class GenConstant {
     public static final String JAVA_MANAGER_IMPL = "ManagerImpl.java.vm";
     public static final String JAVA_SERVICE = "Service.java.vm";
     public static final String JAVA_SERVICE_IMPL = "ServiceImpl.java.vm";
-    public static final String JAVA_CONTROLLER = "Controller.java.vm";
+    public static final String JAVA_CONTROLLER = "controller.java.vm";
     public static final String HTML_LIST = "list.html.vm";
     public static final String HTML_ADD = "add.html.vm";
     public static final String HTML_EDIT = "edit.html.vm";

@@ -1,0 +1,7 @@
+
+server:
+  port: 9001
+spring:
+  data:
+    mongodb:
+      uri: mongodb://jinghan.club:27017/yf?readPreference=secondaryPreferred

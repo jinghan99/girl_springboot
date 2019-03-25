@@ -187,7 +187,7 @@ public class JdbcGenUtils {
         }
 
         if (template.contains(GenConstant.JAVA_CONTROLLER)) {
-            return packagePath + "controller/" + className + "Controller.java";
+            return packagePath + "controller/" + className + "controller.java";
         }
 
         if (template.contains(GenConstant.HTML_LIST)) {

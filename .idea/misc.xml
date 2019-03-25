@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/cloud-user-service/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway-service/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config/config-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-mongo/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

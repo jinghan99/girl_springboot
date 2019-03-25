@@ -20,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" filepath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" filepath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" filepath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-mongo/girl-mongo.iml" filepath="$PROJECT_DIR$/girl-mongo/girl-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-security/girl-security.iml" filepath="$PROJECT_DIR$/girl-security/girl-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-socket/girl-socket.iml" filepath="$PROJECT_DIR$/girl-socket/girl-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-springboot.iml" filepath="$PROJECT_DIR$/girl-springboot.iml" />

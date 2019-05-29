@@ -1,0 +1,6 @@
+# 默认使用配置
+config:
+  type: 常用配置
+spring:
+  profiles:
+    active: #spring.profiles.active#

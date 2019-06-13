@@ -20,12 +20,14 @@
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" filepath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" filepath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" filepath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-maven-profile/girl-maven-profile.iml" filepath="$PROJECT_DIR$/girl-maven-profile/girl-maven-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-mongo/girl-mongo.iml" filepath="$PROJECT_DIR$/girl-mongo/girl-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-redis/girl-redis.iml" filepath="$PROJECT_DIR$/girl-redis/girl-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-security/girl-security.iml" filepath="$PROJECT_DIR$/girl-security/girl-security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/girl-socket/girl-socket.iml" filepath="$PROJECT_DIR$/girl-socket/girl-socket.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-springboot.iml" filepath="$PROJECT_DIR$/girl-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-utils/girl-utils.iml" filepath="$PROJECT_DIR$/girl-utils/girl-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" filepath="$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-socket/socket.iml" filepath="$PROJECT_DIR$/girl-socket/socket.iml" />
     </modules>
   </component>
 </project>

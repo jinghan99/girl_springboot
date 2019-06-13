@@ -1,0 +1,35 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.idea/dataSources.local.xml
+cloud-config/config-client/target/
+cloud-config/config-eureka-server/target/
+cloud-config/config-server/target/
+cloud-eureka-client/target/
+cloud-eureka-client2/target/
+cloud-eureka-feign-client/target/
+cloud-eureka-ribbon-client/target/
+cloud-eureka-service/target/
+cloud-eureka-zuul-client/target/
+cloud-gateway-service/target/
+cloud-user-service/target/
+girl-admin/target/
+girl-base/target/
+girl-common/target/
+girl-dubbo-api/target/
+girl-dubbo-consumer/target/
+girl-dubbo-provider/target/
+girl-maven-profile/src/main/resources/static/
+girl-maven-profile/src/main/resources/templates/
+girl-mongo/src/main/java/com/yf/mongo/config/
+girl-mongo/src/main/resources/static/
+girl-mongo/src/main/resources/templates/
+girl-mongo/target/
+girl-security/target/
+girl-utils/target/

@@ -32,6 +32,9 @@
         <module>girl-webmagic</module>
         <module>cloud-config</module>
         <module>girl-security</module>
+        <module>girl-socket</module>
+        <module>girl-maven-profile</module>
+        <module>girl-redis</module>
     </modules>
 
     <properties>

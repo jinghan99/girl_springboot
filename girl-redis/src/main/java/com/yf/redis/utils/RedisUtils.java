@@ -3,6 +3,7 @@ package com.yf.redis.utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.concurrent.TimeUnit;
  * @author: jingh
  * @date 2019/6/13 22:22
  */
+@Component
 public class RedisUtils {
     /**
      *  key值 默认过期时间

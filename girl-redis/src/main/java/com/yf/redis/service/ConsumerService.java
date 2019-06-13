@@ -28,6 +28,6 @@ public class ConsumerService  implements MessageListener {
     public void onMessage(Message message, byte[] bytes) {
         RedisSerializer<String> valueSerializer = stringRedisTemplate.getStringSerializer();
         String deserialize = valueSerializer.deserialize(message.getBody());
-        logger.info("收到的mq消息" + deserialize);
+        logger.info("收到的mq消息：" + deserialize);
     }
 }

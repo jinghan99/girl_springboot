@@ -1,0 +1,18 @@
+server:
+  port: 8083
+spring:
+  rabbitmq:
+    host: 192.168.3.2
+    port: 5672
+    username: root
+    password: jh960126yf
+    # 这个账号密码只能连接本地的mq，远程的话需要配置
+    virtual-host: /
+    listener:
+      simple:
+        concurrency: 10
+        max-concurrency: 10
+        prefetch: 1 # 从队列每次取一个
+        auto-startup: true
+        default-requeue-rejected: true # 失败后重试
+

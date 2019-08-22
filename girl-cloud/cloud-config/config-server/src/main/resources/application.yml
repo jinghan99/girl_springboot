@@ -1,0 +1,108 @@
+#  配置方式 一：本地仓库是指将所有的配置文件统一写在Config Server工程目录下。
+#   config server暴露Http API接口，config client通过调用config server的Http API接口来读取配置文件。
+#   配置文件application.yml做相关配置：端口号8769，
+#   程序名config-server，spring.profiles.active=native来配置config server
+#   从本地读取配置读配置的路径为classpath下的shared目录。
+#
+#server:
+#  port: 8769
+#spring:
+#  application:
+#    name: config-server
+#  profiles:
+#    active: native
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:/shared    #
+
+
+#   配置方式 二： Config Server 从远程Git仓库读取配置文件
+
+#server:
+#  port: 8769
+#spring:
+#  application:
+#    name: config-server
+#
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/cralor7/springcloud
+#          search-paths: config-repo
+#        #  username:
+#        #  password:
+#          default-label: master
+
+
+#  配置方式 三：Eureka Server git 读取配置文件
+#server:
+#  port: 8769
+#spring:
+#  application:
+#    name: config-server
+#
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/cralor7/springcloud
+#          search-paths: config-repo
+#         # username:
+#         # password:
+#          default-label: master
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/
+
+# 配置方式 四：使用Spring Cloud Bus刷新配置
+
+#     Spring Cloud Bus 通过轻量消息代理连接各个分布的节点，可以用于广播配置文件的更改或者服务的监控管理。
+#     一个关键的思想就是，消息总线可以为微服务做监控，
+#     也可以实现应用程序之间相互通信。Spring Cloud Bus可选的消息代理组件包括RabbitMQ和Kafka等。
+#     这里用RabbitMQ作为Spring Cloud的消息组件去刷新更改微服务的配置文件。
+#
+#    为什么用Spring Cloud Bus去刷新配置呢？
+#
+#    如果有几十个微服务，而每一个服务优势多实例，当更改配置时，需要重启多个微服务实例。
+#    Spring Cloud Bus的一个功能就是让这个过程变得简单，当远程Git仓库的配置文件更改后，
+#    只需要向某一个微服务实例发送一个Post请求，通过消息组件通知其他微服务实例重新去仓库拉取最新的配置文件。
+
+#由于使用了RabbitMQ，首先必需安装RabbitMQ
+
+server:
+  port: 8769
+spring:
+  application:
+    name: config-server
+
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jinghan99/girl_springboot
+          search-paths: doc
+          # username:
+          # password:
+          default-label: master
+    bus:
+      trace:
+        enabled: true
+      enabled: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+
+

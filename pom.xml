@@ -30,11 +30,13 @@
         <module>girl-dubbo-consumer</module>
         <module>girl-dubbo-provider</module>
         <module>girl-webmagic</module>
-        <module>cloud-config</module>
         <module>girl-security</module>
         <module>girl-socket</module>
         <module>girl-maven-profile</module>
         <module>girl-redis</module>
+        <module>girl-mq</module>
+        <module>yf-phantomjs</module>
+        <module>girl-cloud</module>
     </modules>
 
     <properties>

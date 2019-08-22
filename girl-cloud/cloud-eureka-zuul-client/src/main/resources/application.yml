@@ -1,0 +1,31 @@
+#    在配置文件做相关配置，包括端口号5000，
+#服务注册中心地址http://localhost:1001/eureka/，程序名service-zuul，
+server:
+  port: 5000
+spring:
+  application:
+    name: service-zuul
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/
+
+
+  #   其中zuul路由配置：zuul.routes.hiapi为”/hiapi/**“，zuul.routes.serviceId为”eureka-client“，
+  #  这两个配置就可以将以”/hiapi“开头的Url路由到eureka-client服务，zuul.routes.hiapi中的”hiapi“是自己定义的需要指定它的path和serviceId，
+  #  两者配合使用，就可以将指定类型的请求Url路由到指定的serviceId。同理，满足”/ribbonapi“开头的请求Url都会被分发到eureka-ribbon-client，
+  #  满足”/feignapi“开头的请求Url都会被分发到eureka-feign-client服务。如果服务存在多个实例，zuul会结合ribbon做负载均衡。
+zuul:
+  routes:
+    hiapi:
+      path: /hiapi/**
+      serviceId: service-hi
+    ribbonapi:   #http://localhost:5000/v1.0/ribbonapi/hi?name=123213
+      path: /ribbonapi/**  #以将指定类型的请求Url路由到指定的serviceId
+      serviceId: eureka-ribbon-client
+    feignapi:
+      path: /feignapi/**
+      serviceId: eureka-feign-client
+  prefix: /v1.0  #配置API接口的版本号
+

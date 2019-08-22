@@ -2,7 +2,6 @@ package com.girl.yfphantomjs.utils;
 
 import cn.edu.hfut.dmic.webcollector.model.Page;
 import com.gargoylesoftware.htmlunit.BrowserVersion;
-import com.sleepycat.utilint.StringUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
@@ -11,11 +10,9 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -25,7 +22,11 @@ import java.util.Set;
  * @Description: PhantomJS工具类
  * @date 2017年6月1日 下午5:53:10
  */
+@Component
 public class PageUtils {
+
+    @Value("${api.phantomjs_path}")
+    private String phantomjs_path;
 
     private static final String DRIVER_PROPERTIES_PATH = "src/main/resources/config.properties";
     public static final  String PHANTOMJS_DRIVER_PATH  = "phantomjs.driver.path";
@@ -88,18 +89,8 @@ public class PageUtils {
         return driver;
     }
 
-    public static void main(String[] args) throws InterruptedException {
 
-
-        int i = 0;
-
-        String phone = "15810108575";
-        if(i == 0){
-            mobile(phone);
-		}
-	}
-
-	private static void mobile(String phone) throws InterruptedException {
+	public  void mobile(String phone) throws InterruptedException {
 
         String loginUrl = "https://login.10086.cn/html/login/touch.html";
 		//设置必要参数
@@ -113,7 +104,7 @@ public class PageUtils {
 		//js支持
 		dcaps.setJavascriptEnabled(true);
 		//驱动支持
-		dcaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, "E:\\idea\\yf-phantomjs\\src\\main\\resources\\phantomjs.exe");
+		dcaps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, phantomjs_path);
 		//创建无界面浏览器对象
 		PhantomJSDriver driver = new PhantomJSDriver(dcaps);
 

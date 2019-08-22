@@ -1,0 +1,7 @@
+server:
+  port: 8082
+spring:
+  rabbitmq:
+    addresses: yangfan.cloud:5672
+    username: root
+    password: jh960126yf

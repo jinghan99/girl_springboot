@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @date 2019/8/22 22:59
  */
 @Component
-@RabbitListener(queues = "string")
+@RabbitListener(queues = "queue_yf")
 public class StringConsumer {
     @Autowired
     private AmqpTemplate rabbitmqTemplate;

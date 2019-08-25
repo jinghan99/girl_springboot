@@ -26,19 +26,4 @@ public class RabbitConfig {
 
     }
 
-    @Bean
-    DirectExchange directExchange(){
-        // 注册一个 Direct 类型的交换机 默认持久化、非自动删除
-        return new DirectExchange("directExchange");
-    }
-
-
-
-    @Bean
-    Binding infoToExchangeBinging(Queue infoQueue, DirectExchange directExchange) {
-        // 将队列以 info-msg 为绑定键绑定到交换机
-        return BindingBuilder.bind(infoQueue).to(directExchange).with("info-msg");
-    }
-
-
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config/cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-cloud/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/girl-cloud/cloud-config/cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" filepath="$PROJECT_DIR$/cloud-eureka-client/cloud-eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-client2/cloud-eureka-client2.iml" filepath="$PROJECT_DIR$/cloud-eureka-client2/cloud-eureka-client2.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka-feign-client/cloud-eureka-feign-client.iml" filepath="$PROJECT_DIR$/cloud-eureka-feign-client/cloud-eureka-feign-client.iml" />
@@ -13,21 +13,26 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-user-service/cloud-user-service.iml" filepath="$PROJECT_DIR$/cloud-user-service/cloud-user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config/config-client/config-client.iml" filepath="$PROJECT_DIR$/cloud-config/config-client/config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config/config-eureka-server/config-eureka-server.iml" filepath="$PROJECT_DIR$/cloud-config/config-eureka-server/config-eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/cloud-config/config-server/config-server.iml" filepath="$PROJECT_DIR$/cloud-config/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-cloud/cloud-config/config-server/config-server.iml" filepath="$PROJECT_DIR$/girl-cloud/cloud-config/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-admin/girl-admin.iml" filepath="$PROJECT_DIR$/girl-admin/girl-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-base/girl-base.iml" filepath="$PROJECT_DIR$/girl-base/girl-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-cloud/girl-cloud.iml" filepath="$PROJECT_DIR$/girl-cloud/girl-cloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-common/girl-common.iml" filepath="$PROJECT_DIR$/girl-common/girl-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" filepath="$PROJECT_DIR$/girl-dubbo-api/girl-dubbo-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" filepath="$PROJECT_DIR$/girl-dubbo-consumer/girl-dubbo-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" filepath="$PROJECT_DIR$/girl-dubbo-provider/girl-dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-maven-profile/girl-maven-profile.iml" filepath="$PROJECT_DIR$/girl-maven-profile/girl-maven-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-mongo/girl-mongo.iml" filepath="$PROJECT_DIR$/girl-mongo/girl-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-mq.iml" filepath="$PROJECT_DIR$/girl-mq/girl-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/girl-rabbit-consumer.iml" filepath="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/girl-rabbit-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/girl-rabbit-producer.iml" filepath="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/girl-rabbit-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-redis/girl-redis.iml" filepath="$PROJECT_DIR$/girl-redis/girl-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-security/girl-security.iml" filepath="$PROJECT_DIR$/girl-security/girl-security.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-springboot.iml" filepath="$PROJECT_DIR$/girl-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-utils/girl-utils.iml" filepath="$PROJECT_DIR$/girl-utils/girl-utils.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" filepath="$PROJECT_DIR$/girl-webmagic/girl-webmagic.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-socket/socket.iml" filepath="$PROJECT_DIR$/girl-socket/socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yf-phantomjs/yf-phantomjs.iml" filepath="$PROJECT_DIR$/yf-phantomjs/yf-phantomjs.iml" />
     </modules>
   </component>
 </project>

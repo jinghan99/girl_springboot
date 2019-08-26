@@ -6,40 +6,44 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud-eureka" />
-        <module name="cloud-eureka-client" />
-        <module name="cloud-eureka-client2" />
-        <module name="cloud-eureka-feign-client" />
-        <module name="cloud-eureka-ribbon-client" />
-        <module name="cloud-eureka-service" />
-        <module name="cloud-eureka-zuul-client" />
-        <module name="cloud-gateway-service" />
         <module name="cloud-user-service" />
-        <module name="config-client" />
-        <module name="config-eureka-server" />
-        <module name="config-server" />
+        <module name="girl-cloud-server" />
         <module name="eureka-server" />
+        <module name="girl-socket" />
+        <module name="config-eureka-server" />
+        <module name="cloud-eureka-client" />
+        <module name="girl-security" />
+        <module name="girl-webmagic" />
+        <module name="cloud-eureka-client2" />
+        <module name="girl-dubbo-api" />
+        <module name="jwt" />
+        <module name="girl-common (2)" />
+        <module name="cloud-gateway-service" />
+        <module name="cloud-eureka-ribbon-client" />
+        <module name="config-client" />
+        <module name="cloud-eureka-zuul-client" />
+        <module name="cloud-eureka-feign-client" />
+        <module name="config-server" />
         <module name="girl-admin" />
         <module name="girl-base" />
+        <module name="girl-dubbo-provider" />
+        <module name="girl-rabbit-producer" />
         <module name="girl-cloud-message" />
-        <module name="girl-cloud-server" />
+        <module name="girl-concurrent" />
+        <module name="yf-phantomjs" />
+        <module name="yfcloud" />
+        <module name="girl-mongo" />
+        <module name="cloud-eureka-service" />
+        <module name="socket" />
         <module name="girl-common" />
         <module name="girl-common (1)" />
-        <module name="girl-common (2)" />
-        <module name="girl-concurrent" />
-        <module name="girl-dubbo-api" />
-        <module name="girl-dubbo-consumer" />
-        <module name="girl-dubbo-provider" />
-        <module name="girl-maven-profile" />
-        <module name="girl-mongo" />
         <module name="girl-redis" />
-        <module name="girl-security" />
-        <module name="girl-socket" />
+        <module name="girl-mq" />
         <module name="girl-utils" />
-        <module name="girl-webmagic" />
-        <module name="jwt" />
-        <module name="socket" />
-        <module name="yfcloud" />
+        <module name="girl-dubbo-consumer" />
+        <module name="girl-maven-profile" />
+        <module name="girl-rabbit-consumer" />
+        <module name="cloud-eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -60,7 +64,7 @@
       <module name="eureka-server" target="1.8" />
       <module name="girl-admin" target="1.8" />
       <module name="girl-base" target="1.8" />
-      <module name="girl-cloud" target="1.8" />
+      <module name="girl-cloud" target="1.6" />
       <module name="girl-cloud-eureka" target="1.8" />
       <module name="girl-cloud-message" target="1.8" />
       <module name="girl-cloud-server" target="1.8" />
@@ -77,6 +81,9 @@
       <module name="girl-jwt" target="1.8" />
       <module name="girl-maven-profile" target="1.8" />
       <module name="girl-mongo" target="1.8" />
+      <module name="girl-mq" target="1.8" />
+      <module name="girl-rabbit-consumer" target="1.8" />
+      <module name="girl-rabbit-producer" target="1.8" />
       <module name="girl-redis" target="1.8" />
       <module name="girl-security" target="1.8" />
       <module name="girl-service" target="1.8" />
@@ -89,7 +96,40 @@
       <module name="jwt" target="1.8" />
       <module name="socket" target="1.8" />
       <module name="yf-cloud-server" target="1.8" />
+      <module name="yf-phantomjs" target="1.8" />
       <module name="yfcloud" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-eureka-client" options="-parameters" />
+      <module name="cloud-eureka-client2" options="-parameters" />
+      <module name="cloud-eureka-feign-client" options="-parameters" />
+      <module name="cloud-eureka-ribbon-client" options="-parameters" />
+      <module name="cloud-eureka-service" options="-parameters" />
+      <module name="cloud-eureka-zuul-client" options="-parameters" />
+      <module name="cloud-gateway-service" options="-parameters" />
+      <module name="cloud-user-service" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-eureka-server" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="girl-admin" options="-parameters" />
+      <module name="girl-base" options="-parameters" />
+      <module name="girl-common" options="-parameters" />
+      <module name="girl-dubbo-api" options="-parameters" />
+      <module name="girl-dubbo-consumer" options="-parameters" />
+      <module name="girl-dubbo-provider" options="-parameters" />
+      <module name="girl-maven-profile" options="-parameters" />
+      <module name="girl-mongo" options="-parameters" />
+      <module name="girl-mq" options="-parameters" />
+      <module name="girl-rabbit-consumer" options="-parameters" />
+      <module name="girl-rabbit-producer" options="-parameters" />
+      <module name="girl-redis" options="-parameters" />
+      <module name="girl-security" options="-parameters" />
+      <module name="girl-utils" options="-parameters" />
+      <module name="girl-webmagic" options="-parameters" />
+      <module name="socket" options="-parameters" />
+      <module name="yf-phantomjs" options="-parameters" />
+    </option>
   </component>
 </project>

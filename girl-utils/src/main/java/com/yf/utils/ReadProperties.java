@@ -1,6 +1,9 @@
 package com.yf.utils;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.InputStream;
 import java.util.Properties;
 
@@ -13,7 +16,7 @@ import java.util.Properties;
  */
 public class ReadProperties {
 
-    private static Logger logger = Logger.getLogger(ReadProperties.class);
+    private static Logger logger = LoggerFactory.getLogger(ReadProperties.class);
 
     public static String driverClassName = null;
     public static String url = null;

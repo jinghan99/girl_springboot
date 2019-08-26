@@ -1,6 +1,8 @@
 package com.yf.utils;
 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 import org.springframework.web.servlet.ModelAndView;
@@ -8,8 +10,9 @@ import org.springframework.web.servlet.ModelAndView;
 import javax.servlet.http.HttpServletRequest;
 
 public class BaseController {
-	
-	protected Logger logger = Logger.getLogger(this.getClass());
+
+
+	private static Logger logger = LoggerFactory.getLogger(BaseController.class);
 
 	private static final long serialVersionUID = 6357869213649815390L;
 	

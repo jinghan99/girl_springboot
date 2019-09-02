@@ -7,13 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-user-service" />
+        <module name="girl-dubbo-consumer" />
+        <module name="girl-utils" />
         <module name="girl-cloud-server" />
-        <module name="eureka-server" />
         <module name="girl-socket" />
-        <module name="config-eureka-server" />
         <module name="cloud-eureka-client" />
         <module name="girl-security" />
         <module name="girl-webmagic" />
+        <module name="girl-maven-profile" />
+        <module name="girl-rabbit-consumer-two" />
         <module name="cloud-eureka-client2" />
         <module name="girl-dubbo-api" />
         <module name="jwt" />
@@ -28,8 +30,6 @@
         <module name="girl-base" />
         <module name="girl-dubbo-provider" />
         <module name="girl-rabbit-producer" />
-        <module name="girl-cloud-message" />
-        <module name="girl-concurrent" />
         <module name="yf-phantomjs" />
         <module name="yfcloud" />
         <module name="girl-mongo" />
@@ -38,12 +38,13 @@
         <module name="girl-common" />
         <module name="girl-common (1)" />
         <module name="girl-redis" />
+        <module name="girl-rabbit-consumer-one" />
         <module name="girl-mq" />
-        <module name="girl-utils" />
-        <module name="girl-dubbo-consumer" />
-        <module name="girl-maven-profile" />
-        <module name="girl-rabbit-consumer" />
         <module name="cloud-eureka" />
+        <module name="config-eureka-server" />
+        <module name="eureka-server" />
+        <module name="girl-cloud-message" />
+        <module name="girl-concurrent" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -83,6 +84,8 @@
       <module name="girl-mongo" target="1.8" />
       <module name="girl-mq" target="1.8" />
       <module name="girl-rabbit-consumer" target="1.8" />
+      <module name="girl-rabbit-consumer-one" target="1.8" />
+      <module name="girl-rabbit-consumer-two" target="1.8" />
       <module name="girl-rabbit-producer" target="1.8" />
       <module name="girl-redis" target="1.8" />
       <module name="girl-security" target="1.8" />
@@ -123,6 +126,8 @@
       <module name="girl-mongo" options="-parameters" />
       <module name="girl-mq" options="-parameters" />
       <module name="girl-rabbit-consumer" options="-parameters" />
+      <module name="girl-rabbit-consumer-one" options="-parameters" />
+      <module name="girl-rabbit-consumer-two" options="-parameters" />
       <module name="girl-rabbit-producer" options="-parameters" />
       <module name="girl-redis" options="-parameters" />
       <module name="girl-security" options="-parameters" />

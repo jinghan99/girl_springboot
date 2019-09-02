@@ -1,4 +1,4 @@
-package com.yf.mq.config;
+package com.yf.consumer.config;
 import org.springframework.amqp.core.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

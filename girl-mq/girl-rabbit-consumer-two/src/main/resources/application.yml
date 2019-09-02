@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8092
 spring:
   rabbitmq:
     host: yangfan.cloud
@@ -9,6 +9,5 @@ spring:
     virtual-host: my_vhost
     listener:
       simple:
-        #        分发原则 0 轮询分发模式
+#  分发原则 0 轮询分发模式
         prefetch: 0
-

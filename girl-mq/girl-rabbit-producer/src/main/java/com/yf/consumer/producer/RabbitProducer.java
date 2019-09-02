@@ -1,6 +1,6 @@
-package com.yf.mq.producer;
+package com.yf.consumer.producer;
 
-import com.yf.mq.config.RabbitConfig;
+import com.yf.consumer.config.RabbitConfig;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -24,9 +24,12 @@ public class RabbitProducer {
 
     public void stringSend() {
         Date date = new Date();
-        String dateString = new SimpleDateFormat("YYYY-mm-DD hh:MM:ss").format(date);
-        System.out.println("[string] send msg:" + dateString);
-        // 第一个参数为刚刚定义的队列名称
-        this.rabbitTemplate.convertAndSend(RabbitConfig.queue_yf, dateString);
+        for(int i=0;i<20;i++){
+            String dateString = new SimpleDateFormat("YYYY-mm-DD hh:MM:ss").format(date) + "队列： "+i;
+            System.out.println("[string] send msg:" + dateString);
+            // 第一个参数为刚刚定义的队列名称
+            this.rabbitTemplate.convertAndSend(RabbitConfig.queue_yf, dateString);
+        }
+
     }
 }

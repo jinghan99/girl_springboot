@@ -1,6 +1,6 @@
-package com.yf.mq.controller;
+package com.yf.consumer.controller;
 
-import com.yf.mq.producer.RabbitProducer;
+import com.yf.consumer.producer.RabbitProducer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,7 +17,7 @@ public class TestController {
     @Autowired
     private RabbitProducer rabbitProducer;
 
-    @RequestMapping("/")
+    @RequestMapping("/test")
     public String index(){
         rabbitProducer.stringSend();
         return "ok";

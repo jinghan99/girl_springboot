@@ -24,7 +24,8 @@
       <module fileurl="file://$PROJECT_DIR$/girl-maven-profile/girl-maven-profile.iml" filepath="$PROJECT_DIR$/girl-maven-profile/girl-maven-profile.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-mongo/girl-mongo.iml" filepath="$PROJECT_DIR$/girl-mongo/girl-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-mq.iml" filepath="$PROJECT_DIR$/girl-mq/girl-mq.iml" />
-      <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/girl-rabbit-consumer.iml" filepath="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/girl-rabbit-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/girl-rabbit-consumer-one.iml" filepath="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/girl-rabbit-consumer-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/girl-rabbit-consumer-two.iml" filepath="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/girl-rabbit-consumer-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/girl-rabbit-producer.iml" filepath="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/girl-rabbit-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-redis/girl-redis.iml" filepath="$PROJECT_DIR$/girl-redis/girl-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/girl-security/girl-security.iml" filepath="$PROJECT_DIR$/girl-security/girl-security.iml" />

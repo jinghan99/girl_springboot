@@ -19,7 +19,8 @@
 
 	<modules>
 		<module>girl-rabbit-producer</module>
-		<module>girl-rabbit-consumer</module>
+		<module>girl-rabbit-consumer-one</module>
+		<module>girl-rabbit-consumer-two</module>
 	</modules>
 
 	<properties>

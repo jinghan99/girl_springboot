@@ -1,8 +1,0 @@
-server:
-  port: 8082
-spring:
-  rabbitmq:
-    host: yangfan.cloud
-    port: 5672
-    username: girlyf
-    password: jh960126

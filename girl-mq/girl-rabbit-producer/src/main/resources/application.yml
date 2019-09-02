@@ -1,10 +1,11 @@
 server:
-  port: 8083
+  port: 8081
 spring:
   rabbitmq:
     host: yangfan.cloud
     port: 5672
-    username: girlyf
-    password: jh960126
+    username: guest
+    password: guest
+    virtual-host: my_vhost
 
 

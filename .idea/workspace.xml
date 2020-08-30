@@ -451,6 +451,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-socket\src\main\resources\templates" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yf.consumer.controller" />
       <recent name="com.yf.consumer.producer" />
@@ -459,20 +468,11 @@
       <recent name="com.yf.mq.consumer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ideaGit\girl_springboot" />
       <recent name="D:\ideaGit\workspace\ssh\girl_springboot" />
       <recent name="D:\ideaGit\girl_springboot\girl-maven-profile\src\main\resources" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\security\entiy" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\security" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\service" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-socket\src\main\resources\templates" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1135,6 +1135,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新 hrio" />

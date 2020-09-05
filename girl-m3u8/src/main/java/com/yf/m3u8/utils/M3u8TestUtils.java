@@ -11,8 +11,13 @@ import com.yf.m3u8.vo.M3u8Vo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.channels.FileChannel;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -28,7 +33,7 @@ public class M3u8TestUtils {
     /**
      * 下载文件名称
      */
-    public static final String FILE_NAME = "天宝伏妖录10集";
+    public static final String FILE_NAME = "元龙12集";
 
     /**
      * 文件夹地址
@@ -46,7 +51,7 @@ public class M3u8TestUtils {
 
 
     public static void main(String[] args) {
-        String m3u8Url = "https://www.fztxylgy.com:65/20200830/DvGse3c9/index.m3u8";
+        String m3u8Url = "https://douban.donghongzuida.com/20200905/8997_c8f1bc37/index.m3u8";
 
 
         String downloadFileDir = DOWNLOAD_DIR + File.separator + FILE_NAME;
@@ -58,8 +63,8 @@ public class M3u8TestUtils {
             file.mkdirs();
         }
 
-//        boolean flag = m3u8Download(m3u8Url,tempDir);
-//        if (!flag) return;
+        boolean flag = m3u8Download(m3u8Url,tempDir);
+        if (!flag) return;
         File tempDIr = new File(tempDir);
         if(tempDIr.isDirectory()){
             File[] fileTemps = tempDIr.listFiles();

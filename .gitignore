@@ -64,5 +64,5 @@ crashlytics-build.properties
 log/*
 logs/*
 .DS_Store
-*.gz
+#*.gz
 ym-doc/docker1.20/ym-web-bms-admin.tar

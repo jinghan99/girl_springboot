@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="新增 m3u8">
-      <change afterPath="$PROJECT_DIR$/girl-shardingsphere/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/girl-shardingsphere/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="新增 分库分表" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +187,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/girl-cloud-eureka/src/main/java/com/yfcloud" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/girl-shardingsphere/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/girl-shardingsphere/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -450,14 +446,7 @@
       <workItem from="1598796116424" duration="262000" />
       <workItem from="1599134649200" duration="1578000" />
       <workItem from="1599315370394" duration="69000" />
-      <workItem from="1600336620378" duration="248000" />
-    </task>
-    <task id="LOCAL-00010" summary="优化 redis session  shrio 共享缓存">
-      <created>1527580801783</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1527580801783</updated>
+      <workItem from="1600336620378" duration="550000" />
     </task>
     <task id="LOCAL-00011" summary="优化 redis session  shrio 共享缓存">
       <created>1528279566261</created>
@@ -795,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599314500223</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="新增 分库分表">
+      <created>1600337032590</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1600337032590</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -865,7 +861,8 @@
     <MESSAGE value="redis 优化" />
     <MESSAGE value="新增 security redis Utils 优化" />
     <MESSAGE value="新增 m3u8" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增 m3u8" />
+    <MESSAGE value="新增 分库分表" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增 分库分表" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

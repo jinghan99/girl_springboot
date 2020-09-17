@@ -30,6 +30,7 @@
         <option value="$PROJECT_DIR$/girl-mongo/pom.xml" />
         <option value="$PROJECT_DIR$/girl-maven-profile/pom.xml" />
         <option value="$PROJECT_DIR$/girl-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/girl-shardingsphere/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

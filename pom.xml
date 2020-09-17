@@ -38,6 +38,7 @@
         <module>yf-phantomjs</module>
         <module>girl-cloud</module>
         <module>girl-m3u8</module>
+        <module>girl-shardingsphere</module>
     </modules>
 
     <properties>
@@ -68,13 +69,6 @@
     </properties>
 
     <dependencies>
-
-
-
-
-
-
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

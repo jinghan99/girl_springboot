@@ -5,66 +5,15 @@
       <artifact name="girl-admin:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ad29daae-723b-4bd5-a122-722b5c91ddb9" name="Default" comment="新增 m3u8">
+      <change afterPath="$PROJECT_DIR$/girl-shardingsphere/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/girl-shardingsphere/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/girl-m3u8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/girl-m3u8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/girl-m3u8/src/main/java/com/yf/m3u8/utils/M3u8TestUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/girl-m3u8/src/main/java/com/yf/m3u8/utils/M3u8TestUtils.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/girl-utils/target/" />
-    <ignored path="$PROJECT_DIR$/girl-core/target/" />
-    <ignored path="$PROJECT_DIR$/girl-web/target/" />
-    <ignored path="$PROJECT_DIR$/girl-dao/target/" />
-    <ignored path="$PROJECT_DIR$/girl-service/target/" />
-    <ignored path="$PROJECT_DIR$/girl-entiy/target/" />
-    <ignored path="$PROJECT_DIR$/girl-base/target/" />
-    <ignored path="$PROJECT_DIR$/girl-common/target/" />
-    <ignored path="$PROJECT_DIR$/girl-admin/target/" />
-    <ignored path="$PROJECT_DIR$/girl-dubbo-api/target/" />
-    <ignored path="$PROJECT_DIR$/girl-dubbo-provider/target/" />
-    <ignored path="$PROJECT_DIR$/girl-dubbo-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/girl-webmagic/target/" />
-    <ignored path="$PROJECT_DIR$/socket/target/" />
-    <ignored path="$PROJECT_DIR$/girl-socket/target/" />
-    <ignored path="$PROJECT_DIR$/jwt/target/" />
-    <ignored path="$PROJECT_DIR$/girl-cloud-server/target/" />
-    <ignored path="$PROJECT_DIR$/girl-cloud/target/" />
-    <ignored path="$PROJECT_DIR$/girl-jwt/target/" />
-    <ignored path="$PROJECT_DIR$/yfcloud/target/" />
-    <ignored path="$PROJECT_DIR$/girlcloud/target/" />
-    <ignored path="$PROJECT_DIR$/girl-cloud/cloud-server/target/" />
-    <ignored path="$PROJECT_DIR$/girl-cloud-message/target/" />
-    <ignored path="$PROJECT_DIR$/girl-cloud-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-eureka/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-eureka-client/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-eureka-ribbon-client/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-eureka-feign-client/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-eureka-service/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-eureka-zuul-client/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-eureka-client2/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-config/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-config/config-server/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-config/config-client/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-config/eureka-server/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-config/config-eureka-server/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-user-service/target/" />
-    <ignored path="$PROJECT_DIR$/cloud-gateway-service/target/" />
-    <ignored path="$PROJECT_DIR$/girl-concurrent/target/" />
-    <ignored path="$PROJECT_DIR$/girl-security/target/" />
-    <ignored path="$PROJECT_DIR$/girl-mongo/target/" />
-    <ignored path="$PROJECT_DIR$/girl-maven-profile/target/" />
-    <ignored path="$PROJECT_DIR$/girl-redis/target/" />
-    <ignored path="$PROJECT_DIR$/yf-phantomjs/target/" />
-    <ignored path="$PROJECT_DIR$/girl-mq/target/" />
-    <ignored path="$PROJECT_DIR$/girl-cloud/cloud-config/target/" />
-    <ignored path="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/target/" />
-    <ignored path="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/target/" />
-    <ignored path="$PROJECT_DIR$/girl-cloud/cloud-config/config-server/target/" />
-    <ignored path="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/target/" />
-    <ignored path="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,66 +67,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="hideWarnings" value="true" />
-    <option name="HIDE_WARNINGS" value="true" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="665362476">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="4" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="4" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="4" />
-          <entry key="xml" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="XML" value="8" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/girl-m3u8/src/main/java/com/yf/m3u8/utils/M3u8TestUtils.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/girl-m3u8/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -240,91 +129,12 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/girl-security/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/TestService.java" />
-        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/GirlApplication.java" />
-        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/girl-security/src/main/java/com/yf/security/service/impl/TestServiceImpl.java" />
-        <option value="$PROJECT_DIR$/girl-mongo/src/main/java/com/yf/mongo/entity/StudentScore.java" />
-        <option value="$PROJECT_DIR$/girl-mongo/src/main/java/com/yf/mongo/entity/Student.java" />
-        <option value="$PROJECT_DIR$/girl-mongo/src/main/java/com/yf/mongo/dto/mongoDao.java" />
-        <option value="$PROJECT_DIR$/girl-mongo/src/main/java/com/yf/mongo/dto/MongoDao.java" />
-        <option value="$PROJECT_DIR$/girl-mongo/src/main/java/com/yf/mongo/controller/MongoTestController.java" />
-        <option value="$PROJECT_DIR$/girl-mongo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/girl-maven-profile/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-maven-profile/src/main/resources/application-prod.yml" />
-        <option value="$PROJECT_DIR$/girl-maven-profile/src/main/resources/application-local.yml" />
-        <option value="$PROJECT_DIR$/girl-maven-profile/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/girl-maven-profile/src/main/java/com/yf/profile/config/BaseConfig.java" />
-        <option value="$PROJECT_DIR$/girl-maven-profile/src/main/java/com/yf/profile/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/girl-maven-profile/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/config/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/controller/PublisherController.java" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/service/PublisherService.java" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/service/ConsumerService.java" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/config/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/config/SubscriberConfig.java" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/utils/RedisUtils.java" />
-        <option value="$PROJECT_DIR$/yf-phantomjs/src/main/java/com/girl/yfphantomjs/utils/PageUtils.java" />
-        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/ReadProperties.java" />
-        <option value="$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/BaseController.java" />
-        <option value="$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisConfig.java" />
-        <option value="$PROJECT_DIR$/girl-redis/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/utils/RedisClient.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/mq/producer/RabbitProducer.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/src/main/java/com/yf/mq/MqConsumerTwoApplication.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/mq/consumer/StringConsumer.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/java/com/yf/consumer/config/RabbitConfig.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/src/main/java/com/yf/consumer/producer/RabbitProducer.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/java/com/yf/consumer/producer/RabbitProducer.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/consumer/StringConsumer.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/consumer/updateYfConsumer.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/consumer/UpdateYfConsumer.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/java/com/yf/consumer/controller/TestController.java" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/girl-m3u8/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="m3u8" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="m3u8" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -332,6 +142,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectId" id="1hdMfNY6zILoW8Q7hlDO3ygfdiU" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -358,113 +169,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <autoscrollToSource ProjectPane="false" />
-      <autoscrollFromSource ProjectPane="true" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="m3u8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="yf" type="462c0819:PsiDirectoryNode" />
-              <item name="m3u8" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="girl_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="girl_springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="girl-mongo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -482,7 +191,7 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/girl-cloud-eureka/src/main/java/com/yfcloud" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/girl-shardingsphere/src/main" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
@@ -490,15 +199,6 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-socket\src\main\resources\templates" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
-    </key>
-    <key name="ImportMappingsDialog.RecentPackages">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.yf.consumer.controller" />
       <recent name="com.yf.consumer.producer" />
@@ -507,24 +207,21 @@
       <recent name="com.yf.mq.consumer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\girl_springboot\girl-shardingsphere\src\main" />
       <recent name="D:\ideaGit\girl_springboot" />
       <recent name="D:\ideaGit\workspace\ssh\girl_springboot" />
       <recent name="D:\ideaGit\girl_springboot\girl-maven-profile\src\main\resources" />
       <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\security\entiy" />
-      <recent name="F:\workspace\ideaGit\girl_springboot\girl-security\src\main\java\com\yf\security" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-socket\src\main\resources\templates" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\provideService\impl" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service" />
+      <recent name="F:\workspace\ideaGit\girl_springboot\girl-dubbo-provider\src\main\java\com\yf\dubbo\service\provide" />
+    </key>
   </component>
   <component name="RunManager" selected="Spring Boot.GirlMqApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -539,7 +236,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -584,7 +293,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
@@ -592,11 +302,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -614,6 +324,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\jingh\AppData\Roaming\Subversion</configuration>
   </component>
@@ -739,6 +450,7 @@
       <workItem from="1598796116424" duration="262000" />
       <workItem from="1599134649200" duration="1578000" />
       <workItem from="1599315370394" duration="69000" />
+      <workItem from="1600336620378" duration="248000" />
     </task>
     <task id="LOCAL-00010" summary="优化 redis session  shrio 共享缓存">
       <created>1527580801783</created>
@@ -1118,9 +830,6 @@
       <configuration name="GirlWebApplicationTests.test" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425510000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -1130,56 +839,8 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60714287" visible="true" weight="0.30277187" />
-      <window_info id="Structure" order="1" weight="0.11727079" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Designer" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.39285713" side_tool="true" weight="0.23240939" />
-      <window_info id="Persistence" order="8" sideWeight="0.22222222" side_tool="true" weight="0.30490404" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.5462555" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.91364604" weight="0.36302894" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" weight="0.31403118" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.32996634" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5026652" side_tool="true" visible="true" weight="0.1560758" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.7137527" weight="0.4064588" />
-      <window_info anchor="bottom" id="Spring" order="9" sideWeight="0.4978678" weight="0.029180696" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.37579957" weight="0.005586592" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49573562" weight="0.32996634" />
-      <window_info anchor="bottom" id="Problems" order="12" sideWeight="0.4914712" weight="0.32892805" />
-      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.883378" weight="0.28285077" />
-      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Compute Code Lines" order="15" />
-      <window_info anchor="bottom" id="Database Changes" order="16" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.073027715" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.18230277" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" sideWeight="0.49050632" visible="true" weight="0.18336888" />
-      <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="right" id="Module Dependencies" order="10" weight="0.32995737" />
-      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.50949365" side_tool="true" weight="0.18364611" />
-      <window_info anchor="right" id="Maven" order="12" weight="0.32995737" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新 hrio" />
@@ -1212,300 +873,20 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/yf/dubbo/provide/service/TestServiceImpl.java</url>
           <line>22</line>
-          <properties />
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/girl-dubbo-provider/src/main/java/com/dubbo/producer/service/HelloServiceImpl.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/controller/sys/IndexSysController.java</url>
           <line>41</line>
-          <properties />
           <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/girl-cloud/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/Logger.java" />
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/ReadProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phantomjsdriver.log" />
-    <entry file="file://$PROJECT_DIR$/girl-utils/src/main/java/com/yf/utils/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.1.10.RELEASE/spring-data-redis-2.1.10.RELEASE.jar!/org/springframework/data/redis/connection/jedis/JedisConnectionFactory.class" />
-    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisCacheManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisObjectSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-base/src/main/java/com/yf/base/config/redis/RedisCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/config/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/utils/RedisUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-redis/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" selection-start-line="8" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/GirlRedisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/config/SubscriberConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-redis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/data/spring-data-redis/2.1.8.RELEASE/spring-data-redis-2.1.8.RELEASE.jar!/org/springframework/data/redis/connection/RedisConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-redis/src/main/java/com/yf/redis/utils/RedisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="703" lean-forward="true" selection-start-line="703" selection-end-line="703" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Integer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/src/main/java/com/yf/mq/consumer/StringConsumer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/src/main/java/com/yf/mq/GirlMqApplication.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE.jar!/org/springframework/boot/autoconfigure/amqp/RabbitProperties.class" />
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/src/main/java/com/yf/consumer/producer/RabbitProducer.java" />
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/src/main/java/com/yf/consumer/consumer/StringConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/producer/RabbitProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/java/com/yf/consumer/config/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/config/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/GirlMqApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/consumer/UpdateYfConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/java/com/yf/consumer/producer/RabbitProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/java/com/yf/consumer/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/src/main/java/com/yf/consumer/MqConsumerTwoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/java/com/yf/consumer/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-two/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-producer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/java/com/yf/consumer/MqConsumerOneApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-mq/girl-rabbit-consumer-one/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-m3u8/src/main/java/com/yf/m3u8/vo/M3u8Vo.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-dubbo-api/src/main/java/com/dubbo/api/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-dubbo-provider/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-m3u8/src/main/java/com/yf/m3u8/M3u8Application.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-m3u8/src/main/java/com/yf/m3u8/utils/M3u8TestUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/girl-m3u8/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

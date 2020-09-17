@@ -1,0 +1,77 @@
+server:
+  port: 8091
+
+spring:
+  # 接口返回 时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  main:
+    #当遇到同样名字的时候，是否允许覆盖注册
+    allow-bean-definition-overriding: true
+  # 分表数据源配置
+  shardingsphere:
+    datasource:
+      names: ds0 #   垂直拆分（不同的表在不同的库中） 配置库的名字，随意
+      ds0:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.1.8:3306/phone_db_1?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+        username: root
+        password: rroooott
+        initialSize: 5    # 初始化大小
+        minIdle: 5        # 最小
+        maxActive: 20     # 最大
+        maxWait: 60000    # 获取连接等待超时的时间
+        timeBetweenEvictionRunsMillis: 60000    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+        minEvictableIdleTimeMillis: 300000      # 配置一个连接在池中最小生存的时间，单位是毫秒
+        validationQuery: SELECT 1 FROM DUAL
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true                    # 打开PSCache
+        maxPoolPreparedStatementPerConnectionSize: 20   # 指定每个连接上PSCache的大小
+        filters: stat,wall,log4j                        # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000  # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      ds1:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://192.168.1.8:3306/phone_db_2?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false
+        username: root
+        password: rroooott
+        initialSize: 5    # 初始化大小
+        minIdle: 5        # 最小
+        maxActive: 20     # 最大
+        maxWait: 60000    # 获取连接等待超时的时间
+        timeBetweenEvictionRunsMillis: 60000    # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+        minEvictableIdleTimeMillis: 300000      # 配置一个连接在池中最小生存的时间，单位是毫秒
+        validationQuery: SELECT 1 FROM DUAL
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true                    # 打开PSCache
+        maxPoolPreparedStatementPerConnectionSize: 20   # 指定每个连接上PSCache的大小
+        filters: stat,wall,log4j                        # 配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+        connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000  # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
+    props:
+      sql:
+        show: true
+    sharding:
+      #根据id分表
+      tables:
+        phone_: # 指定 phone 表名 的数据分布情况，配置数据节点
+          actual-data-nodes: ds0.phone_$->{0..2}
+          table-strategy:
+            inline: # 指定 phone 表的分片策略 id 取模 ，分片策略包括分片键和分片算法
+              algorithm-expression: phone_$->{id % 3}
+              sharding-column: id
+
+  #   mybatis映射
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.ym.phone.data.mapper
+  configuration:
+    # 开启驼峰映射
+    map-underscore-to-camel-case: true
+
+

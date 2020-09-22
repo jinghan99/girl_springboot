@@ -1,0 +1,6 @@
+server:
+  port: 8097
+
+spring:
+  application:
+    name: girl-reptile-chrome

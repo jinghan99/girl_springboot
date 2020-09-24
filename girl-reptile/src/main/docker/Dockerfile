@@ -6,7 +6,7 @@ CMD ["cd /usr/local"]
 CMD ["mkdir app"]
 CMD ["cd app"]
 
-#用于指定持久化目录
+#用于指定持久化目录 -v 时
 VOLUME ["/usr/local/ymapp"]
 
 #相当于CD

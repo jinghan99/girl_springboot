@@ -43,15 +43,17 @@ public class Bt51Scheduled {
     /**
      * 定时任务处理
      * 11秒处理
+     * 1 小时 执行一次
      */
     @Async("taskExecutor")
-    @Scheduled(cron = "0/11 * * * * ? ")
-//    @Scheduled(cron = "0 0 0/1 * * ? ")
+//    @Scheduled(cron = "0/11 * * * * ? ")
+    @Scheduled(cron = "0 0 0/1 * * ? ")
     public void bt51Scheduled() {
         List<HomeBtEntity> byTypes = homeBtService.getByType(HomeBtEnum.BtType.BT51.getCode());
         if (ObjectUtil.isNotEmpty(byTypes)) {
             for (HomeBtEntity btEntity : byTypes) {
                 List<String> btDownLoadHtmlList = Bt51Handler.find51BtDownLoadHtml(btEntity.getBtHtmlUrl());
+                logger.info("bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                 if (ObjectUtil.isNotEmpty(btDownLoadHtmlList)) {
                     if (ObjectUtil.isEmpty(btEntity.getBtNowIndex())) {
                         btEntity.setBtNowIndex(0);
@@ -62,7 +64,7 @@ public class Bt51Scheduled {
                         String htmlUrl = btDownLoadHtmlList.get(i);
                         String btDownLoadUrl = Bt51Handler.get51BtDownLoadUrl(htmlUrl);
                         Boolean pushCloudTorrent = PushDownload.pushCloudTorrent(btDownLoadUrl);
-                        if(pushCloudTorrent){
+                        if (pushCloudTorrent) {
                             btEntity.setBtNowIndex(i);
                         }
                     }

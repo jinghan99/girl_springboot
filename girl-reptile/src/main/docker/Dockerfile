@@ -2,8 +2,15 @@ FROM jinghan94/centos_jdk:8
 
 MAINTAINER jinghan
 
-VOLUME /tmp
+CMD ["cd /usr/local"]
+CMD ["mkdir app"]
+CMD ["cd app"]
 
-ADD girl-admin.jar app.jar
-docker-app-start.sh
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+#用于指定持久化目录
+VOLUME ["/usr/local/ymapp"]
+
+#相当于CD
+WORKDIR /usr/local/app
+
+#启动镜像时执行的命令
+ENTRYPOINT ["./docker-app-start.sh","start"]

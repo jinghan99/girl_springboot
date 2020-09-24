@@ -1,0 +1,7 @@
+docker run -d \
+--name bt-8097 \
+--privileged=true \
+--restart=always \
+-p 8097:8097 \
+-v /root/app/home_bt:/usr/local/app  \
+docker-java-app-run

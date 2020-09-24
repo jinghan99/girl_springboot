@@ -1,6 +1,8 @@
 package com.yf.chrome.client;
 
 import cn.hutool.core.util.ObjectUtil;
+import cn.hutool.http.Header;
+import cn.hutool.http.HttpRequest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,6 +13,8 @@ import org.slf4j.LoggerFactory;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /**
@@ -22,18 +26,26 @@ import java.util.stream.Collectors;
  */
 public class ChromeReptileClient {
 
-    private static String chromePath = "D:\\ideaGit\\girl_springboot\\girl-reptile\\src\\main\\resources\\chromedriver.exe";
+    private static String chromePath = "E:\\idea_workspace\\girl_springboot\\girl-reptile\\src\\main\\resources\\chromedriver.exe";
 
 
     private static final Logger logger = LoggerFactory.getLogger(ChromeReptileClient.class);
 
 
     public static void main(String[] args) {
-        ChromeDriver chromeDriver = getChromeDriver();
-        String url = "http://51btbtt.com/thread-index-fid-950-tid-4555108.htm";
-        List<String> hrefList = getDialogUrl(chromeDriver, url);
-        for (String href : hrefList) {
-            getBtUrl(chromeDriver, href);
+        ChromeDriver chromeDriver = null;
+        try {
+            chromeDriver = getChromeDriver();
+            String url = "http://51btbtt.com/thread-index-fid-950-tid-4555108.htm";
+            List<String> hrefList = getDialogUrl(chromeDriver, url);
+            for (String href : hrefList) {
+                getBtDownLoadUrl(chromeDriver, href);
+            }
+        } finally {
+            if (chromeDriver != null) {
+                chromeDriver.close();
+                chromeDriver.quit();
+            }
         }
     }
 
@@ -43,12 +55,13 @@ public class ChromeReptileClient {
      * @param chromeDriver
      * @param href
      */
-    private static void getBtUrl(ChromeDriver chromeDriver, String href) {
+    private static void getBtDownLoadUrl(ChromeDriver chromeDriver, String href) {
         chromeDriver.get(href);
         WebElement btUrlWebElement = chromeDriver.findElement(By.partialLinkText("本地下载"));
         String btUrl = btUrlWebElement.getAttribute("href");
-        System.out.println(btUrl);
+        logger.info("bt种子 下载链接 {}", btUrl);
     }
+
 
     /**
      * 监听 bt 是否更新

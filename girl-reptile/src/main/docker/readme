@@ -3,5 +3,4 @@ docker run -d \
 --privileged=true \
 --restart=always \
 -p 8097:8097 \
--v /root/app/home_bt:/usr/local/app  \
-docker-java-app-run
+girl-bt

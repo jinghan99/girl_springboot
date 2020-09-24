@@ -424,52 +424,52 @@ public class HomeBtEntityExample {
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexEqualTo(Byte value) {
+        public Criteria andBtNowIndexEqualTo(Integer value) {
             addCriterion("bt_now_index =", value, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexNotEqualTo(Byte value) {
+        public Criteria andBtNowIndexNotEqualTo(Integer value) {
             addCriterion("bt_now_index <>", value, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexGreaterThan(Byte value) {
+        public Criteria andBtNowIndexGreaterThan(Integer value) {
             addCriterion("bt_now_index >", value, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexGreaterThanOrEqualTo(Byte value) {
+        public Criteria andBtNowIndexGreaterThanOrEqualTo(Integer value) {
             addCriterion("bt_now_index >=", value, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexLessThan(Byte value) {
+        public Criteria andBtNowIndexLessThan(Integer value) {
             addCriterion("bt_now_index <", value, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexLessThanOrEqualTo(Byte value) {
+        public Criteria andBtNowIndexLessThanOrEqualTo(Integer value) {
             addCriterion("bt_now_index <=", value, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexIn(List<Byte> values) {
+        public Criteria andBtNowIndexIn(List<Integer> values) {
             addCriterion("bt_now_index in", values, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexNotIn(List<Byte> values) {
+        public Criteria andBtNowIndexNotIn(List<Integer> values) {
             addCriterion("bt_now_index not in", values, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexBetween(Byte value1, Byte value2) {
+        public Criteria andBtNowIndexBetween(Integer value1, Integer value2) {
             addCriterion("bt_now_index between", value1, value2, "btNowIndex");
             return (Criteria) this;
         }
 
-        public Criteria andBtNowIndexNotBetween(Byte value1, Byte value2) {
+        public Criteria andBtNowIndexNotBetween(Integer value1, Integer value2) {
             addCriterion("bt_now_index not between", value1, value2, "btNowIndex");
             return (Criteria) this;
         }

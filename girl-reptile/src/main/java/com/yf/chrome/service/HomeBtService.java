@@ -13,4 +13,9 @@ import java.util.List;
  */
 public interface HomeBtService {
     List<HomeBtEntity> all();
+
+    List<HomeBtEntity> getByType(String btType);
+
+
+    int updateById(HomeBtEntity homeBtEntity);
 }

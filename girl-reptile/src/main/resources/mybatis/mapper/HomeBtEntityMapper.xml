@@ -6,7 +6,7 @@
     <result column="bt_name" jdbcType="VARCHAR" property="btName" />
     <result column="bt_type" jdbcType="VARCHAR" property="btType" />
     <result column="bt_html_url" jdbcType="VARCHAR" property="btHtmlUrl" />
-    <result column="bt_now_index" jdbcType="TINYINT" property="btNowIndex" />
+    <result column="bt_now_index" jdbcType="INTEGER" property="btNowIndex" />
     <result column="bt_create_time" jdbcType="TIMESTAMP" property="btCreateTime" />
     <result column="bt_update_time" jdbcType="TIMESTAMP" property="btUpdateTime" />
     <result column="bt_check_time" jdbcType="TIMESTAMP" property="btCheckTime" />
@@ -137,7 +137,7 @@
       bt_update_time, bt_check_time, bt_download_url_json
       )
     values (#{btId,jdbcType=BIGINT}, #{btName,jdbcType=VARCHAR}, #{btType,jdbcType=VARCHAR}, 
-      #{btHtmlUrl,jdbcType=VARCHAR}, #{btNowIndex,jdbcType=TINYINT}, #{btCreateTime,jdbcType=TIMESTAMP}, 
+      #{btHtmlUrl,jdbcType=VARCHAR}, #{btNowIndex,jdbcType=INTEGER}, #{btCreateTime,jdbcType=TIMESTAMP}, 
       #{btUpdateTime,jdbcType=TIMESTAMP}, #{btCheckTime,jdbcType=TIMESTAMP}, #{btDownloadUrlJson,jdbcType=LONGVARCHAR}
       )
   </insert>
@@ -186,7 +186,7 @@
         #{btHtmlUrl,jdbcType=VARCHAR},
       </if>
       <if test="btNowIndex != null">
-        #{btNowIndex,jdbcType=TINYINT},
+        #{btNowIndex,jdbcType=INTEGER},
       </if>
       <if test="btCreateTime != null">
         #{btCreateTime,jdbcType=TIMESTAMP},
@@ -224,7 +224,7 @@
         bt_html_url = #{record.btHtmlUrl,jdbcType=VARCHAR},
       </if>
       <if test="record.btNowIndex != null">
-        bt_now_index = #{record.btNowIndex,jdbcType=TINYINT},
+        bt_now_index = #{record.btNowIndex,jdbcType=INTEGER},
       </if>
       <if test="record.btCreateTime != null">
         bt_create_time = #{record.btCreateTime,jdbcType=TIMESTAMP},
@@ -249,7 +249,7 @@
       bt_name = #{record.btName,jdbcType=VARCHAR},
       bt_type = #{record.btType,jdbcType=VARCHAR},
       bt_html_url = #{record.btHtmlUrl,jdbcType=VARCHAR},
-      bt_now_index = #{record.btNowIndex,jdbcType=TINYINT},
+      bt_now_index = #{record.btNowIndex,jdbcType=INTEGER},
       bt_create_time = #{record.btCreateTime,jdbcType=TIMESTAMP},
       bt_update_time = #{record.btUpdateTime,jdbcType=TIMESTAMP},
       bt_check_time = #{record.btCheckTime,jdbcType=TIMESTAMP},
@@ -264,7 +264,7 @@
       bt_name = #{record.btName,jdbcType=VARCHAR},
       bt_type = #{record.btType,jdbcType=VARCHAR},
       bt_html_url = #{record.btHtmlUrl,jdbcType=VARCHAR},
-      bt_now_index = #{record.btNowIndex,jdbcType=TINYINT},
+      bt_now_index = #{record.btNowIndex,jdbcType=INTEGER},
       bt_create_time = #{record.btCreateTime,jdbcType=TIMESTAMP},
       bt_update_time = #{record.btUpdateTime,jdbcType=TIMESTAMP},
       bt_check_time = #{record.btCheckTime,jdbcType=TIMESTAMP}

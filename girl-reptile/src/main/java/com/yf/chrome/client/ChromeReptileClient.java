@@ -47,6 +47,8 @@ public class ChromeReptileClient {
                 chromeDriver.quit();
             }
         }
+        chromeDriver.close();
+        chromeDriver.quit();
     }
 
     /**

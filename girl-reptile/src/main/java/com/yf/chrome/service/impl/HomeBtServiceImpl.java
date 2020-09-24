@@ -29,4 +29,18 @@ public class HomeBtServiceImpl implements HomeBtService {
         HomeBtEntityExample example = new HomeBtEntityExample();
         return homeBtEntityMapper.selectByExample(example);
     }
+
+    @Override
+    public List<HomeBtEntity> getByType(String btType) {
+        HomeBtEntityExample example = new HomeBtEntityExample();
+        example.createCriteria().andBtTypeEqualTo(btType);
+        return homeBtEntityMapper.selectByExample(example);
+    }
+
+    @Override
+    public int updateById(HomeBtEntity homeBtEntity) {
+        HomeBtEntityExample example = new HomeBtEntityExample();
+        example.createCriteria().andBtIdEqualTo(homeBtEntity.getBtId());
+        return homeBtEntityMapper.updateByExampleSelective(homeBtEntity, example);
+    }
 }

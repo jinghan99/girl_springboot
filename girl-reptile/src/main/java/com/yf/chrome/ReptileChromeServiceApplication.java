@@ -7,6 +7,7 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.stereotype.Component;
 
 /**
@@ -19,6 +20,7 @@ import org.springframework.stereotype.Component;
 @MapperScan(value = "com.yf.chrome.mapper")
 @SpringBootApplication
 @Slf4j
+@EnableScheduling
 public class ReptileChromeServiceApplication {
 
     public static void main(String[] args) {

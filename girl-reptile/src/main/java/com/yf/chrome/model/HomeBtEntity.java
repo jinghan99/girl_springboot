@@ -12,7 +12,7 @@ public class HomeBtEntity implements Serializable {
 
     private String btHtmlUrl;
 
-    private Byte btNowIndex;
+    private Integer btNowIndex;
 
     private Date btCreateTime;
 
@@ -56,11 +56,11 @@ public class HomeBtEntity implements Serializable {
         this.btHtmlUrl = btHtmlUrl;
     }
 
-    public Byte getBtNowIndex() {
+    public Integer getBtNowIndex() {
         return btNowIndex;
     }
 
-    public void setBtNowIndex(Byte btNowIndex) {
+    public void setBtNowIndex(Integer btNowIndex) {
         this.btNowIndex = btNowIndex;
     }
 
@@ -185,7 +185,7 @@ public class HomeBtEntity implements Serializable {
             return this;
         }
 
-        public Builder btNowIndex(Byte btNowIndex) {
+        public Builder btNowIndex(Integer btNowIndex) {
             obj.setBtNowIndex(btNowIndex);
             return this;
         }

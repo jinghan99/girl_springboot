@@ -27,7 +27,7 @@ public class UrlUtils {
         System.out.println(thunderConvert("thunder://QUFodHRwOi8vc3ZpcC5ib2NhaS16dWlkYS5jb20vMjAwOS/lhYPpvpktMTUubXA0Wlo="));;
     }
     /**
-     * 链接转换
+     * 在线 链接转换
      * @return
      */
     public static String urlConvert(String convertUrl){

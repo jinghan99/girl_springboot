@@ -52,9 +52,9 @@ public class Bt51Handler {
         Matcher m = r.matcher(html);
         List<String> download = new ArrayList<>();
         while (m.find()) {
-            logger.info("bt种子 获取下载界面 {}", HOST + m.group(1));
             download.add(HOST + m.group(1));
         }
+        logger.info("bt种子 获取下载界面 {}个", download.size());
         return download;
     }
 

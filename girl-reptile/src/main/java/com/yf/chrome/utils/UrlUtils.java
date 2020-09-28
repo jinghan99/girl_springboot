@@ -1,5 +1,6 @@
 package com.yf.chrome.utils;
 
+import cn.hutool.core.codec.Base64;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.core.util.URLUtil;
@@ -23,7 +24,7 @@ public class UrlUtils {
     private static final Logger logger = LoggerFactory.getLogger(UrlUtils.class);
 
     public static void main(String[] args) {
-        System.out.println(urlConvert("thunder://QUFodHRwOi8vc3ZpcC5ib2NhaS16dWlkYS5jb20vMjAwOS/lhYPpvpktMTUubXA0Wlo="));;
+        System.out.println(thunderConvert("thunder://QUFodHRwOi8vc3ZpcC5ib2NhaS16dWlkYS5jb20vMjAwOS/lhYPpvpktMTUubXA0Wlo="));;
     }
     /**
      * 链接转换
@@ -50,5 +51,22 @@ public class UrlUtils {
             }
         }
         return null;
+    }
+
+    /**
+     *  迅雷thunder://地址与普通url地址转换
+     其实迅雷的thunder://地址就是将普通url地址加前缀‘AA’、后缀‘ZZ’，再base64编码后得到的字符串
+     * <p>Title: t1</p>
+     * <p>Description: </p>
+     * @param convertUrl
+     * @return
+     */
+    public static String thunderConvert(String convertUrl){
+        if(convertUrl.startsWith("thunder://")){
+            convertUrl = convertUrl.substring(10);
+            convertUrl= Base64.decodeStr(convertUrl);
+            convertUrl =  convertUrl.substring(2, convertUrl.length()-2);
+        }
+        return convertUrl;
     }
 }

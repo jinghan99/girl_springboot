@@ -55,7 +55,7 @@ public class UrlUtils {
 
     /**
      *  迅雷thunder://地址与普通url地址转换
-     其实迅雷的thunder://地址就是将普通url地址加前缀‘AA’、后缀‘ZZ’，再base64编码后得到的字符串
+     *  其实迅雷的thunder://地址就是将普通url地址加前缀‘AA’、后缀‘ZZ’，再 base64编码 后得到的字符串
      * <p>Title: t1</p>
      * <p>Description: </p>
      * @param convertUrl

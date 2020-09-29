@@ -67,7 +67,10 @@ public class BtScheduled {
             }
         }
     }
-
+    /**
+     * 定时任务处理
+     * 30分钟 执行一次
+     */
     @Async("taskExecutor")
     @Scheduled(cron = "0 0/30 * * * ? ")
     public void bt31() {

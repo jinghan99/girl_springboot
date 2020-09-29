@@ -3,6 +3,6 @@ docker run -d \
 --privileged=true \
 --restart=always \
 -p 8097:8097 \
--v /root/reptile/app.jar:/data/app.jar  \
--v /root/reptile/start.sh:/data/start.sh  \
-girl_app
+-v /root/reptile:/data  \
+-e JAVA_OPTS='-Xms256M -Xmx256M' \
+jinghan94/java-jar-run

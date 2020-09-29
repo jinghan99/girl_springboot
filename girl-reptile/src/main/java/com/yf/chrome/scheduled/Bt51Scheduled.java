@@ -42,12 +42,10 @@ public class Bt51Scheduled {
 
     /**
      * 定时任务处理
-     * 11秒处理
-     * 1 小时 执行一次
+     * 30分钟 执行一次
      */
     @Async("taskExecutor")
-//    @Scheduled(cron = "0/11 * * * * ? ")
-    @Scheduled(cron = "0 0 0/1 * * ? ")
+    @Scheduled(cron = "0 0/30 * * * ? ")
     public void bt51Scheduled() {
         List<HomeBtEntity> byTypes = homeBtService.getByType(HomeBtEnum.BtType.BT51.getCode());
         if (ObjectUtil.isNotEmpty(byTypes)) {

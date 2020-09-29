@@ -3,5 +3,6 @@ docker run -d \
 --privileged=true \
 --restart=always \
 -p 8097:8097 \
--v /root/app/home_bt:/usr/local/app  \
-docker-java-app-run
+-v /root/app/home_bt/app.jar:/data/app.jar  \
+-e JAVA_OPTS='-Xmx512m' \
+jinghan94/java-jar-run

@@ -1,10 +1,14 @@
-# docker build -t girl_app .
+# docker build -t girl_app:2.0 .
 FROM jinghan94/centos_jdk:8
 MAINTAINER jinghan94@126.com
-USER root
 ENV MYPATH /data
-ENV JVM_OPTS  -Xms512M -Xmx512M
-RUN mkdir $MYPATH && chmod 777 $MYPATH
+RUN mkdir $MYPATH
 WORKDIR $MYPATH
-ADD girl-reptile-1.0.0.jar app.jar
-ENTRYPOINT ["java","-jar","$JVM_OPTS","/app.jar"]
+ENV JAVA_OPTS="\
+-server \
+-Xms512M -Xmx512M -XX:PermSize=125M \
+-XX:MaxPermSize=256M -XX:+HeapDumpOnOutOfMemoryError -XX:+PrintGCDateStamps \
+-XX:+PrintGCDetails -XX:NewRatio=1 -XX:SurvivorRatio=30 -XX:+UseParallelGC -XX:+UseParallelOldGC \
+-Duser.timezone=Asia/Shanghai"
+VOLUME $MYPATH/app.jar
+ENTRYPOINT java ${JAVA_OPTS} -jar ./app.jar

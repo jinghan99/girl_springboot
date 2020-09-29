@@ -69,7 +69,7 @@ public class BtScheduled {
     }
 
     @Async("taskExecutor")
-    @Scheduled(cron = "0 0/1 * * * ? ")
+    @Scheduled(cron = "0 0/30 * * * ? ")
     public void bt31() {
         List<HomeBtEntity> byTypes = homeBtService.getByType(HomeBtEnum.BtType.BT31.getCode());
         if (ObjectUtil.isNotEmpty(byTypes)) {

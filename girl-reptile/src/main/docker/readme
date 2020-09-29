@@ -1,8 +1,8 @@
 docker run -d \
---name bt-8099 \
+--name bt-8097 \
 --privileged=true \
 --restart=always \
--p 8099:8099 \
+-p 8097:8097 \
 -v /root/reptile:/data  \
 -e JAVA_OPTS='-Xms256M -Xmx256M' \
 jinghan94/java-jar-run

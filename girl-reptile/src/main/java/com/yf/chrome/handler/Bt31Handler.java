@@ -78,6 +78,8 @@ public class Bt31Handler {
                 .header(Header.USER_AGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51")
                 .execute().body();
         html = UnicodeUtil.toString(html);
+//        去除转义
+        html = html.replace("\\","");
         logger.info("bt种子 获取下载界面 html{}", html);
         String pattern = "<a href=\"(.*?)\" target=\"_blank\">";
         Pattern r = Pattern.compile(pattern);

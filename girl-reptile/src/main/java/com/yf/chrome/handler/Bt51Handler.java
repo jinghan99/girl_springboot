@@ -2,7 +2,6 @@ package com.yf.chrome.handler;
 
 import cn.hutool.http.Header;
 import cn.hutool.http.HttpRequest;
-import com.yf.chrome.scheduled.Bt51Scheduled;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

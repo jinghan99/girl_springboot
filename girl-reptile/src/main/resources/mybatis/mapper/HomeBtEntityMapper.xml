@@ -6,6 +6,7 @@
     <result column="bt_name" jdbcType="VARCHAR" property="btName" />
     <result column="bt_type" jdbcType="VARCHAR" property="btType" />
     <result column="bt_html_url" jdbcType="VARCHAR" property="btHtmlUrl" />
+    <result column="bt_attach_index" jdbcType="INTEGER" property="btAttachIndex" />
     <result column="bt_now_index" jdbcType="INTEGER" property="btNowIndex" />
     <result column="bt_create_time" jdbcType="TIMESTAMP" property="btCreateTime" />
     <result column="bt_update_time" jdbcType="TIMESTAMP" property="btUpdateTime" />
@@ -73,8 +74,8 @@
     </where>
   </sql>
   <sql id="Base_Column_List">
-    bt_id, bt_name, bt_type, bt_html_url, bt_now_index, bt_create_time, bt_update_time, 
-    bt_check_time
+    bt_id, bt_name, bt_type, bt_html_url, bt_attach_index, bt_now_index, bt_create_time, 
+    bt_update_time, bt_check_time
   </sql>
   <sql id="Blob_Column_List">
     bt_download_url_json
@@ -133,13 +134,13 @@
   </delete>
   <insert id="insert" parameterType="com.yf.chrome.model.HomeBtEntity">
     insert into home_bt (bt_id, bt_name, bt_type, 
-      bt_html_url, bt_now_index, bt_create_time, 
-      bt_update_time, bt_check_time, bt_download_url_json
-      )
+      bt_html_url, bt_attach_index, bt_now_index, 
+      bt_create_time, bt_update_time, bt_check_time, 
+      bt_download_url_json)
     values (#{btId,jdbcType=BIGINT}, #{btName,jdbcType=VARCHAR}, #{btType,jdbcType=VARCHAR}, 
-      #{btHtmlUrl,jdbcType=VARCHAR}, #{btNowIndex,jdbcType=INTEGER}, #{btCreateTime,jdbcType=TIMESTAMP}, 
-      #{btUpdateTime,jdbcType=TIMESTAMP}, #{btCheckTime,jdbcType=TIMESTAMP}, #{btDownloadUrlJson,jdbcType=LONGVARCHAR}
-      )
+      #{btHtmlUrl,jdbcType=VARCHAR}, #{btAttachIndex,jdbcType=INTEGER}, #{btNowIndex,jdbcType=INTEGER}, 
+      #{btCreateTime,jdbcType=TIMESTAMP}, #{btUpdateTime,jdbcType=TIMESTAMP}, #{btCheckTime,jdbcType=TIMESTAMP}, 
+      #{btDownloadUrlJson,jdbcType=LONGVARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.yf.chrome.model.HomeBtEntity">
     insert into home_bt
@@ -155,6 +156,9 @@
       </if>
       <if test="btHtmlUrl != null">
         bt_html_url,
+      </if>
+      <if test="btAttachIndex != null">
+        bt_attach_index,
       </if>
       <if test="btNowIndex != null">
         bt_now_index,
@@ -184,6 +188,9 @@
       </if>
       <if test="btHtmlUrl != null">
         #{btHtmlUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="btAttachIndex != null">
+        #{btAttachIndex,jdbcType=INTEGER},
       </if>
       <if test="btNowIndex != null">
         #{btNowIndex,jdbcType=INTEGER},
@@ -223,6 +230,9 @@
       <if test="record.btHtmlUrl != null">
         bt_html_url = #{record.btHtmlUrl,jdbcType=VARCHAR},
       </if>
+      <if test="record.btAttachIndex != null">
+        bt_attach_index = #{record.btAttachIndex,jdbcType=INTEGER},
+      </if>
       <if test="record.btNowIndex != null">
         bt_now_index = #{record.btNowIndex,jdbcType=INTEGER},
       </if>
@@ -249,6 +259,7 @@
       bt_name = #{record.btName,jdbcType=VARCHAR},
       bt_type = #{record.btType,jdbcType=VARCHAR},
       bt_html_url = #{record.btHtmlUrl,jdbcType=VARCHAR},
+      bt_attach_index = #{record.btAttachIndex,jdbcType=INTEGER},
       bt_now_index = #{record.btNowIndex,jdbcType=INTEGER},
       bt_create_time = #{record.btCreateTime,jdbcType=TIMESTAMP},
       bt_update_time = #{record.btUpdateTime,jdbcType=TIMESTAMP},
@@ -264,6 +275,7 @@
       bt_name = #{record.btName,jdbcType=VARCHAR},
       bt_type = #{record.btType,jdbcType=VARCHAR},
       bt_html_url = #{record.btHtmlUrl,jdbcType=VARCHAR},
+      bt_attach_index = #{record.btAttachIndex,jdbcType=INTEGER},
       bt_now_index = #{record.btNowIndex,jdbcType=INTEGER},
       bt_create_time = #{record.btCreateTime,jdbcType=TIMESTAMP},
       bt_update_time = #{record.btUpdateTime,jdbcType=TIMESTAMP},

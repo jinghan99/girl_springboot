@@ -414,6 +414,66 @@ public class HomeBtEntityExample {
             return (Criteria) this;
         }
 
+        public Criteria andBtAttachIndexIsNull() {
+            addCriterion("bt_attach_index is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexIsNotNull() {
+            addCriterion("bt_attach_index is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexEqualTo(Integer value) {
+            addCriterion("bt_attach_index =", value, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexNotEqualTo(Integer value) {
+            addCriterion("bt_attach_index <>", value, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexGreaterThan(Integer value) {
+            addCriterion("bt_attach_index >", value, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexGreaterThanOrEqualTo(Integer value) {
+            addCriterion("bt_attach_index >=", value, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexLessThan(Integer value) {
+            addCriterion("bt_attach_index <", value, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexLessThanOrEqualTo(Integer value) {
+            addCriterion("bt_attach_index <=", value, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexIn(List<Integer> values) {
+            addCriterion("bt_attach_index in", values, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexNotIn(List<Integer> values) {
+            addCriterion("bt_attach_index not in", values, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexBetween(Integer value1, Integer value2) {
+            addCriterion("bt_attach_index between", value1, value2, "btAttachIndex");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtAttachIndexNotBetween(Integer value1, Integer value2) {
+            addCriterion("bt_attach_index not between", value1, value2, "btAttachIndex");
+            return (Criteria) this;
+        }
+
         public Criteria andBtNowIndexIsNull() {
             addCriterion("bt_now_index is null");
             return (Criteria) this;

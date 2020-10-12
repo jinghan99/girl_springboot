@@ -12,6 +12,8 @@ public class HomeBtEntity implements Serializable {
 
     private String btHtmlUrl;
 
+    private Integer btAttachIndex;
+
     private Integer btNowIndex;
 
     private Date btCreateTime;
@@ -54,6 +56,14 @@ public class HomeBtEntity implements Serializable {
 
     public void setBtHtmlUrl(String btHtmlUrl) {
         this.btHtmlUrl = btHtmlUrl;
+    }
+
+    public Integer getBtAttachIndex() {
+        return btAttachIndex;
+    }
+
+    public void setBtAttachIndex(Integer btAttachIndex) {
+        this.btAttachIndex = btAttachIndex;
     }
 
     public Integer getBtNowIndex() {
@@ -110,6 +120,7 @@ public class HomeBtEntity implements Serializable {
         sb.append(", btName=").append(btName);
         sb.append(", btType=").append(btType);
         sb.append(", btHtmlUrl=").append(btHtmlUrl);
+        sb.append(", btAttachIndex=").append(btAttachIndex);
         sb.append(", btNowIndex=").append(btNowIndex);
         sb.append(", btCreateTime=").append(btCreateTime);
         sb.append(", btUpdateTime=").append(btUpdateTime);
@@ -135,6 +146,7 @@ public class HomeBtEntity implements Serializable {
             && (this.getBtName() == null ? other.getBtName() == null : this.getBtName().equals(other.getBtName()))
             && (this.getBtType() == null ? other.getBtType() == null : this.getBtType().equals(other.getBtType()))
             && (this.getBtHtmlUrl() == null ? other.getBtHtmlUrl() == null : this.getBtHtmlUrl().equals(other.getBtHtmlUrl()))
+            && (this.getBtAttachIndex() == null ? other.getBtAttachIndex() == null : this.getBtAttachIndex().equals(other.getBtAttachIndex()))
             && (this.getBtNowIndex() == null ? other.getBtNowIndex() == null : this.getBtNowIndex().equals(other.getBtNowIndex()))
             && (this.getBtCreateTime() == null ? other.getBtCreateTime() == null : this.getBtCreateTime().equals(other.getBtCreateTime()))
             && (this.getBtUpdateTime() == null ? other.getBtUpdateTime() == null : this.getBtUpdateTime().equals(other.getBtUpdateTime()))
@@ -150,6 +162,7 @@ public class HomeBtEntity implements Serializable {
         result = prime * result + ((getBtName() == null) ? 0 : getBtName().hashCode());
         result = prime * result + ((getBtType() == null) ? 0 : getBtType().hashCode());
         result = prime * result + ((getBtHtmlUrl() == null) ? 0 : getBtHtmlUrl().hashCode());
+        result = prime * result + ((getBtAttachIndex() == null) ? 0 : getBtAttachIndex().hashCode());
         result = prime * result + ((getBtNowIndex() == null) ? 0 : getBtNowIndex().hashCode());
         result = prime * result + ((getBtCreateTime() == null) ? 0 : getBtCreateTime().hashCode());
         result = prime * result + ((getBtUpdateTime() == null) ? 0 : getBtUpdateTime().hashCode());
@@ -182,6 +195,11 @@ public class HomeBtEntity implements Serializable {
 
         public Builder btHtmlUrl(String btHtmlUrl) {
             obj.setBtHtmlUrl(btHtmlUrl);
+            return this;
+        }
+
+        public Builder btAttachIndex(Integer btAttachIndex) {
+            obj.setBtAttachIndex(btAttachIndex);
             return this;
         }
 

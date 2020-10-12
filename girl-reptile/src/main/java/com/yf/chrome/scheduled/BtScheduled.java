@@ -43,7 +43,11 @@ public class BtScheduled {
         List<HomeBtEntity> byTypes = homeBtService.getByType(HomeBtEnum.BtType.BT51.getCode());
         if (ObjectUtil.isNotEmpty(byTypes)) {
             for (HomeBtEntity btEntity : byTypes) {
-                List<String> btDownLoadHtmlList = Bt51Handler.find51BtDownLoadHtml(btEntity.getBtHtmlUrl());
+                int attachIndex = 0;
+                if(ObjectUtil.isNotEmpty(btEntity.getBtAttachIndex())){
+                    attachIndex = btEntity.getBtAttachIndex();
+                }
+                List<String> btDownLoadHtmlList = Bt51Handler.find51BtDownLoadHtml(btEntity.getBtHtmlUrl(),attachIndex);
                 logger.info("51bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                 if (ObjectUtil.isNotEmpty(btDownLoadHtmlList)) {
                     if (ObjectUtil.isEmpty(btEntity.getBtNowIndex())) {
@@ -77,6 +81,10 @@ public class BtScheduled {
         List<HomeBtEntity> byTypes = homeBtService.getByType(HomeBtEnum.BtType.BT31.getCode());
         if (ObjectUtil.isNotEmpty(byTypes)) {
             for (HomeBtEntity btEntity : byTypes) {
+                int attachIndex = 0;
+                if(ObjectUtil.isNotEmpty(btEntity.getBtAttachIndex())){
+                    attachIndex = btEntity.getBtAttachIndex();
+                }
                 List<String> btDownLoadHtmlList = Bt31Handler.find31BtDownLoadHtml(btEntity.getBtHtmlUrl());
                 logger.info("31bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                 if (ObjectUtil.isNotEmpty(btDownLoadHtmlList)) {

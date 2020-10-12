@@ -27,8 +27,8 @@ public class Bt51Handler {
 
 
     public static void main(String[] args) {
-        List<String> btDownLoadHtml = find51BtDownLoadHtml("http://51btbtt.com/thread-index-fid-981-tid-4558819.htm", 2);
-//        String btDownLoadUrl = get51BtDownLoadUrl("http://51btbtt.com/attach-dialog-fid-1183-aid-5171735.htm");
+//        List<String> btDownLoadHtml = find51BtDownLoadHtml("http://51btbtt.com/thread-index-fid-981-tid-4558819.htm", 2);
+        String btDownLoadUrl = get51BtDownLoadUrl("http://51btbtt.com/attach-dialog-fid-1183-aid-5171735.htm");
 //        System.out.println(btDownLoadUrl);
     }
 
@@ -108,12 +108,21 @@ public class Bt51Handler {
                 .header(Header.USER_AGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51")
                 .execute().body();
         String pattern = "<dd><a href=\"(.*?)\" target=\"_blank\" style=\"float:left;\">";
+        String namePattern = "<dd><img src=\"(.*?)\" width=\"16\" height=\"16\" />\"(.*?)\"</dd>";
         Pattern r = Pattern.compile(pattern);
+        Pattern nameRgx = Pattern.compile(namePattern);
+
         Matcher m = r.matcher(html);
+        Matcher nameMatcher = nameRgx.matcher(html);
+        if (nameMatcher.find()) {
+            logger.info("bt种子 最新 {}", m.group(1));
+
+        }
         if (m.find()) {
             logger.info("bt种子 下载链接 {}", m.group(1));
             return HOST + m.group(1);
         }
+
         return null;
     }
 

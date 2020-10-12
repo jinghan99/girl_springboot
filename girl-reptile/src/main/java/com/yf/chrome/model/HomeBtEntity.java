@@ -16,6 +16,8 @@ public class HomeBtEntity implements Serializable {
 
     private Integer btNowIndex;
 
+    private String btNowInfo;
+
     private Date btCreateTime;
 
     private Date btUpdateTime;
@@ -74,6 +76,14 @@ public class HomeBtEntity implements Serializable {
         this.btNowIndex = btNowIndex;
     }
 
+    public String getBtNowInfo() {
+        return btNowInfo;
+    }
+
+    public void setBtNowInfo(String btNowInfo) {
+        this.btNowInfo = btNowInfo;
+    }
+
     public Date getBtCreateTime() {
         return btCreateTime;
     }
@@ -122,6 +132,7 @@ public class HomeBtEntity implements Serializable {
         sb.append(", btHtmlUrl=").append(btHtmlUrl);
         sb.append(", btAttachIndex=").append(btAttachIndex);
         sb.append(", btNowIndex=").append(btNowIndex);
+        sb.append(", btNowInfo=").append(btNowInfo);
         sb.append(", btCreateTime=").append(btCreateTime);
         sb.append(", btUpdateTime=").append(btUpdateTime);
         sb.append(", btCheckTime=").append(btCheckTime);
@@ -148,6 +159,7 @@ public class HomeBtEntity implements Serializable {
             && (this.getBtHtmlUrl() == null ? other.getBtHtmlUrl() == null : this.getBtHtmlUrl().equals(other.getBtHtmlUrl()))
             && (this.getBtAttachIndex() == null ? other.getBtAttachIndex() == null : this.getBtAttachIndex().equals(other.getBtAttachIndex()))
             && (this.getBtNowIndex() == null ? other.getBtNowIndex() == null : this.getBtNowIndex().equals(other.getBtNowIndex()))
+            && (this.getBtNowInfo() == null ? other.getBtNowInfo() == null : this.getBtNowInfo().equals(other.getBtNowInfo()))
             && (this.getBtCreateTime() == null ? other.getBtCreateTime() == null : this.getBtCreateTime().equals(other.getBtCreateTime()))
             && (this.getBtUpdateTime() == null ? other.getBtUpdateTime() == null : this.getBtUpdateTime().equals(other.getBtUpdateTime()))
             && (this.getBtCheckTime() == null ? other.getBtCheckTime() == null : this.getBtCheckTime().equals(other.getBtCheckTime()))
@@ -164,6 +176,7 @@ public class HomeBtEntity implements Serializable {
         result = prime * result + ((getBtHtmlUrl() == null) ? 0 : getBtHtmlUrl().hashCode());
         result = prime * result + ((getBtAttachIndex() == null) ? 0 : getBtAttachIndex().hashCode());
         result = prime * result + ((getBtNowIndex() == null) ? 0 : getBtNowIndex().hashCode());
+        result = prime * result + ((getBtNowInfo() == null) ? 0 : getBtNowInfo().hashCode());
         result = prime * result + ((getBtCreateTime() == null) ? 0 : getBtCreateTime().hashCode());
         result = prime * result + ((getBtUpdateTime() == null) ? 0 : getBtUpdateTime().hashCode());
         result = prime * result + ((getBtCheckTime() == null) ? 0 : getBtCheckTime().hashCode());
@@ -205,6 +218,11 @@ public class HomeBtEntity implements Serializable {
 
         public Builder btNowIndex(Integer btNowIndex) {
             obj.setBtNowIndex(btNowIndex);
+            return this;
+        }
+
+        public Builder btNowInfo(String btNowInfo) {
+            obj.setBtNowInfo(btNowInfo);
             return this;
         }
 

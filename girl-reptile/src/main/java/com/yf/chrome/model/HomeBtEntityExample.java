@@ -534,6 +534,76 @@ public class HomeBtEntityExample {
             return (Criteria) this;
         }
 
+        public Criteria andBtNowInfoIsNull() {
+            addCriterion("bt_now_info is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoIsNotNull() {
+            addCriterion("bt_now_info is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoEqualTo(String value) {
+            addCriterion("bt_now_info =", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoNotEqualTo(String value) {
+            addCriterion("bt_now_info <>", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoGreaterThan(String value) {
+            addCriterion("bt_now_info >", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoGreaterThanOrEqualTo(String value) {
+            addCriterion("bt_now_info >=", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoLessThan(String value) {
+            addCriterion("bt_now_info <", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoLessThanOrEqualTo(String value) {
+            addCriterion("bt_now_info <=", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoLike(String value) {
+            addCriterion("bt_now_info like", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoNotLike(String value) {
+            addCriterion("bt_now_info not like", value, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoIn(List<String> values) {
+            addCriterion("bt_now_info in", values, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoNotIn(List<String> values) {
+            addCriterion("bt_now_info not in", values, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoBetween(String value1, String value2) {
+            addCriterion("bt_now_info between", value1, value2, "btNowInfo");
+            return (Criteria) this;
+        }
+
+        public Criteria andBtNowInfoNotBetween(String value1, String value2) {
+            addCriterion("bt_now_info not between", value1, value2, "btNowInfo");
+            return (Criteria) this;
+        }
+
         public Criteria andBtCreateTimeIsNull() {
             addCriterion("bt_create_time is null");
             return (Criteria) this;

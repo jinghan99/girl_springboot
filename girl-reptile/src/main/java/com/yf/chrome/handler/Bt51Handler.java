@@ -27,7 +27,7 @@ public class Bt51Handler {
 
 
     public static void main(String[] args) {
-        List<String> btDownLoadHtml = find51BtDownLoadHtml("http://51btbtt.com/thread-index-fid-981-tid-4558819.htm", 0);
+        List<String> btDownLoadHtml = find51BtDownLoadHtml("http://51btbtt.com/thread-index-fid-981-tid-4558819.htm", 2);
 //        String btDownLoadUrl = get51BtDownLoadUrl("http://51btbtt.com/attach-dialog-fid-1183-aid-5171735.htm");
 //        System.out.println(btDownLoadUrl);
     }
@@ -67,7 +67,7 @@ public class Bt51Handler {
         while (m.find()) {
             attachList.add(m.group(0));
         }
-        logger.info("bt种子 获取下载界面 {}个", attachList.size());
+        logger.info("bt种子 获取楼层 {}个", attachList.size());
         if (attachList.size() > attachIndex) {
             return regDownloadHtml(attachList.get(attachIndex));
         }

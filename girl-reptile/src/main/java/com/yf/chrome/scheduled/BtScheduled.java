@@ -9,6 +9,7 @@ import com.yf.chrome.handler.Bt51Handler;
 import com.yf.chrome.handler.PushDownload;
 import com.yf.chrome.model.HomeBtEntity;
 import com.yf.chrome.service.HomeBtService;
+import com.yf.chrome.utils.vo.BtNewInfoVo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,10 +45,10 @@ public class BtScheduled {
         if (ObjectUtil.isNotEmpty(byTypes)) {
             for (HomeBtEntity btEntity : byTypes) {
                 int attachIndex = 0;
-                if(ObjectUtil.isNotEmpty(btEntity.getBtAttachIndex())){
+                if (ObjectUtil.isNotEmpty(btEntity.getBtAttachIndex())) {
                     attachIndex = btEntity.getBtAttachIndex();
                 }
-                List<String> btDownLoadHtmlList = Bt51Handler.find51BtDownLoadHtml(btEntity.getBtHtmlUrl(),attachIndex);
+                List<String> btDownLoadHtmlList = Bt51Handler.find51BtDownLoadHtml(btEntity.getBtHtmlUrl(), attachIndex);
                 logger.info("51bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                 if (ObjectUtil.isNotEmpty(btDownLoadHtmlList)) {
                     if (ObjectUtil.isEmpty(btEntity.getBtNowIndex())) {
@@ -57,10 +58,13 @@ public class BtScheduled {
                     int size = btDownLoadHtmlList.size();
                     for (; i < size; i++) {
                         String htmlUrl = btDownLoadHtmlList.get(i);
-                        String btDownLoadUrl = Bt51Handler.get51BtDownLoadUrl(htmlUrl);
-                        Boolean pushCloudTorrent = PushDownload.pushCloudTorrent(btDownLoadUrl);
-                        if (pushCloudTorrent) {
-                            btEntity.setBtNowIndex(i);
+                        BtNewInfoVo btNewInfoVo = Bt51Handler.get51BtDownLoadUrl(htmlUrl);
+                        if (btNewInfoVo != null) {
+                            Boolean pushCloudTorrent = PushDownload.pushCloudTorrent(btNewInfoVo.getBtUrl());
+                            if (pushCloudTorrent) {
+                                btEntity.setBtNowIndex(i);
+                                btEntity.setBtNowInfo(btNewInfoVo.getBtName());
+                            }
                         }
                     }
                     btEntity.setBtCheckTime(DateUtil.date());
@@ -71,6 +75,7 @@ public class BtScheduled {
             }
         }
     }
+
     /**
      * 定时任务处理
      * 30分钟 执行一次
@@ -82,7 +87,7 @@ public class BtScheduled {
         if (ObjectUtil.isNotEmpty(byTypes)) {
             for (HomeBtEntity btEntity : byTypes) {
                 int attachIndex = 0;
-                if(ObjectUtil.isNotEmpty(btEntity.getBtAttachIndex())){
+                if (ObjectUtil.isNotEmpty(btEntity.getBtAttachIndex())) {
                     attachIndex = btEntity.getBtAttachIndex();
                 }
                 List<String> btDownLoadHtmlList = Bt31Handler.find31BtDownLoadHtml(btEntity.getBtHtmlUrl());

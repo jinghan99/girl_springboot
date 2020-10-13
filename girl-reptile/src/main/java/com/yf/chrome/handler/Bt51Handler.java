@@ -1,8 +1,11 @@
 package com.yf.chrome.handler;
 
 import cn.hutool.core.util.ObjectUtil;
+import cn.hutool.core.util.ReUtil;
+import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.Header;
 import cn.hutool.http.HttpRequest;
+import com.yf.chrome.utils.vo.BtNewInfoVo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,8 +31,7 @@ public class Bt51Handler {
 
     public static void main(String[] args) {
 //        List<String> btDownLoadHtml = find51BtDownLoadHtml("http://51btbtt.com/thread-index-fid-981-tid-4558819.htm", 2);
-        String btDownLoadUrl = get51BtDownLoadUrl("http://51btbtt.com/attach-dialog-fid-1183-aid-5171735.htm");
-//        System.out.println(btDownLoadUrl);
+        get51BtDownLoadUrl("http://51btbtt.com/attach-dialog-fid-1183-aid-5171735.htm");
     }
 
 
@@ -98,7 +100,7 @@ public class Bt51Handler {
      *
      * @param downLoadHtml
      */
-    public static String get51BtDownLoadUrl(String downLoadHtml) {
+    public static BtNewInfoVo get51BtDownLoadUrl(String downLoadHtml) {
         String html = HttpRequest.get(downLoadHtml)
                 .header(Header.ACCEPT, "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
                 .header(Header.ACCEPT_ENCODING, "gzip, deflate")
@@ -107,24 +109,14 @@ public class Bt51Handler {
                 .header("Upgrade-Insecure-Requests", "1")
                 .header(Header.USER_AGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51")
                 .execute().body();
-        String pattern = "<dd><a href=\"(.*?)\" target=\"_blank\" style=\"float:left;\">";
-        String namePattern = "<dd><img src=\"(.*?)\" width=\"16\" height=\"16\" />\"(.*?)\"</dd>";
-        Pattern r = Pattern.compile(pattern);
-        Pattern nameRgx = Pattern.compile(namePattern);
-
-        Matcher m = r.matcher(html);
-        Matcher nameMatcher = nameRgx.matcher(html);
-        if (nameMatcher.find()) {
-            logger.info("bt种子 最新 {}", m.group(1));
-
+        String reBtName = "<dd><img [\\s\\S]*?/>(.*?)</dd>";
+        String reBtUrl = "<dd><a href=\"(.*?)\" target=\"_blank\" style=\"float:left;\">";
+        String btName = ReUtil.get(reBtName, html, 1);
+        String btUrl = ReUtil.get(reBtUrl, html, 1);
+        if (StrUtil.isNotEmpty(btUrl)) {
+            logger.info("追更最新名称：{}，地址：{}", btName, btUrl);
+            return new BtNewInfoVo(btName, HOST + btUrl);
         }
-        if (m.find()) {
-            logger.info("bt种子 下载链接 {}", m.group(1));
-            return HOST + m.group(1);
-        }
-
         return null;
     }
-
-
 }

@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  */
 public class PushDownload {
 
-    public static String pushUrl = "http://local.yangfan.cloud:9091/api/url";
+    public static String pushUrl = "http://local.yangfan.cloud:3000/api/url";
 
     private static final Logger logger = LoggerFactory.getLogger(PushDownload.class);
 

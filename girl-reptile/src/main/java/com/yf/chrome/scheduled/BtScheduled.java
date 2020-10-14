@@ -41,6 +41,15 @@ public class BtScheduled {
     @Async("taskExecutor")
     @Scheduled(cron = "0 0/30 * * * ? ")
     public void bt51() {
+        try {
+            executeBt51();
+            executeBt31();
+        } catch (Exception e) {
+            logger.error("定时任务异常 {}",e.getLocalizedMessage(),e);
+        }
+    }
+
+    private void executeBt51() {
         List<HomeBtEntity> byTypes = homeBtService.getByType(HomeBtEnum.BtType.BT51.getCode());
         if (ObjectUtil.isNotEmpty(byTypes)) {
             for (HomeBtEntity btEntity : byTypes) {
@@ -76,13 +85,8 @@ public class BtScheduled {
         }
     }
 
-    /**
-     * 定时任务处理
-     * 30分钟 执行一次
-     */
-    @Async("taskExecutor")
-    @Scheduled(cron = "0 0/30 * * * ? ")
-    public void bt31() {
+
+    private void executeBt31() {
         List<HomeBtEntity> byTypes = homeBtService.getByType(HomeBtEnum.BtType.BT31.getCode());
         if (ObjectUtil.isNotEmpty(byTypes)) {
             for (HomeBtEntity btEntity : byTypes) {

@@ -58,8 +58,8 @@ public class BtScheduled {
                     attachIndex = btEntity.getBtAttachIndex();
                 }
                 List<String> btDownLoadHtmlList = Bt51Handler.find51BtDownLoadHtml(btEntity.getBtHtmlUrl(), attachIndex);
-                logger.info("51bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                 if (ObjectUtil.isNotEmpty(btDownLoadHtmlList)) {
+                    logger.info("51bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                     if (ObjectUtil.isEmpty(btEntity.getBtNowIndex())) {
                         btEntity.setBtNowIndex(0);
                     }
@@ -95,8 +95,8 @@ public class BtScheduled {
                     attachIndex = btEntity.getBtAttachIndex();
                 }
                 List<String> btDownLoadHtmlList = Bt31Handler.find31BtDownLoadHtml(btEntity.getBtHtmlUrl());
-                logger.info("31bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                 if (ObjectUtil.isNotEmpty(btDownLoadHtmlList)) {
+                    logger.info("31bt定时追更 {},当前index {} ,获取到 htmlList {} 个 ", btEntity.getBtName(), btEntity.getBtNowIndex(), btDownLoadHtmlList.size());
                     if (ObjectUtil.isEmpty(btEntity.getBtNowIndex())) {
                         btEntity.setBtNowIndex(0);
                     }

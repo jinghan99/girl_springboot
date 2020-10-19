@@ -45,7 +45,7 @@ public class BtScheduled {
             executeBt51();
             executeBt31();
         } catch (Exception e) {
-            logger.error("定时任务异常 {}",e.getLocalizedMessage(),e);
+            logger.error("定时任务异常 {}", e.getLocalizedMessage(), e);
         }
     }
 

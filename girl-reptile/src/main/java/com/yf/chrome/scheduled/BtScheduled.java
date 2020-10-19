@@ -63,9 +63,8 @@ public class BtScheduled {
                     if (ObjectUtil.isEmpty(btEntity.getBtNowIndex())) {
                         btEntity.setBtNowIndex(0);
                     }
-                    int i = btEntity.getBtNowIndex() + 1;
                     int size = btDownLoadHtmlList.size();
-                    for (; i < size; i++) {
+                    for (int i = btEntity.getBtNowIndex() + 1; i < size; i++) {
                         String htmlUrl = btDownLoadHtmlList.get(i);
                         BtNewInfoVo btNewInfoVo = Bt51Handler.get51BtDownLoadUrl(htmlUrl);
                         if (btNewInfoVo != null) {

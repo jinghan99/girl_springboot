@@ -47,8 +47,6 @@ public class Bt31Handler {
                     .header(Header.ACCEPT, "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
                     .header(Header.ACCEPT_ENCODING, "gzip, deflate")
                     .header(Header.ACCEPT_LANGUAGE, "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6")
-                    .header(Header.HOST, "www.3btjia.com")
-                    .header(Header.REFERER, "http://www.3btjia.com/search-index.htm")
                     .header("Upgrade-Insecure-Requests", "1")
                     .header(Header.USER_AGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51")
                     .execute().body();
@@ -59,10 +57,10 @@ public class Bt31Handler {
             while (m.find()) {
                 download.add(m.group(1));
             }
-            logger.info("bt种子 获取下载界面 {}个", download.size());
+            logger.info("31Bt种子 获取下载界面 {}个", download.size());
             return download;
         } catch (HttpException e) {
-            logger.info("bt种子 获取下载界面异常 {}", e.getLocalizedMessage(), e);
+            logger.info("31Bt种子 获取下载界面异常 {}", e.getLocalizedMessage(), e);
         }
         return null;
     }
@@ -77,19 +75,18 @@ public class Bt31Handler {
                 .header(Header.ACCEPT, "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9")
                 .header(Header.ACCEPT_ENCODING, "gzip, deflate")
                 .header(Header.ACCEPT_LANGUAGE, "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6")
-                .header(Header.HOST, "www.3btjia.com")
                 .header("Upgrade-Insecure-Requests", "1")
                 .header(Header.USER_AGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51")
                 .execute().body();
         html = UnicodeUtil.toString(html);
 //        去除转义
         html = html.replace("\\", "");
-        logger.info("bt种子 获取下载界面 html{}", html);
+        logger.info("31bt种子 获取下载界面 html{}", html);
         String pattern = "<a href=\"(.*?)\" target=\"_blank\">";
         Pattern r = Pattern.compile(pattern);
         Matcher m = r.matcher(html);
         if (m.find()) {
-            logger.info("bt种子 下载链接 {}", m.group(1));
+            logger.info("31bt种子 下载链接 {}", m.group(1));
             return m.group(1);
         }
         return null;

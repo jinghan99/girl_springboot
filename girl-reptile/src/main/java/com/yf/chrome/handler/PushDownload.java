@@ -33,7 +33,6 @@ public class PushDownload {
                 .header(Header.ACCEPT, "application/json, text/plain, */*")
                 .header(Header.ACCEPT_ENCODING, "gzip, deflate")
                 .header(Header.ACCEPT_LANGUAGE, "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6")
-                .header(Header.HOST, "51btbtt.com")
                 .header("Upgrade-Insecure-Requests", "1")
                 .header(Header.USER_AGENT, "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 Edg/85.0.564.51")
                 .body(downLoadUrl)

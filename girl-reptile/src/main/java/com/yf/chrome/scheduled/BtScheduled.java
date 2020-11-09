@@ -40,7 +40,7 @@ public class BtScheduled {
      */
     @Async("taskExecutor")
     @Scheduled(cron = "0 0/30 * * * ? ")
-    public void bt51() {
+    public void btScheduled() {
         try {
             executeBt51();
             executeBt31();
